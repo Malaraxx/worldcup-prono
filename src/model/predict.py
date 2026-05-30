@@ -21,6 +21,9 @@ from .calibration import (
     fit_calibration, save_calibration, calibrate_dataframe,
     CAL_MIN_DATE, CAL_MAX_DATE,
 )
+from .confederation_adjustment import (
+    compute_confederation_adjustments, get_adjusted_elo,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -107,10 +110,13 @@ def run(recalculate_elo: bool = False) -> pd.DataFrame:
             bs_cal, bs_raw - bs_cal,
         )
 
-    # 6. Prédictions WC2026 + calibration
-    fixtures = pd.read_csv(PROCESSED_DIR / "fixtures.csv")
-    preds    = _predict_fixtures(fixtures, ratings, params)
-    preds    = calibrate_dataframe(preds, clf_cal)
+    # 6. Prédictions WC2026 + calibration (avec ajustement confédération)
+    fixtures     = pd.read_csv(PROCESSED_DIR / "fixtures.csv")
+    conf_adj     = compute_confederation_adjustments()
+    teams_df     = pd.read_csv(PROCESSED_DIR / "teams.csv")
+    conf_map     = dict(zip(teams_df["team"], teams_df["confederation"]))
+    preds        = _predict_fixtures(fixtures, ratings, params, conf_map, conf_adj)
+    preds        = calibrate_dataframe(preds, clf_cal)
 
     out = PROCESSED_DIR / "predictions.csv"
     preds.to_csv(out, index=False)
@@ -143,17 +149,34 @@ def _predict_dataframe(df: pd.DataFrame,
     return pd.DataFrame(rows)
 
 
-def _predict_fixtures(fixtures: pd.DataFrame,
-                      ratings: dict[str, float],
-                      params: dict) -> pd.DataFrame:
-    """Prédit les 104 matchs WC2026 (tous terrains neutres)."""
+def _predict_fixtures(
+    fixtures: pd.DataFrame,
+    ratings: dict[str, float],
+    params: dict,
+    conf_map: dict[str, str] | None = None,
+    adjustments: dict[str, float] | None = None,
+) -> pd.DataFrame:
+    """Prédit les 104 matchs WC2026 (tous terrains neutres).
+
+    conf_map et adjustments : si fournis, applique l'ajustement confédération
+    aux ratings Elo avant calcul (Elo ajusté = base + delta confédération).
+    """
     rows = []
     for _, f in fixtures.iterrows():
         home_slot = f.get("home_slot", f.get("home_team", ""))
         away_slot = f.get("away_slot", f.get("away_team", ""))
 
-        elo_h    = ratings.get(home_slot, DEFAULT_RATING)
-        elo_a    = ratings.get(away_slot, DEFAULT_RATING)
+        base_h = ratings.get(home_slot, DEFAULT_RATING)
+        base_a = ratings.get(away_slot, DEFAULT_RATING)
+
+        if conf_map is not None and adjustments is not None:
+            conf_h = conf_map.get(home_slot, "")
+            conf_a = conf_map.get(away_slot, "")
+            elo_h  = get_adjusted_elo(home_slot, base_h, conf_h, adjustments)
+            elo_a  = get_adjusted_elo(away_slot, base_a, conf_a, adjustments)
+        else:
+            elo_h, elo_a = base_h, base_a
+
         elo_diff = elo_h - elo_a
 
         lh, la        = lambdas(elo_diff, params)
@@ -169,8 +192,10 @@ def _predict_fixtures(fixtures: pd.DataFrame,
             "home_slot":       home_slot,
             "away_slot":       away_slot,
             "venue":           f.get("venue", ""),
-            "elo_home":        round(elo_h, 1),
-            "elo_away":        round(elo_a, 1),
+            "elo_home":        round(base_h, 1),
+            "elo_away":        round(base_a, 1),
+            "elo_home_adj":    round(elo_h, 1),
+            "elo_away_adj":    round(elo_a, 1),
             "elo_diff":        round(elo_diff, 1),
             "lambda_home":     round(lh, 3),
             "lambda_away":     round(la, 3),
