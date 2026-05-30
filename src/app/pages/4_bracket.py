@@ -75,8 +75,8 @@ for stage_key in STAGE_SEQ:
             ]
 
             def fmt_team(name: str, prob: float) -> str:
-                bold = "**" if prob >= 0.99 else ""
-                return f"{bold}{flag(name)} {name}{bold} ({prob:.0%})"
+                tag = ("strong", "strong") if prob >= 0.50 else ("span", "span")
+                return f"<{tag[0]}>{flag(name)} {name}</{tag[1]}> ({prob:.0%})"
 
             home_lines = "\n".join(f"  {fmt_team(n, p)}" for n, p in h_teams if n)
             away_lines = "\n".join(f"  {fmt_team(n, p)}" for n, p in a_teams if n)
@@ -135,7 +135,9 @@ with right:
     sel_team = team_map[sel]
 
     if current_pick:
-        st.info(f"Pick actuel : {flag(current_pick)} **{current_pick}** — P(win) = {format_pct(tp.loc[tp['team']==current_pick,'proba_winner'].values[0])}")
+        pick_proba = tp.loc[tp["team"] == current_pick, "proba_winner"]
+        pwin_str = format_pct(pick_proba.values[0]) if not pick_proba.empty else "—"
+        st.info(f"Pick actuel : {flag(current_pick)} **{current_pick}** — P(win) = {pwin_str}")
 
     if st.button("💾 Sauvegarder mon pick"):
         save_my_winner_pick(sel_team)

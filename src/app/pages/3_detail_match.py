@@ -80,6 +80,8 @@ has_picks = bool(picks)
 
 with col_p:
     st.markdown("##### Probabilités & Cotes")
+    if m["stage"] != "group":
+        st.caption("⚠️ Équipes non encore qualifiées — probabilités estimées sur tous les qualifiants possibles.")
     if has_picks:
         ch, cd, ca = int(picks["cote_home"]), int(picks["cote_draw"]), int(picks["cote_away"])
         ip_h, ip_d, ip_a = mpp_implied(ch, cd, ca)
@@ -121,21 +123,27 @@ with col_p:
 
 with col_e:
     st.markdown("##### Elo & Poisson")
-    elo_h     = pred.get("elo_home", "—")
-    elo_a     = pred.get("elo_away", "—")
-    elo_h_adj = pred.get("elo_home_adj", "—")
-    elo_a_adj = pred.get("elo_away_adj", "—")
-    lam_h     = pred.get("lambda_home", "—")
-    lam_a     = pred.get("lambda_away", "—")
-    diff      = pred.get("elo_diff", "—")
+    elo_h     = pred.get("elo_home")
+    elo_a     = pred.get("elo_away")
+    elo_h_adj = pred.get("elo_home_adj")
+    elo_a_adj = pred.get("elo_away_adj")
+    lam_h     = pred.get("lambda_home")
+    lam_a     = pred.get("lambda_away")
+    diff      = pred.get("elo_diff")
+
+    def _fmt_elo(v):
+        return f"{v:.0f}" if isinstance(v, (int, float)) and v == v else "—"
+
+    def _fmt_lam(v):
+        return f"{v:.3f}" if isinstance(v, (int, float)) and v == v else "—"
 
     st.markdown(f"""
 | | {home} | {away} |
 |--|--:|--:|
-| **Elo brut** | {elo_h:.0f} | {elo_a:.0f} |
-| **Elo ajusté** | {elo_h_adj:.0f} | {elo_a_adj:.0f} |
+| **Elo brut** | {_fmt_elo(elo_h)} | {_fmt_elo(elo_a)} |
+| **Elo ajusté** | {_fmt_elo(elo_h_adj)} | {_fmt_elo(elo_a_adj)} |
 | **Conf.** | {m['home_conf']} | {m['away_conf']} |
-| **λ Poisson** | {lam_h:.3f} | {lam_a:.3f} |
+| **λ Poisson** | {_fmt_lam(lam_h)} | {_fmt_lam(lam_a)} |
 """)
     if isinstance(diff, float):
         direction = home if diff > 0 else away
@@ -161,7 +169,7 @@ with col_k:
 st.divider()
 
 # ── Graphique modèle vs MPP ───────────────────────────────────────────────────
-st.subheader("Modèle vs MPP")
+st.subheader("Modèle vs MPP" if has_picks else "Probabilités du modèle")
 
 if has_picks:
     ch, cd, ca = int(picks["cote_home"]), int(picks["cote_draw"]), int(picks["cote_away"])
@@ -195,7 +203,8 @@ if not dist.empty:
         i, j   = int(r["i"]), int(r["j"])
         proba  = float(r["proba"])
         rarity = estimate_rarity(i, j, ch, cd, ca)
-        ev_val = proba * (ch if i > j else (ca if j > i else cd) + rarity)
+        base_cote = ch if i > j else (ca if j > i else cd)
+        ev_val = proba * (base_cote + rarity)
         rows_sc.append({
             "Score":        f"{i} — {j}",
             "Proba":        format_pct(proba),

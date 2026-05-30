@@ -1,0 +1,1257 @@
+player_id,name,team,position,shirt_number,dob,age,caps,intl_goals,club,league,provisional,market_value_eur
+4a395d48-4ab5-4509-b88e-70e5930a4fd3,Guillermo Ochoa,Mexico,GK,,1985-07-13,40.0,151,0.0,AEL Limassol,,True,300000.0
+e340e89e-e174-4d18-a6b9-249cef5cadd9,Raúl Rangel,Mexico,GK,,2000-02-25,26.0,12,0.0,Guadalajara,Liga MX,True,6500000.0
+5a5b5bbd-5eaa-4af2-b68f-47c8025bbc85,Carlos Acevedo,Mexico,GK,,1996-04-19,30.0,7,0.0,Santos Laguna,Liga MX,True,2800000.0
+e0165a3a-19ba-4c40-8605-a43e16576d51,José Antonio Rodríguez,Mexico,GK,,1992-07-04,33.0,2,0.0,Tijuana,Liga MX,True,550000.0
+a3f5d396-0ca3-4294-84e9-7affb6ba4eb7,Carlos Moreno,Mexico,GK,,1998-01-29,28.0,0,0.0,Pachuca,Liga MX,True,3500000.0
+80a8cbfb-3621-4221-8aeb-8e6dcf790c1a,Álex Padilla,Mexico,GK,,2003-09-01,22.0,0,0.0,Athletic Bilbao,La Liga,True,3000000.0
+6d273406-c8a2-4c98-9e88-43b02ab5de9b,Jesús Gallardo,Mexico,DF,,1994-08-15,31.0,119,3.0,Toluca,Liga MX,True,2800000.0
+f55aaaa5-f9f6-41a0-bf1a-03e41b727f44,César Montes,Mexico,DF,,1997-02-24,29.0,65,4.0,Lokomotiv Moscow,Russian Premier League,True,7500000.0
+d0fcff80-bb46-49dc-9c02-8c83fb924a5e,Jorge Sánchez,Mexico,DF,,1997-12-10,28.0,57,3.0,PAOK,Super League Greece,True,2200000.0
+1cbb3fb9-2b40-4f24-a36e-0af63b6a26e2,Johan Vásquez,Mexico,DF,,1998-10-22,27.0,44,1.0,Genoa,Serie A,True,13000000.0
+f93e5db6-f977-45e5-838e-c099222c7657,Israel Reyes,Mexico,DF,,2000-05-23,26.0,32,2.0,América,Liga MX,True,6500000.0
+f955ba3d-4df9-456b-ac4a-887046ca1b22,Jesús Alberto Angulo,Mexico,DF,,1998-01-30,28.0,19,0.0,UANL,Liga MX,True,4000000.0
+6821b958-87dc-4637-8ffa-edfbd3c401c4,Julián Araujo,Mexico,DF,,2001-08-13,24.0,16,0.0,Celtic,Scottish Premiership,True,8000000.0
+69620f3e-983a-4a6c-aaa5-79296d06c5bc,Mateo Chávez,Mexico,DF,,2004-05-11,22.0,8,0.0,AZ,Eredivisie,True,4000000.0
+26be18f7-c3a6-4077-88fb-33b44022b3ce,Víctor Guzmán,Mexico,DF,,2002-03-07,24.0,6,0.0,Monterrey,Liga MX,True,5000000.0
+b65a876d-1e70-41ce-aa51-1da2d73a03b7,Richard Ledezma,Mexico,DF,,2000-09-06,25.0,3,1.0,Guadalajara,Liga MX,True,6000000.0
+5d9c3923-ca25-4ef8-951d-2914ca97fca6,Everardo López,Mexico,DF,,2005-03-23,21.0,3,0.0,Toluca,Liga MX,True,3000000.0
+f0cc67ec-c96d-4999-8058-83ebb7b3a42f,Alejandro Gómez,Mexico,DF,,2002-01-31,24.0,2,0.0,Tijuana,Liga MX,True,3000000.0
+7df065e0-fae2-4492-b6a2-2b993eb04327,Bryan González,Mexico,DF,,2003-04-10,23.0,2,0.0,Guadalajara,Liga MX,True,7500000.0
+03f1e5cf-fd6f-4989-a4e7-5e4bad2d90d6,Ramón Juárez,Mexico,DF,,2001-05-03,25.0,2,0.0,América,Liga MX,True,4500000.0
+40aa49aa-bcbc-4ffd-98dc-1bddf858b0a9,Edson Álvarez,Mexico,MF,,1997-10-24,28.0,96,7.0,Fenerbahçe,Süper Lig,True,15000000.0
+4a8af3e7-faa1-44b5-b165-8839585af949,Orbelín Pineda,Mexico,MF,,1996-03-24,30.0,90,12.0,AEK Athens,Super League Greece,True,7000000.0
+96ce0915-0018-4739-950a-a8b042102b8d,Carlos Rodríguez,Mexico,MF,,1997-01-03,29.0,67,0.0,Cruz Azul,Liga MX,True,5000000.0
+f8e62d03-b641-4ed6-b503-8387deb88d46,Roberto Alvarado,Mexico,MF,,1998-09-07,27.0,66,5.0,Guadalajara,Liga MX,True,7500000.0
+6bbba007-4bf5-44ba-b86c-73fd2994b121,Luis Romo,Mexico,MF,,1995-06-05,31.0,61,4.0,Guadalajara,Liga MX,True,3000000.0
+7e44187b-2a72-43fe-a83a-dd0642b3f470,Luis Chávez,Mexico,MF,,1996-01-15,30.0,43,4.0,Dynamo Moscow,Russian Premier League,True,6000000.0
+31688925-1f26-4d15-b246-bccfd295299e,Érick Sánchez,Mexico,MF,,1999-09-27,26.0,38,3.0,América,Liga MX,True,6000000.0
+c6ff2042-8258-4b4f-88cd-b68deeffcd8b,Diego Lainez,Mexico,MF,,2000-06-09,26.0,33,3.0,UANL,Liga MX,True,7000000.0
+83448fe7-6717-478e-b067-66db6de52b54,Érik Lira,Mexico,MF,,2000-05-08,26.0,23,0.0,Cruz Azul,Liga MX,True,12000000.0
+ac684e6f-977b-4494-9fad-2c69912c672b,Marcel Ruiz,Mexico,MF,,2000-10-26,25.0,17,0.0,Toluca,Liga MX,True,10000000.0
+57470a00-702c-4405-bdd6-2e3f107e5d69,Efraín Álvarez,Mexico,MF,,2002-06-19,23.0,7,1.0,Guadalajara,Liga MX,True,6500000.0
+9b968456-07d6-4dea-83a6-b467fdbad45f,Brian Gutiérrez,Mexico,MF,,2003-06-17,22.0,6,2.0,Guadalajara,Liga MX,True,8000000.0
+48479b97-64c6-4568-88c3-20a89cfec2c5,Gilberto Mora,Mexico,MF,,2008-10-14,17.0,6,0.0,Tijuana,Liga MX,True,10000000.0
+bcdff58a-13e4-4256-93f3-415208464b12,Alexis Gutiérrez,Mexico,MF,,2001-02-26,25.0,5,0.0,América,Liga MX,True,4000000.0
+6a4e8593-d87b-467f-a731-2e8d71a40a09,Obed Vargas,Mexico,MF,,2005-08-05,20.0,5,0.0,Atlético Madrid,La Liga,True,8000000.0
+c5ef4ea4-4482-4cb9-a057-21605bf24924,Jesús Ricardo Angulo,Mexico,MF,,1997-02-20,29.0,3,1.0,Toluca,Liga MX,True,5000000.0
+02ea1aed-11a4-41ad-b2d2-ee9ea806a703,Kevin Castañeda,Mexico,MF,,1999-10-28,26.0,3,0.0,Tijuana,Liga MX,True,6000000.0
+82e18a4d-75f7-42bf-b26a-abd09361bebd,Jordán Carrillo,Mexico,MF,,2001-11-30,24.0,2,0.0,UNAM,Liga MX,True,8000000.0
+9dea3f5f-4dc7-4147-a910-4b02023d96ff,Álvaro Fidalgo,Mexico,MF,,1997-04-09,29.0,2,0.0,Betis,La Liga,True,10000000.0
+54d1a08c-ab52-441a-b116-6c8ffa9aca7b,Jorge Ruvalcaba,Mexico,MF,,2001-07-23,24.0,1,0.0,New York Red Bulls,MLS,True,5000000.0
+45353d8e-9202-4258-a77c-a25d4829d12a,Alexéi Domínguez,Mexico,MF,,2005-01-03,21.0,0,0.0,Pachuca,Liga MX,True,6000000.0
+cd623534-4efb-4c79-b9bf-b163d8f5a182,Jeremy Márquez,Mexico,MF,,2000-06-21,25.0,0,0.0,Cruz Azul,Liga MX,True,7000000.0
+1888fe71-5d57-4763-a34e-9b9c49c1878e,Elías Montiel,Mexico,MF,,2005-10-07,20.0,0,0.0,Pachuca,Liga MX,True,6000000.0
+fe560048-af8a-4131-bbcb-82cade069de6,Raúl Jiménez,Mexico,FW,,1991-05-05,35.0,123,44.0,Fulham,Premier League,True,4000000.0
+44f8220e-d4c3-4372-8e0b-3889996e749d,Alexis Vega,Mexico,FW,,1997-11-25,28.0,50,7.0,Toluca,Liga MX,True,8000000.0
+4c788a91-9e55-43e5-b299-2d73224bfc94,Santiago Giménez,Mexico,FW,,2001-04-18,25.0,46,6.0,Milan,Serie A,True,20000000.0
+2775a589-9e97-43b7-a6a4-3df546ec87ef,César Huerta,Mexico,FW,,2000-12-03,25.0,25,3.0,Anderlecht,Belgian First Division A,True,5000000.0
+5dd19629-4e33-4bd0-af07-5f8123df314c,Julián Quiñones,Mexico,FW,,1997-03-24,29.0,20,2.0,Al-Qadsiah,,True,12000000.0
+ae5074e0-0545-4e16-8cd0-8d1b953b29b5,Guillermo Martínez,Mexico,FW,,1995-03-15,31.0,10,3.0,UNAM,Liga MX,True,1500000.0
+2609ad78-c2ef-4cd5-b11e-55cee8dfd534,Germán Berterame,Mexico,FW,,1998-11-13,27.0,9,2.0,Inter Miami,MLS,True,12000000.0
+68434390-8757-4797-9c19-92892afcc11a,Armando González,Mexico,FW,,2003-04-20,23.0,7,1.0,Guadalajara,Liga MX,True,15000000.0
+314a9f54-a04b-48c9-adfe-e44dcd93075c,Kim Seung-gyu,South Korea,GK,,1990-09-30,35.0,85,0.0,FC Tokyo,J1 League,True,
+4ad913b2-8222-4a23-b18a-3e8bd62bddb6,Jo Hyeon-woo,South Korea,GK,,1991-09-25,34.0,47,0.0,Ulsan HD,K League 1,True,
+dd162419-365b-49ab-8671-765d37ac7531,Song Bum-keun,South Korea,GK,,1997-10-15,28.0,2,0.0,Jeonbuk Hyundai Motors,K League 1,True,
+f6a4a616-c5e9-421d-9d2c-885082667ec1,Kim Min-jae,South Korea,DF,,1996-11-15,29.0,77,4.0,Bayern Munich,Bundesliga,True,
+ddfa9880-4350-4cb6-a570-da47710e8089,Kim Moon-hwan,South Korea,DF,,1995-08-01,30.0,34,0.0,Daejeon Hana Citizen,K League 1,True,
+d7696b76-8c09-4d15-8cad-19f0c9ea30ed,Seol Young-woo,South Korea,DF,,1998-12-05,27.0,32,0.0,Red Star Belgrade,Serbian SuperLiga,True,
+392c6b0a-b5a8-44de-a4ba-bc6e40abcfa5,Cho Yu-min,South Korea,DF,,1996-11-17,29.0,18,0.0,Sharjah,UAE Pro League,True,
+708137f9-5598-4bae-aba1-95d5f3b87455,Lee Tae-seok,South Korea,DF,,2002-07-28,23.0,14,1.0,Austria Wien,Austrian Football Bundesliga,True,
+7616a285-63f1-41a7-87e6-76bbb2f9c3e5,Park Jin-seob,South Korea,DF,,1995-10-23,30.0,12,1.0,Zhejiang FC,Chinese Super League,True,
+4c38d4be-e7e7-4bf8-b2d3-428c3330f364,Kim Tae-hyeon,South Korea,DF,,2000-09-17,25.0,7,0.0,Kashima Antlers,J1 League,True,
+4a4da0d8-ca09-4510-ba6b-e3e6111e4e7d,Lee Han-beom,South Korea,DF,,2002-06-17,23.0,6,0.0,Midtjylland,Danish Superliga,True,
+118d3687-4479-48a5-8b84-9e0ebc72a22c,Jens Castrop,South Korea,DF,,2003-07-29,22.0,5,0.0,Borussia Mönchengladbach,Bundesliga,True,10000000.0
+4144325f-eed3-4ad7-a471-db8bf7e66bd0,Lee Ki-hyuk,South Korea,DF,,2000-07-07,25.0,1,0.0,Gangwon FC,K League 1,True,
+597d2d62-7075-4823-bc9e-bb8aa3d12949,Lee Jae-sung,South Korea,MF,,1992-08-10,33.0,103,15.0,Mainz 05,Bundesliga,True,
+02c4b404-938c-4b1b-a2f5-3dbe92f8d198,Hwang Hee-chan,South Korea,MF,,1996-01-26,30.0,77,16.0,Wolverhampton Wanderers,Premier League,True,
+6e46759c-1f7f-41ad-bb31-a6746ca04650,Hwang In-beom,South Korea,MF,,1996-09-20,29.0,71,6.0,Feyenoord,Eredivisie,True,
+2b7afa75-5177-4d8a-8c33-008276a5cef1,Lee Kang-in,South Korea,MF,,2001-02-19,25.0,46,11.0,Paris Saint-Germain,Ligue 1,True,
+c6670373-7446-495b-970f-a5664bc3efb2,Paik Seung-ho,South Korea,MF,,1997-03-17,29.0,25,3.0,Birmingham City,Premier League,True,
+66235bdb-5b1c-477c-b4e9-8080911bc358,Kim Jin-gyu,South Korea,MF,,1997-02-24,29.0,20,3.0,Jeonbuk Hyundai Motors,K League 1,True,
+c977a95b-42c8-4d94-8300-b75a0cbf836a,Lee Dong-gyeong,South Korea,MF,,1997-09-20,28.0,16,3.0,Ulsan HD,K League 1,True,
+14175bde-dd92-45dd-b032-f348dddfdeb0,Bae Jun-ho,South Korea,MF,,2003-08-21,22.0,12,2.0,Stoke City,Premier League,True,
+a579304f-d234-4b24-8400-011d1f2b973d,Eom Ji-sung,South Korea,MF,,2002-05-09,24.0,8,2.0,Swansea City,,True,
+2a49019c-eb57-42ef-b12b-866455e7c993,Yang Hyun-jun,South Korea,MF,,2002-05-25,24.0,8,0.0,Celtic,Scottish Premiership,True,
+b4b9e527-bdb9-4330-98b0-2849ff7bf187,Son Heung-min,South Korea,FW,,1992-07-08,33.0,142,54.0,Los Angeles FC,MLS,True,
+2071a849-06cb-484d-9c22-8e9f426d8854,Cho Gue-sung,South Korea,FW,,1998-01-25,28.0,42,10.0,Midtjylland,Danish Superliga,True,
+19e199b9-8de0-4746-8b01-ec315e172026,Oh Hyeon-gyu,South Korea,FW,,2001-04-12,25.0,26,6.0,Beşiktaş,Süper Lig,True,
+6072acce-54dd-4ebf-aac7-c10b0e6a9468,Matěj Kovář,Czech Republic,GK,,2000-05-17,26.0,19,0.0,PSV,Eredivisie,True,8000000.0
+f192251d-0f71-47ac-bd5f-051256da4e27,Jindřich Staněk,Czech Republic,GK,,1996-04-27,30.0,14,0.0,Slavia Prague,Czech First League,True,2000000.0
+fc8b9ba3-9710-4523-b4d6-98ca49806db6,Lukáš Horníček,Czech Republic,GK,,2002-07-13,23.0,0,0.0,Braga,Primeira Liga,True,18000000.0
+9a6afdb7-2b14-4015-95ad-02d5814a82fb,Vladimír Coufal,Czech Republic,DF,,1992-08-22,33.0,61,2.0,TSG Hoffenheim,Bundesliga,True,2500000.0
+d21d7b70-7229-4987-a664-00f68b9560f0,Tomáš Holeš,Czech Republic,DF,,1993-03-31,33.0,39,2.0,Slavia Prague,Czech First League,True,1000000.0
+c6ef45a0-5e23-416c-b309-bbd101aca93e,Ladislav Krejčí,Czech Republic,DF,,1999-04-20,27.0,25,5.0,Wolverhampton Wanderers,Premier League,True,22000000.0
+c085c9c1-3c87-458e-b156-dc8eb7ce7733,David Zima,Czech Republic,DF,,2000-11-08,25.0,24,1.0,Slavia Prague,Czech First League,True,7000000.0
+2247c330-8b75-4ea5-948b-cd9d6c4db8fb,Jaroslav Zelený,Czech Republic,DF,,1992-08-20,33.0,21,0.0,Sparta Prague,Czech First League,True,600000.0
+dc5ea9fd-1c82-46e3-91c6-852ec4877b6f,David Jurásek,Czech Republic,DF,,2000-08-07,25.0,16,1.0,Slavia Prague,Czech First League,True,5000000.0
+99868b89-3a62-4bf5-b277-c9baea7dbff7,David Douděra,Czech Republic,DF,,1998-05-31,28.0,15,2.0,Slavia Prague,Czech First League,True,3500000.0
+3249b4d2-1ce3-4cc5-a029-40d3526b707c,Robin Hranáč,Czech Republic,DF,,2000-01-29,26.0,12,1.0,TSG Hoffenheim,Bundesliga,True,10000000.0
+bc1a9861-c55c-4d5f-b582-897f243edb4d,Štěpán Chaloupek,Czech Republic,DF,,2003-03-08,23.0,3,0.0,Slavia Prague,Czech First League,True,10000000.0
+77806231-a73e-455b-b11b-9d490a1e4e63,Tomáš Souček,Czech Republic,MF,,1995-02-27,31.0,89,17.0,West Ham United,Premier League,True,12000000.0
+86ae52b7-8f46-4d34-9bd2-11dba8e0bc43,Vladimír Darida,Czech Republic,MF,,1990-08-08,35.0,78,8.0,Hradec Králové,Czech First League,True,375000.0
+ab51887a-8418-4988-8ea0-d68ee17d1142,Lukáš Provod,Czech Republic,MF,,1996-10-23,29.0,37,3.0,Slavia Prague,Czech First League,True,8000000.0
+d3428945-9e89-4c84-b4a3-3011e88ddf10,Michal Sadílek,Czech Republic,MF,,1999-05-31,27.0,33,1.0,Slavia Prague,Czech First League,True,8000000.0
+2c16dd70-fb8c-44a8-8ba6-245713db4bae,Pavel Šulc,Czech Republic,MF,,2000-12-29,25.0,20,5.0,Lyon,Ligue 1,True,20000000.0
+334d2312-3bfe-451b-a0cc-d3c938f56274,Lukáš Červ,Czech Republic,MF,,2001-04-10,25.0,15,2.0,Viktoria Plzeň,Czech First League,True,6000000.0
+3cdea0a6-8358-4c19-ad3b-6215a02ff488,Tomáš Ladra,Czech Republic,MF,,1997-05-24,29.0,1,0.0,Viktoria Plzeň,Czech First League,True,1300000.0
+4dcb11e1-663a-4051-892c-c2323d62bf92,Pavel Bucha,Czech Republic,MF,,1998-03-11,28.0,0,0.0,Cincinnati,MLS,True,4000000.0
+3372f31b-a95e-4916-bdda-ade20df2da55,Hugo Sochůrek,Czech Republic,MF,,2008-06-07,18.0,0,0.0,Sparta Prague,Czech First League,True,3500000.0
+5aa109b5-4c7b-4b76-b222-822005f21087,Alexandr Sojka,Czech Republic,MF,,2003-04-02,23.0,0,0.0,Viktoria Plzeň,Czech First League,True,2300000.0
+72103d4d-8612-426e-b50d-2d7123c3d7cb,Denis Višinský,Czech Republic,MF,,2003-03-21,23.0,0,0.0,Viktoria Plzeň,Czech First League,True,3000000.0
+da756b15-394c-44a7-a1cd-c0dc0c9486ed,Patrik Schick,Czech Republic,FW,,1996-01-24,30.0,52,25.0,Bayer Leverkusen,Bundesliga,True,18000000.0
+756792ca-9c8d-4e3d-aa94-62b66bfc2bc3,Adam Hložek,Czech Republic,FW,,2002-07-25,23.0,41,4.0,TSG Hoffenheim,Bundesliga,True,10000000.0
+da6578a7-760b-4353-82ea-2a862c6e6345,Jan Kuchta,Czech Republic,FW,,1997-01-08,29.0,30,3.0,Sparta Prague,Czech First League,True,2700000.0
+e49d1d57-6e35-419c-9810-69e84a1556ea,Tomáš Chorý,Czech Republic,FW,,1995-01-26,31.0,21,6.0,Slavia Prague,Czech First League,True,2700000.0
+ea01f24d-5965-4dd5-88a1-e48aaf1f1523,Mojmír Chytil,Czech Republic,FW,,1999-04-29,27.0,21,6.0,Slavia Prague,Czech First League,True,4000000.0
+d5d0221a-37a5-4db5-ad97-3e4ecb79674b,Christophe Kabongo,Czech Republic,FW,,2003-08-27,22.0,0,0.0,Mladá Boleslav,Czech First League,True,750000.0
+e71fee21-9748-4d1b-8c71-0b66ed9f8953,Gregor Kobel,Switzerland,GK,1.0,1997-12-06,28.0,20,0.0,Borussia Dortmund,Bundesliga,True,40000000.0
+e0911775-a52b-4d6a-9a5b-0e52d7d07094,Yvon Mvogo,Switzerland,GK,12.0,1994-06-06,32.0,12,0.0,Lorient,Ligue 1,True,3000000.0
+32b164a4-1f4b-4aa5-89cf-9e9541012951,Marvin Keller,Switzerland,GK,21.0,2002-07-03,23.0,0,0.0,Young Boys,Swiss Super League,True,7000000.0
+50c429ec-995a-4cf4-8206-c1bd5d6a7300,Miro Muheim,Switzerland,DF,2.0,1998-03-24,28.0,8,0.0,Hamburger SV,Bundesliga,True,5000000.0
+532ae05b-998e-4916-95e7-aaf4a9ba1f68,Silvan Widmer,Switzerland,DF,3.0,1993-03-05,33.0,58,5.0,Mainz 05,Bundesliga,True,800000.0
+4c636c72-0c28-4387-adcf-e8800e4b1c1c,Nico Elvedi,Switzerland,DF,4.0,1996-09-30,29.0,65,3.0,Borussia Mönchengladbach,Bundesliga,True,8000000.0
+0ebc99b3-588a-4d9e-8395-eda22ef7ac5e,Manuel Akanji,Switzerland,DF,5.0,1995-07-19,30.0,79,4.0,Inter Milan,Serie A,True,18000000.0
+f301965f-7971-483d-bd56-025e0d23fd49,Ricardo Rodriguez,Switzerland,DF,13.0,1992-08-25,33.0,136,9.0,Betis,La Liga,True,1500000.0
+6e16e193-9f90-43fb-b7cc-4575c506e7dc,Eray Cömert,Switzerland,DF,18.0,1998-02-04,28.0,20,0.0,Valencia,La Liga,True,2500000.0
+9fc0023d-ee82-433f-9f08-d4baf256df33,Aurèle Amenda,Switzerland,DF,24.0,2003-07-31,22.0,6,0.0,Eintracht Frankfurt,Bundesliga,True,10000000.0
+e2106eb7-e1ec-41da-a1ce-af1b877fbd67,Luca Jaquez,Switzerland,DF,25.0,2003-06-02,23.0,2,0.0,VfB Stuttgart,Bundesliga,True,10000000.0
+5adf8329-1079-4ee0-b9df-0181aa897647,Denis Zakaria,Switzerland,MF,6.0,1996-11-20,29.0,63,3.0,Monaco,Ligue 1,True,25000000.0
+ee0c817c-3730-47e0-ba25-6dd99aaee1e2,Remo Freuler,Switzerland,MF,8.0,1992-04-15,34.0,86,11.0,Bologna,Serie A,True,4000000.0
+2c444453-e535-4a30-9291-32921932e6aa,Johan Manzambi,Switzerland,MF,9.0,2005-10-14,20.0,10,3.0,SC Freiburg,Bundesliga,True,50000000.0
+97fee8b1-18a3-4ad3-b006-4ec9c1eb7e7d,Granit Xhaka,Switzerland,MF,10.0,1992-09-27,33.0,144,16.0,Sunderland,Premier League,True,10000000.0
+f05f186d-42d3-4576-891c-bfa4da2c1712,Ardon Jashari,Switzerland,MF,14.0,2002-07-30,23.0,6,0.0,Milan,Serie A,True,30000000.0
+643a328b-d8b3-4e8c-bd7a-9abecf37f6b9,Djibril Sow,Switzerland,MF,15.0,1997-02-06,29.0,50,0.0,Sevilla,La Liga,True,7500000.0
+74fca3cb-9feb-4721-8359-234ad410e868,Christian Fassnacht,Switzerland,MF,16.0,1993-11-11,32.0,21,4.0,Young Boys,Swiss Super League,True,2000000.0
+6af61239-9728-46e6-8d7e-4461ba97bdde,Michel Aebischer,Switzerland,MF,20.0,1997-01-06,29.0,38,2.0,Pisa,Serie A,True,4500000.0
+f62ee97e-bc65-437e-8990-23b431023b33,Fabian Rieder,Switzerland,MF,22.0,2002-02-16,24.0,27,1.0,FC Augsburg,Bundesliga,True,12000000.0
+5949ce43-01b2-4ed1-a86c-336514dd8776,Breel Embolo,Switzerland,FW,7.0,1997-02-14,29.0,85,23.0,Rennes,Ligue 1,True,12000000.0
+acff08e9-f72f-44b5-89f5-3ab872576c3c,Dan Ndoye,Switzerland,FW,11.0,2000-10-25,25.0,29,6.0,Nottingham Forest,Premier League,True,35000000.0
+12b17d6f-28ad-4c1a-ab80-09cc6ec6b458,Rubén Vargas,Switzerland,FW,17.0,1998-08-05,27.0,60,11.0,Sevilla,La Liga,True,12000000.0
+699603ad-00f1-4264-915a-e9240b4c5346,Noah Okafor,Switzerland,FW,19.0,2000-05-24,26.0,24,2.0,Leeds United,Premier League,True,18000000.0
+5317a3ed-1138-43a5-babb-044a53d07384,Zeki Amdouni,Switzerland,FW,23.0,2000-12-04,25.0,27,11.0,Burnley,Premier League,True,9000000.0
+ab36521e-9f4d-45ea-a7ad-dfe8192c4163,Cedric Itten,Switzerland,FW,26.0,1996-12-27,29.0,13,5.0,Fortuna Düsseldorf,Bundesliga,True,1800000.0
+16dfa893-3c62-45f6-b478-ab392f3a0633,Meshaal Barsham,Qatar,GK,,1998-02-14,28.0,52,0.0,Al-Sadd,Qatar Stars League,True,700000.0
+9725d8c0-8db9-4efa-9eee-ef1c332e220f,Salah Zakaria,Qatar,GK,,1999-04-24,27.0,8,0.0,Al-Duhail,Qatar Stars League,True,400000.0
+18d21a54-73a7-4258-9339-2c5ae932bd74,Mahmud Abunada,Qatar,GK,,2000-02-05,26.0,3,0.0,Al-Rayyan,Qatar Stars League,True,400000.0
+a81a7170-78a8-4313-9c01-05adf2db195a,Shehab Ellethy,Qatar,GK,,2000-04-18,26.0,1,0.0,Al-Shahaniya,Qatar Stars League,True,350000.0
+cd050a49-50b2-4034-aaf7-22641d92c160,Boualem Khoukhi,Qatar,DF,,1990-07-09,35.0,114,20.0,Al-Sadd,Qatar Stars League,True,200000.0
+c9a631a3-4918-4bbe-bef2-c7feaf260fd7,Pedro Miguel,Qatar,DF,,1990-08-06,35.0,97,3.0,Al-Sadd,Qatar Stars League,True,
+6a8e4976-dc9f-4594-9c03-961dc4f403e9,Homam Ahmed,Qatar,DF,,1999-08-25,26.0,66,3.0,Cultural Leonesa,La Liga,True,500000.0
+c4e4e2ad-71ff-453b-8473-f6a4ef1d5597,Lucas Mendes,Qatar,DF,,1990-07-03,35.0,24,1.0,Al-Wakrah,Qatar Stars League,True,350000.0
+a0ed0d9b-e60c-44c8-9842-315c989346a2,Sultan Al-Brake,Qatar,DF,,1996-04-07,30.0,16,0.0,Al-Duhail,Qatar Stars League,True,300000.0
+445610c7-0de2-4368-bda7-bbd2140ff86f,Al-Hashmi Al-Hussain,Qatar,DF,,2003-08-15,22.0,6,0.0,Al-Arabi,Qatar Stars League,True,250000.0
+bb5f6eb3-5039-4c2c-a570-f9084fec148f,Ayoub Al-Oui,Qatar,DF,,2005-03-11,21.0,4,0.0,Al-Gharafa,Qatar Stars League,True,375000.0
+6f2856ba-bc3f-4723-9d1c-76cbe1b5e3a4,Issa Laye,Qatar,DF,,1997-12-22,28.0,2,0.0,Al-Arabi,Qatar Stars League,True,200000.0
+cb7b85b3-dc9c-453f-806e-04ab3aaed0b6,Rayyan Al-Ali,Qatar,DF,,2006-03-26,20.0,0,0.0,Al-Gharafa,Qatar Stars League,True,
+5b42934f-e106-4c0c-9278-9c00d113d48d,Abdulaziz Hatem,Qatar,MF,,1990-10-28,35.0,116,11.0,Al-Rayyan,Qatar Stars League,True,250000.0
+d00d3fd8-9132-401c-8065-dd71fa3cd76a,Karim Boudiaf,Qatar,MF,,1990-09-16,35.0,116,5.0,Al-Duhail,Qatar Stars League,True,175000.0
+11cb878f-85fd-4ba8-a173-000ce08f8e88,Assim Madibo,Qatar,MF,,1996-10-22,29.0,49,0.0,Al-Wakrah,Qatar Stars League,True,350000.0
+d7d675d2-09b8-47a0-9adb-76dcd507d380,Ahmed Fathy,Qatar,MF,,1993-01-25,33.0,46,0.0,Al-Arabi,Qatar Stars League,True,
+de73ed40-6881-406c-8446-90aaa7229095,Jassem Gaber,Qatar,MF,,2002-02-20,24.0,31,1.0,Al-Rayyan,Qatar Stars League,True,500000.0
+36307b5d-37c6-4518-932c-a05cd4efffb5,Mohamed Al-Mannai,Qatar,MF,,2003-10-30,22.0,8,0.0,Al-Shamal,Qatar Stars League,True,500000.0
+68d528fe-bffc-40a9-b72a-ca12246a1b9c,Tahsin Jamshid,Qatar,MF,,2006-06-16,19.0,1,0.0,Al-Duhail,Qatar Stars League,True,
+1f5defbe-0fe3-4c8e-bce0-af293d3ccd0d,Hassan Al-Haydos,Qatar,FW,,1990-12-11,35.0,184,41.0,Al-Sadd,Qatar Stars League,True,
+d9341107-402f-4593-9fc0-f94e4fae0922,Akram Afif,Qatar,FW,,1996-11-18,29.0,123,39.0,Al-Sadd,Qatar Stars League,True,8000000.0
+277aec62-3c60-4745-9b5a-2088023a9242,Almoez Ali,Qatar,FW,,1996-08-19,29.0,114,,Al-Duhail,Qatar Stars League,True,2500000.0
+cb8ef32e-b7c3-48a4-9250-93cca40ce4c8,Mohammed Muntari,Qatar,FW,,1993-12-20,32.0,67,16.0,Al-Gharafa,Qatar Stars League,True,200000.0
+413ee58f-9ff2-4e24-a1f4-112a1df44abc,Ahmed Alaaeldin,Qatar,FW,,1993-01-31,33.0,66,9.0,Al-Rayyan,Qatar Stars League,True,300000.0
+08846c34-35f2-4187-b0db-2b0475d6d24a,Yusuf Abdurisag,Qatar,FW,,1999-08-06,26.0,37,3.0,Al-Wakrah,Qatar Stars League,True,275000.0
+c761a770-e02d-4225-bd8d-1e00593e54ac,Edmilson Junior,Qatar,FW,,1994-08-19,31.0,14,0.0,Al-Duhail,Qatar Stars League,True,1800000.0
+7e0050fc-dc4a-489c-847b-abc44b5fb1ab,Ahmed Al-Ganehi,Qatar,FW,,2000-09-22,25.0,13,1.0,Al-Gharafa,Qatar Stars League,True,500000.0
+6a523d0b-79c6-415e-a1a0-5300417f0a28,Nikola Vasilj,Bosnia and Herzegovina,GK,,1995-12-02,30.0,25,0.0,FC St. Pauli,Bundesliga,True,4500000.0
+6274dd26-60a6-404f-8702-3c7d9036ac74,Martin Zlomislić,Bosnia and Herzegovina,GK,,1998-08-16,27.0,2,0.0,Rijeka,HNL,True,2000000.0
+22842a0a-8fc1-47aa-83e8-ae4a87ac5d52,Osman Hadžikić,Bosnia and Herzegovina,GK,,1996-03-12,30.0,0,0.0,Slaven Belupo,HNL,True,400000.0
+f271218e-3b7b-49da-84b5-bfe2e289f0dc,Sead Kolašinac,Bosnia and Herzegovina,DF,,1993-06-20,32.0,64,0.0,Atalanta,Serie A,True,6000000.0
+e64dc0f6-0f95-4762-a80f-c440071ff6be,Dennis Hadžikadunić,Bosnia and Herzegovina,DF,,1998-07-09,27.0,30,0.0,Sampdoria,Serie A,True,1300000.0
+4ff2640b-82f1-41ac-991c-3b602aae74e7,Amar Dedić,Bosnia and Herzegovina,DF,,2002-08-18,23.0,26,1.0,Benfica,Primeira Liga,True,16000000.0
+b7f758d6-6067-40d9-a587-beb17161b876,Nikola Katić,Bosnia and Herzegovina,DF,,1996-10-10,29.0,15,1.0,Schalke 04,Bundesliga,True,1800000.0
+e93ee4c1-b92f-4abc-a3d1-5d624bd03099,Tarik Muharemović,Bosnia and Herzegovina,DF,,2003-02-28,23.0,12,1.0,Sassuolo,Serie A,True,20000000.0
+4b9ca62b-b0ce-4ce1-a997-ae680e32dddf,Nihad Mujakić,Bosnia and Herzegovina,DF,,1998-04-15,28.0,10,1.0,Gaziantep,Süper Lig,True,1200000.0
+bbdfa22a-08d3-436b-b85b-ec294744576b,Arjan Malić,Bosnia and Herzegovina,DF,,2005-08-28,20.0,6,0.0,Sturm Graz,Austrian Football Bundesliga,True,1800000.0
+60b68ee0-222a-4498-bca5-deefa6da4668,Stjepan Radeljić,Bosnia and Herzegovina,DF,,1997-09-05,28.0,4,0.0,Rijeka,HNL,True,2800000.0
+43195461-8e8d-422a-91d3-1cec21d0a287,Nidal Čelik,Bosnia and Herzegovina,DF,,2006-07-17,19.0,0,0.0,Lens,Ligue 1,True,4000000.0
+0e4897cb-2628-4962-8728-617585c2878f,Amir Hadžiahmetović,Bosnia and Herzegovina,MF,,1997-03-08,29.0,34,0.0,Hull City,Premier League,True,4000000.0
+289a9ca6-41d9-43a0-ac56-65268624bdff,Benjamin Tahirović,Bosnia and Herzegovina,MF,,2003-03-03,23.0,26,2.0,Brøndby,Danish Superliga,True,4500000.0
+03b9d85c-3ab4-493e-836d-2de59c4eeee9,Armin Gigović,Bosnia and Herzegovina,MF,,2002-04-06,24.0,18,1.0,Young Boys,Swiss Super League,True,2500000.0
+b5d1fcee-bd48-46d5-bc9c-a5c7ec0b16ae,Dženis Burnić,Bosnia and Herzegovina,MF,,1998-05-22,28.0,18,0.0,Karlsruher SC,Bundesliga,True,1200000.0
+f4467ba7-9284-47e2-96b8-f78ebbaa71ac,Ivan Bašić,Bosnia and Herzegovina,MF,,2002-04-30,24.0,15,0.0,Astana,,True,1200000.0
+7c412ac8-683e-4e26-93d5-4abdfdb49e70,Esmir Bajraktarević,Bosnia and Herzegovina,MF,,2005-03-10,21.0,14,1.0,PSV,Eredivisie,True,8000000.0
+abc681e8-4ac3-4513-85c0-188898ae8cd5,Amar Memić,Bosnia and Herzegovina,MF,,2001-01-20,25.0,11,1.0,Viktoria Plzeň,Czech First League,True,4500000.0
+4cf160bb-675a-489f-a4a3-3b326a911828,Ivan Šunjić,Bosnia and Herzegovina,MF,,1996-10-09,29.0,11,0.0,Pafos,,True,1800000.0
+97e27d90-dd0a-4a10-8cfe-d01a0ce466c3,Kerim Alajbegović,Bosnia and Herzegovina,MF,,2007-09-21,18.0,8,1.0,Red Bull Salzburg,Austrian Football Bundesliga,True,22000000.0
+38807658-1fb0-4793-9fdb-c1b7eb4faa36,Ermin Mahmić,Bosnia and Herzegovina,MF,,2005-03-14,21.0,0,0.0,Slovan Liberec,Czech First League,True,5000000.0
+6627303c-5fb7-4f94-b86a-258b811f487e,Edin Džeko,Bosnia and Herzegovina,FW,,1986-03-17,40.0,148,73.0,Schalke 04,Bundesliga,True,1500000.0
+fb389147-8594-448e-94b1-1fe97aa1a0e1,Ermedin Demirović,Bosnia and Herzegovina,FW,,1998-03-25,28.0,38,4.0,VfB Stuttgart,Bundesliga,True,22000000.0
+3361ee79-a5de-436a-a269-42d5053e5b5f,Samed Baždar,Bosnia and Herzegovina,FW,,2004-01-31,22.0,11,1.0,Jagiellonia Białystok,Ekstraklasa,True,1500000.0
+bbe838fb-397b-4378-b466-465ce2db5c00,Haris Tabaković,Bosnia and Herzegovina,FW,,1994-06-20,31.0,10,4.0,Borussia Mönchengladbach,Bundesliga,True,3500000.0
+7377dfbf-cbbb-466d-b74f-bfaa18c5a5a2,Jovo Lukić,Bosnia and Herzegovina,FW,,1998-11-28,27.0,1,0.0,Universitatea Cluj,Liga I,True,1500000.0
+337923af-eee1-4a38-9553-034ca1af6aab,Alisson,Brazil,GK,,1992-10-02,33.0,76,0.0,Liverpool,Premier League,True,17000000.0
+d8a394b9-cecb-443f-99cf-f88afc886581,Ederson,Brazil,GK,,1993-08-17,32.0,31,0.0,Fenerbahçe,Süper Lig,True,10000000.0
+d27b72ff-b95b-4580-8db9-db05ae7e73b5,Weverton,Brazil,GK,,1987-12-13,38.0,10,0.0,Grêmio,Campeonato Brasileiro Série A,True,700000.0
+fe0f71cf-5f36-4cd6-9529-74fcd1ec9f2a,Marquinhos,Brazil,DF,,1994-05-14,32.0,104,7.0,Paris Saint-Germain,Ligue 1,True,30000000.0
+f4be6f0f-c3c6-4774-af64-c92f44a45e90,Danilo Luiz,Brazil,DF,,1991-07-15,34.0,68,1.0,Flamengo,Campeonato Brasileiro Série A,True,2000000.0
+6632704c-e67a-4bd0-9301-e32c2ba0ddd2,Alex Sandro,Brazil,DF,,1991-01-26,35.0,43,2.0,Flamengo,Campeonato Brasileiro Série A,True,1000000.0
+b21b821a-af42-4afa-9a7e-1f715abd8593,Gabriel Magalhães,Brazil,DF,,1997-12-19,28.0,17,1.0,Arsenal,Premier League,True,75000000.0
+e6cd6bda-4965-4abd-bc4a-306a33be5062,Bremer,Brazil,DF,,1997-03-18,29.0,6,1.0,Juventus,Serie A,True,35000000.0
+ab18df34-2b6c-4c2a-86cb-50a2a322bdeb,Wesley,Brazil,DF,,2003-09-06,22.0,6,0.0,Roma,Serie A,True,40000000.0
+974c6168-b977-4e5b-a1a1-3a1eb65873a8,Roger Ibañez,Brazil,DF,,1998-11-23,27.0,5,0.0,Al-Ahli,,True,17000000.0
+1fbd845a-d694-4702-9acd-f691cd6beb8d,Douglas Santos,Brazil,DF,,1994-03-22,32.0,5,0.0,Zenit Saint Petersburg,Russian Premier League,True,7500000.0
+3d2d2c53-cbbb-430a-b061-d1f6e48a6025,Léo Pereira,Brazil,DF,,1996-01-31,30.0,2,0.0,Flamengo,Campeonato Brasileiro Série A,True,12000000.0
+1bd23926-80ea-482f-9701-4a96b1244f0c,Casemiro,Brazil,MF,,1992-02-23,34.0,84,8.0,Manchester United,Premier League,True,8000000.0
+5b8f7848-fbbd-494a-86d2-48e5c57070b5,Lucas Paquetá,Brazil,MF,,1997-08-27,28.0,61,12.0,Flamengo,Campeonato Brasileiro Série A,True,32000000.0
+633feb9b-7c6e-44b9-9d70-659a0d2f97b8,Bruno Guimarães,Brazil,MF,,1997-11-16,28.0,41,2.0,Newcastle United,Premier League,True,75000000.0
+d0105f94-e75c-4043-b0e2-5fcabac3e40a,Fabinho,Brazil,MF,,1993-10-23,32.0,31,0.0,Al-Ittihad,,True,13000000.0
+f2d98243-4e20-4832-b3f0-e952a6f9cc44,Danilo Santos,Brazil,MF,,2001-04-29,25.0,2,1.0,Botafogo,Campeonato Brasileiro Série A,True,
+a8c391f3-44e6-4b83-9430-1bcbceacaeda,Neymar,Brazil,FW,,1992-02-05,34.0,128,,Santos,Campeonato Brasileiro Série A,True,8000000.0
+5538024a-f616-4598-8bde-a54df21e2f19,Vinícius Júnior,Brazil,FW,,2000-07-12,25.0,47,8.0,Real Madrid,La Liga,True,150000000.0
+ef48163b-ed42-41ad-8832-b20b0b1245f6,Raphinha,Brazil,FW,,1996-12-14,29.0,37,11.0,Barcelona,La Liga,True,80000000.0
+0c5106b1-f588-4030-bf61-f93fac33fc4a,Gabriel Martinelli,Brazil,FW,,2001-06-18,24.0,22,4.0,Arsenal,Premier League,True,45000000.0
+323b28d9-d064-447d-9f6e-59753ddfc07e,Matheus Cunha,Brazil,FW,,1999-05-27,27.0,21,1.0,Manchester United,Premier League,True,70000000.0
+97eb0dd5-9890-4fd6-b2ea-d685f6a03aff,Endrick,Brazil,FW,,2006-07-21,19.0,15,3.0,Lyon,Ligue 1,True,35000000.0
+48fa46d8-0592-4a41-91b2-777efec17df8,Luiz Henrique,Brazil,FW,,2001-01-02,25.0,13,2.0,Zenit Saint Petersburg,Russian Premier League,True,24000000.0
+83aa52c9-323d-4de3-90f2-b2e8767fc7c7,Igor Thiago,Brazil,FW,,2001-06-26,24.0,2,1.0,Brentford,Premier League,True,50000000.0
+b6cfc440-fd66-4c89-a010-aa4bb530261f,Rayan,Brazil,FW,,2006-08-03,19.0,1,0.0,Bournemouth,Premier League,True,40000000.0
+4a449671-7bfb-482a-88d0-389e0f867d61,Yassine Bounou,Morocco,GK,,1991-04-05,35.0,89,0.0,Al-Hilal,,True,3500000.0
+abec184b-72a1-41d3-8d0d-76e5f8746c5e,Munir Mohamedi,Morocco,GK,,1989-05-10,37.0,50,0.0,RS Berkane,Botola Pro,True,
+5a627e56-95b1-44db-9b5d-657007cc51fc,Ahmed Reda Tagnaouti,Morocco,GK,,1996-04-05,30.0,3,0.0,AS FAR,Botola Pro,True,800000.0
+19cb58f1-5547-4da4-8e0c-ab3d0d75fc16,Achraf Hakimi,Morocco,DF,,1998-11-04,27.0,95,11.0,Paris Saint-Germain,Ligue 1,True,80000000.0
+609f2b0f-6cf2-41f0-9f0b-086934a138be,Nayef Aguerd,Morocco,DF,,1996-03-30,30.0,64,2.0,Marseille,Ligue 1,True,20000000.0
+63282a4e-156e-45ad-9265-6bfb10d9d5b1,Noussair Mazraoui,Morocco,DF,,1997-11-14,28.0,43,2.0,Manchester United,Premier League,True,20000000.0
+b165b9c8-4bf4-408b-bc19-27af8d7563e0,Youssef Belammari,Morocco,DF,,1998-09-20,27.0,8,0.0,Al Ahly,Egyptian Premier League,True,1200000.0
+4bb1c9cb-68f4-4bee-9e15-5a8eb011f131,Anass Salah-Eddine,Morocco,DF,,2002-01-18,24.0,8,0.0,PSV,Eredivisie,True,12000000.0
+62e3adf9-54b8-434d-b31c-e7ea3419190c,Chadi Riad,Morocco,DF,,2003-06-17,22.0,4,1.0,Crystal Palace,Premier League,True,12000000.0
+f5360a4c-c3f0-46a0-82e4-356da32ef746,Issa Diop,Morocco,DF,,1997-01-09,29.0,2,0.0,Fulham,Premier League,True,10000000.0
+2ebdfa2a-f4ff-44e6-859f-8b33a7d92334,Zakaria El Ouahdi,Morocco,DF,,2001-12-31,24.0,2,0.0,Genk,Belgian First Division A,True,15000000.0
+da2fd2a4-f920-4e4a-b88c-07b4d1fea144,Redouane Halhal,Morocco,DF,,2003-03-05,23.0,1,0.0,Mechelen,Belgian First Division A,True,3000000.0
+e4ebc9ba-b436-4fe5-8e2a-0ccef18d5cf9,Sofyan Amrabat,Morocco,MF,,1996-08-21,29.0,73,0.0,Betis,La Liga,True,12000000.0
+6c67cdd6-ef8c-40e4-b2ee-60c1bef20fb8,Azzedine Ounahi,Morocco,MF,,2000-04-19,26.0,47,9.0,Girona,La Liga,True,10000000.0
+1b8a1632-486e-45d1-97a2-5958dbcf3da3,Bilal El Khannouss,Morocco,MF,,2004-05-10,22.0,35,3.0,VfB Stuttgart,Bundesliga,True,35000000.0
+9e8718c2-b20c-4593-bc0b-4c05b6366d36,Ismael Saibari,Morocco,MF,,2001-01-28,25.0,27,7.0,PSV,Eredivisie,True,40000000.0
+8742f71a-2651-4f0d-8d9c-94859fc4bb49,Neil El Aynaoui,Morocco,MF,,2001-07-02,24.0,15,2.0,Roma,Serie A,True,20000000.0
+8181716f-e1c6-49c3-8669-e2f1e29d3bc4,Samir El Mourabet,Morocco,MF,,2006-08-06,19.0,2,0.0,Strasbourg,Ligue 1,True,18000000.0
+3020773e-6012-44f2-afa2-c6f11cb87632,Ayyoub Bouaddi,Morocco,MF,,2007-10-02,18.0,0,0.0,Lille,Ligue 1,True,50000000.0
+415ea446-50b2-4777-a225-c145f8e232cf,Ayoub El Kaabi,Morocco,FW,,1993-06-25,32.0,55,20.0,Olympiacos,Super League Greece,True,5000000.0
+420bfc3a-4d1c-4cb4-9a14-9ec15a6d3bfc,Abde Ezzalzouli,Morocco,FW,,2001-12-17,24.0,35,2.0,Betis,La Liga,True,30000000.0
+9ca7fe88-0986-4b09-b722-cecc88833d53,Soufiane Rahimi,Morocco,FW,,1996-06-02,30.0,25,5.0,Al Ain,UAE Pro League,True,6000000.0
+d63f8b1b-2264-4be7-a8e5-e3a02ef1c263,Brahim Díaz,Morocco,FW,,1999-08-03,26.0,24,13.0,Real Madrid,La Liga,True,35000000.0
+5516dd60-30dc-476d-b4f0-094bd9b25f5e,Chemsdine Talbi,Morocco,FW,,2005-05-09,21.0,5,0.0,Sunderland,Premier League,True,25000000.0
+ddd2ea71-0851-40af-b0f4-bfcd15ff64a8,Gessime Yassine,Morocco,FW,,2005-11-22,20.0,2,0.0,Strasbourg,Ligue 1,True,10000000.0
+7ca3099b-9581-4559-9039-9b2be1db150f,Ayoube Amaimouni,Morocco,FW,,2004-11-30,21.0,0,0.0,Eintracht Frankfurt,Bundesliga,True,10000000.0
+a057b782-6b96-4877-99f1-a36c799c73b4,Johny Placide,Haiti,GK,,1988-01-29,38.0,79,0.0,Bastia,Ligue 1,True,150000.0
+b595aaa3-89a0-41e4-a235-2c39c0d2bac1,Alexandre Pierre,Haiti,GK,,2001-02-25,25.0,14,0.0,Sochaux,Ligue 1,True,700000.0
+7570778e-8bab-4408-89d2-d8cb6e403ab9,Josué Duverger,Haiti,GK,,2000-04-27,26.0,6,0.0,FC Cosmos Koblenz,Bundesliga,True,
+9e7495aa-d84a-4169-b44c-6be7f61f533c,Ricardo Adé,Haiti,DF,,1990-05-21,36.0,57,2.0,LDU Quito,Serie A Ecuador,True,300000.0
+3da7956d-8d47-475b-ac7a-2b665a6841b5,Carlens Arcus,Haiti,DF,,1996-06-28,29.0,51,1.0,Angers,Ligue 1,True,1800000.0
+d17478c0-b072-401b-b2c5-203ef9d466f4,Martin Expérience,Haiti,DF,,1999-03-09,27.0,19,0.0,Nancy,Ligue 1,True,350000.0
+72b9511f-4aef-4da3-8fe9-90ce727f298b,Jean-Kévin Duverne,Haiti,DF,,1997-07-12,28.0,15,1.0,Gent,Belgian First Division A,True,2000000.0
+2d03f009-e88e-4f3d-8dfa-25a8768d43ac,Duke Lacroix,Haiti,DF,,1993-10-14,32.0,14,2.0,Colorado Springs Switchbacks,MLS,True,125000.0
+f4c761b5-ef0b-454c-a1f3-e58f019bf90f,Wilguens Paugain,Haiti,DF,,2001-08-24,24.0,6,0.0,Zulte Waregem,Belgian First Division A,True,600000.0
+be6b76f9-564d-4ce2-87ce-29578af69636,Hannes Delcroix,Haiti,DF,,1999-02-28,27.0,5,0.0,Lugano,Swiss Super League,True,2000000.0
+761be060-0cbd-4605-9326-a50fdd7eadaa,Keeto Thermoncy,Haiti,DF,,2006-03-29,20.0,1,0.0,Young Boys,,True,25000.0
+39f87d86-3a3e-4723-af02-da9b9cfe3e38,Leverton Pierre,Haiti,MF,,1998-03-09,28.0,33,0.0,Vizela,Primeira Liga,True,200000.0
+de95309b-b3cb-4e69-9b1c-8a91fcc0b992,Danley Jean Jacques,Haiti,MF,,2000-05-20,26.0,28,6.0,Philadelphia Union,MLS,True,3000000.0
+74163946-499a-4103-84c9-c68ad4f684ce,Carl Sainté,Haiti,MF,,2002-08-09,23.0,25,0.0,El Paso Locomotive,MLS,True,125000.0
+65b4b9ea-a7d9-4829-b9e0-cae53c6b8f47,Jean‐Ricner Bellegarde,Haiti,MF,,1998-06-27,27.0,8,0.0,Wolverhampton Wanderers,Premier League,True,
+80183e73-3a1e-455d-b07f-fb25ce4c1071,Woodensky Pierre,Haiti,MF,,2004-12-30,21.0,1,0.0,Violette,,True,
+a2d037e7-8128-4d95-9380-bb0c46c1d088,Dominique Simon,Haiti,MF,,2000-07-29,25.0,0,0.0,Tatran Prešov,Slovak Super Liga,True,200000.0
+bbb79db1-7be6-4cac-bb21-562166bc6747,Duckens Nazon,Haiti,FW,,1994-04-07,32.0,76,44.0,Esteghlal,,True,800000.0
+8f957100-0546-4298-abaf-314ee20dfe14,Frantzdy Pierrot,Haiti,FW,,1995-03-29,31.0,49,33.0,Çaykur Rizespor,Süper Lig,True,1500000.0
+1a48f681-51a6-46dc-9ea8-83e4fa63f4c3,Derrick Etienne Jr.,Haiti,FW,,1996-11-25,29.0,46,8.0,Toronto,,True,800000.0
+27b44014-f1e3-467a-9f92-bdae05c7c91a,Louicius Deedson,Haiti,FW,,2001-02-11,25.0,30,10.0,Dallas,MLS,True,1200000.0
+d40f54f8-dd29-4507-bbc7-c98964607582,Ruben Providence,Haiti,FW,,2001-07-07,24.0,13,2.0,Almere City,Eredivisie,True,300000.0
+b032fb00-2d6d-45d6-b710-9854ad4445df,Josué Casimir,Haiti,FW,,2001-09-24,24.0,5,0.0,Auxerre,Ligue 1,True,3500000.0
+f6e0593a-00c6-46ce-8fcf-e5fad76a8a98,Yassin Fortuné,Haiti,FW,,1999-01-30,27.0,3,0.0,Vizela,Primeira Liga,True,200000.0
+247fcfa1-23f9-4d1d-bec9-dadc53c4acfa,Wilson Isidor,Haiti,FW,,2000-08-27,25.0,2,1.0,Sunderland,Premier League,True,18000000.0
+7fcd043a-3855-4cc1-98dd-116561f7a1d8,Lenny Joseph,Haiti,FW,,2000-10-12,25.0,0,0.0,Ferencváros,OTP Bank Liga,True,2000000.0
+62eb24f6-02a7-4a84-b9eb-205a9a19765c,Craig Gordon,Scotland,GK,,1982-12-31,43.0,83,0.0,Heart of Midlothian,Scottish Premiership,True,25000.0
+c6ab419a-f549-43de-85ea-243f9b5726dd,Angus Gunn,Scotland,GK,,1996-01-22,30.0,21,0.0,Nottingham Forest,Premier League,True,1500000.0
+7a653137-33a9-4307-98bc-06b031933d2c,Liam Kelly,Scotland,GK,,1996-01-23,30.0,2,0.0,Rangers,Scottish Premiership,True,800000.0
+82254043-9742-4b7d-ad39-57a6c914e0b5,Andy Robertson,Scotland,DF,,1994-03-11,32.0,92,4.0,Liverpool,Premier League,True,10000000.0
+bc4d9b12-bc0d-4455-a607-3318823e053e,Grant Hanley,Scotland,DF,,1991-11-20,34.0,66,2.0,Hibernian,Scottish Premiership,True,200000.0
+d94c5f06-c0a8-46db-a1ba-b63f3b83545e,Kieran Tierney,Scotland,DF,,1997-06-05,29.0,55,2.0,Celtic,Scottish Premiership,True,8000000.0
+93d9ddd5-b07c-4354-867e-e250c91d5a04,Scott McKenna,Scotland,DF,,1996-11-12,29.0,49,1.0,Dinamo Zagreb,HNL,True,4000000.0
+04bd3fae-9f31-4279-9566-0c3390541860,Jack Hendry,Scotland,DF,,1995-05-07,31.0,37,3.0,Al-Ettifaq,,True,2500000.0
+3572c863-0bb4-48c7-8a7e-947ec6caa5b7,Nathan Patterson,Scotland,DF,,2001-10-16,24.0,25,1.0,Everton,Premier League,True,10000000.0
+63beb069-005f-4b7b-b04a-7b35d7c40fa9,Anthony Ralston,Scotland,DF,,1998-11-16,27.0,25,1.0,Celtic,Scottish Premiership,True,1500000.0
+453aad3f-58db-4d39-8871-fbb28bfb6b63,John Souttar,Scotland,DF,,1996-09-25,29.0,22,2.0,Rangers,Scottish Premiership,True,2000000.0
+0b57c864-24aa-4efe-93eb-a139587f9e65,Aaron Hickey,Scotland,DF,,2002-06-10,24.0,19,0.0,Brentford,Premier League,True,16000000.0
+3ea23cb8-7655-4886-9be8-22030cd0d6de,Dominic Hyam,Scotland,DF,,1995-12-20,30.0,2,0.0,Wrexham,,True,2000000.0
+2eac1888-0098-44ea-a4cd-b404a5123c87,John McGinn,Scotland,MF,,1994-10-18,31.0,85,20.0,Aston Villa,Premier League,True,15000000.0
+3afaa76b-df04-4855-b28a-6c89293d2b35,Scott McTominay,Scotland,MF,,1996-12-08,29.0,69,14.0,Napoli,Serie A,True,45000000.0
+22a8a285-c70e-4b95-a09f-80bb66a354e8,Ryan Christie,Scotland,MF,,1995-02-22,31.0,66,9.0,Bournemouth,Premier League,True,9000000.0
+9ce67308-298c-4f7e-a05f-2285e60a01cb,Kenny McLean,Scotland,MF,,1992-01-08,34.0,56,3.0,Norwich City,Premier League,True,400000.0
+3450c263-0980-4dda-bd1f-251eecbce01e,Billy Gilmour,Scotland,MF,,2001-06-11,24.0,45,2.0,Napoli,Serie A,True,20000000.0
+42fc5955-da20-425c-9687-26e8f1e20c4e,Lewis Ferguson,Scotland,MF,,1999-08-24,26.0,23,1.0,Bologna,Serie A,True,18000000.0
+d43ad305-c21a-4b45-8840-82fb08f014b3,Ben Gannon-Doak,Scotland,MF,,2005-11-11,20.0,12,1.0,Bournemouth,Premier League,True,16000000.0
+6bb169af-4ed9-48a5-862e-d553a14a854b,Findlay Curtis,Scotland,MF,,2006-06-09,20.0,1,0.0,Rangers,Scottish Premiership,True,2000000.0
+9c47672b-e57e-4955-84af-2aee6bb25a6c,Lyndon Dykes,Scotland,FW,,1995-10-07,30.0,50,10.0,Charlton Athletic,Premier League,True,800000.0
+e8a7f6f5-a4d8-4f2c-89b2-b2a6c3ab9e46,Ché Adams,Scotland,FW,,1996-07-13,29.0,46,11.0,Torino,Serie A,True,8500000.0
+5853c9d8-7831-4c78-a04a-83ece85ee275,Lawrence Shankland,Scotland,FW,,1995-08-10,30.0,18,4.0,Rangers,Scottish Premiership,True,3000000.0
+e7570501-8c31-492e-899e-d01f5b0af501,George Hirst,Scotland,FW,,1999-02-15,27.0,8,1.0,Ipswich Town,Premier League,True,10000000.0
+5870e354-10ba-4c61-9bf4-eec7672dec6e,Ross Stewart,Scotland,FW,,1996-07-11,29.0,2,0.0,Southampton,Premier League,True,2500000.0
+c828f8c4-e324-44fe-b911-0ff342d4ec36,{{sortname|Matt|Turner|dab=soccer}},United States,GK,1.0,1994-06-24,31.0,53,0.0,New England Revolution,MLS,True,
+e272895a-39ac-4562-8d48-db063866813b,{{sortname|Matt|Freese}},United States,GK,24.0,1998-09-02,27.0,14,0.0,New York City,MLS,True,
+0fd680ac-7a76-46fa-8f2f-92851c31bf1f,{{sortname|Chris|Brady|dab=soccer}},United States,GK,25.0,2004-03-03,22.0,0,0.0,Chicago Fire,MLS,True,
+e10e2038-8503-408f-bb73-301e5f5ad693,{{sortname|Sergiño|Dest}},United States,DF,2.0,2000-11-03,25.0,37,2.0,PSV,Eredivisie,True,
+a725b7ad-3594-4a81-89ac-6b0e8abe3928,{{sortname|Chris|Richards|dab=soccer}},United States,DF,3.0,2000-03-28,26.0,36,3.0,Crystal Palace,Premier League,True,
+17c9e823-995f-4b76-bedd-6d9a8b4c914f,{{sortname|Antonee|Robinson}},United States,DF,5.0,1997-08-08,28.0,52,4.0,Fulham,Premier League,True,
+80902d7f-ebe9-4ad0-990e-62225089d5e2,{{sortname|Auston|Trusty}},United States,DF,6.0,1998-08-12,27.0,6,0.0,Celtic,Scottish Premiership,True,
+fe701fc0-1b4e-4795-881c-58aa6562baf8,{{sortname|Miles|Robinson|dab=soccer}},United States,DF,12.0,1997-03-14,29.0,38,3.0,FC Cincinnati,MLS,True,
+838223c4-7845-43ed-8ddf-1e9c3bbbdaec,{{sortname|Tim|Ream}},United States,DF,13.0,1987-10-05,38.0,80,1.0,Charlotte FC,MLS,True,
+76fa00a1-8c45-406c-b91d-09a8e37ab36e,{{sortname|Alex|Freeman}},United States,DF,16.0,2004-08-09,21.0,15,2.0,Villarreal,La Liga,True,
+ecc7b029-bc02-4d80-a80b-77d090e2fcdf,{{sortname|Maximilian|Arfsten}},United States,DF,18.0,2001-04-19,25.0,18,1.0,Columbus Crew,MLS,True,
+cd5f7aa0-4748-4678-b1fb-8a40193a53ea,"{{sortname|Mark|McKenzie|dab=soccer, born 1999}}",United States,DF,22.0,1999-02-25,27.0,27,0.0,Toulouse,Ligue 1,True,
+0bf28a60-f2df-4e3b-9861-4de2d1d51935,{{sortname|Joe|Scally}},United States,DF,23.0,2002-12-31,23.0,24,0.0,Borussia Mönchengladbach,Bundesliga,True,
+bd301f10-b133-4261-a98e-048e588d0613,{{sortname|Tyler|Adams}},United States,MF,4.0,1999-02-14,27.0,52,2.0,Bournemouth,Premier League,True,
+505ee8fd-1865-4185-9841-05f038832477,{{sortname|Giovanni|Reyna}},United States,MF,7.0,2002-11-13,23.0,36,9.0,Borussia Mönchengladbach,Bundesliga,True,
+0682ae10-f2a7-469a-a839-bd3a212ed7db,{{sortname|Weston|McKennie}},United States,MF,8.0,1998-08-28,27.0,64,12.0,Juventus,Serie A,True,
+efb85808-ec69-4ce2-b47d-c5d540d08c5f,{{sortname|Sebastian|Berhalter}},United States,MF,14.0,2001-05-10,25.0,11,1.0,Vancouver Whitecaps,,True,
+b471d17f-4bd1-4fba-a6bf-6d193d653681,{{sortname|Cristian|Roldan}},United States,MF,15.0,1995-06-03,31.0,45,0.0,Seattle Sounders,MLS,True,
+2f98e8ce-ba13-4d11-bec1-f011e0c7793e,{{sortname|Malik|Tillman}},United States,MF,17.0,2002-05-28,24.0,28,3.0,Bayer Leverkusen,Bundesliga,True,
+f3999a61-3b8e-4d90-a52d-d9cd435b2dc8,{{sortname|Ricardo|Pepi}},United States,FW,9.0,2003-01-09,23.0,35,13.0,PSV,Eredivisie,True,
+d9b06510-93f5-422d-bec2-6c5cd601fe90,{{sortname|Christian|Pulisic}},United States,FW,10.0,1998-09-18,27.0,84,32.0,Milan,Serie A,True,
+061a2ba4-ee48-4f60-9e0d-100ca709f6eb,{{sortname|Brenden|Aaronson}},United States,FW,11.0,2000-10-22,25.0,57,9.0,Leeds United,Premier League,True,
+224176cc-275b-4f67-b325-9a7a2738d305,{{sortname|Haji|Wright}},United States,FW,19.0,1998-03-27,28.0,20,7.0,Coventry City,Premier League,True,
+b1267b5a-c29d-4fcf-85d1-e3d532e3a82a,{{sortname|Folarin|Balogun}},United States,FW,20.0,2001-07-03,24.0,25,8.0,Monaco,Ligue 1,True,
+a1b58a90-88a1-4c8f-9ead-a725bf95aa2e,{{sortname|Timothy|Weah}},United States,FW,21.0,2000-02-22,26.0,49,7.0,Marseille,Ligue 1,True,
+22b1b4d8-b868-46ab-883f-c4ff29ad4f8e,{{sortname|Alejandro|Zendejas}},United States,FW,26.0,1998-02-07,28.0,13,2.0,América,Liga MX,True,
+67d0c3fb-96d8-47ac-a317-74c79bfcb375,Gatito Fernández,Paraguay,GK,,1988-03-29,38.0,30,0.0,Cerro Porteño,División Profesional,True,100000.0
+2f3f6ccc-050a-410c-8ccf-91b1f55c2cc5,Carlos Coronel,Paraguay,GK,,1996-12-29,29.0,9,0.0,São Paulo,Campeonato Brasileiro Série A,True,1500000.0
+56d55bd4-8343-4720-860d-d699bd87728f,Orlando Gill,Paraguay,GK,,2000-06-11,25.0,5,0.0,San Lorenzo,Liga Profesional de Fútbol,True,6000000.0
+429e1742-1550-4204-967b-ae10a9b07ed0,Santiago Rojas,Paraguay,GK,,1996-04-05,30.0,2,0.0,Nacional,División Profesional,True,500000.0
+3030d601-f696-40e7-b4a1-fa58606735c9,Juan Espínola,Paraguay,GK,,1994-11-02,31.0,1,0.0,Barracas Central,Liga Profesional de Fútbol,True,700000.0
+27cbe5a5-fc81-4fb6-81d4-43b0fc0680ba,Gastón Olveira,Paraguay,GK,,1993-04-21,33.0,1,0.0,Olimpia,División Profesional,True,500000.0
+95b6a8ed-64e7-4d0a-8db8-5d45a4241039,Gustavo Gómez,Paraguay,DF,,1993-05-06,33.0,88,4.0,Palmeiras,Campeonato Brasileiro Série A,True,3500000.0
+d82f8dc6-6d75-4d2f-91d6-0b6b2a293f29,Júnior Alonso,Paraguay,DF,,1993-02-09,33.0,70,3.0,Atlético Mineiro,Campeonato Brasileiro Série A,True,1500000.0
+8ec6a42a-27b3-48bc-b228-f45617a4b11d,Fabián Balbuena,Paraguay,DF,,1991-08-23,34.0,47,2.0,Grêmio,Campeonato Brasileiro Série A,True,900000.0
+2359a496-c7d3-4357-8ff8-e8384d3db185,Omar Alderete,Paraguay,DF,,1996-12-26,29.0,35,3.0,Sunderland,Premier League,True,15000000.0
+fc183ec8-39f3-4c86-9a6c-17d8a5944da5,Juan Cáceres,Paraguay,DF,,2000-06-01,26.0,16,0.0,Dynamo Moscow,Russian Premier League,True,5000000.0
+20ca3068-2b76-4157-a5f2-0353635d015d,Blas Riveros,Paraguay,DF,,1998-02-03,28.0,15,0.0,Cerro Porteño,División Profesional,True,1000000.0
+a8f8ac1f-c554-46b5-835c-7c335c102203,Gustavo Velázquez,Paraguay,DF,,1991-04-17,35.0,12,1.0,Cerro Porteño,División Profesional,True,400000.0
+5d35bc20-6620-42b7-aca0-f0f38e35d889,Alan Benítez,Paraguay,DF,,1994-01-25,32.0,8,0.0,Libertad,División Profesional,True,300000.0
+c3edd1b0-23c9-41a5-8477-70a2e28b48d9,Agustín Sández,Paraguay,DF,,2001-01-16,25.0,5,0.0,Rosario Central,Liga Profesional de Fútbol,True,2500000.0
+841cb17f-db76-4bb5-8da2-03d3caf9403c,Mateo Gamarra,Paraguay,DF,,1993-05-06,33.0,3,0.0,Cruzeiro,Campeonato Brasileiro Série A,True,2000000.0
+1f6d3b71-e03c-4b3c-bd8b-34aa7d98b3ee,Saúl Salcedo,Paraguay,DF,,1997-08-28,28.0,2,0.0,Newell's Old Boys,Liga Profesional de Fútbol,True,1000000.0
+dec2de6c-85f9-49df-ae2e-91b47023530a,José Canale,Paraguay,DF,,1996-07-20,29.0,1,0.0,Lanús,Liga Profesional de Fútbol,True,2200000.0
+746f52cc-d9e1-442a-b7dc-c00790354556,Diego León,Paraguay,DF,,2007-04-03,19.0,1,0.0,Manchester United,Premier League,True,4000000.0
+9b10d81c-e17d-4244-b1b9-676247d09c64,Alexandro Maidana,Paraguay,DF,,2005-07-26,20.0,1,0.0,Talleres,Liga Profesional de Fútbol,True,2500000.0
+be9c8a48-0dbb-47c9-b860-271e06e289a1,Alcides Benítez,Paraguay,DF,,2002-06-08,24.0,0,0.0,Belgrano,Liga Profesional de Fútbol,True,1800000.0
+5078caa9-38a8-4ce5-aebe-d8c25c35bb86,Ronaldo Dejesús,Paraguay,DF,,2001-04-21,25.0,0,0.0,Lanús,Liga Profesional de Fútbol,True,1300000.0
+f6e4d1ed-e7cd-4ee6-ade9-4808501de7ba,Alan Núñez,Paraguay,DF,,2004-10-01,21.0,0,0.0,Nacional,División Profesional,True,1000000.0
+002a2cd1-0270-4c24-9e5d-abd6abb75751,Miguel Almirón,Paraguay,MF,,1994-02-10,32.0,75,9.0,Atlanta United,MLS,True,9000000.0
+196df523-fa0b-4901-b86a-4e6673e15836,Mathías Villasanti,Paraguay,MF,,1997-01-24,29.0,51,0.0,Grêmio,Campeonato Brasileiro Série A,True,4000000.0
+361ea240-8cb4-434e-8348-3b4db2387b5b,Kaku,Paraguay,MF,,1995-01-11,31.0,32,5.0,Al Ain,UAE Pro League,True,4500000.0
+a5795304-a0f6-4cdf-9df8-1be0780655d9,Andrés Cubas,Paraguay,MF,,1996-05-22,30.0,32,0.0,Vancouver Whitecaps,,True,4000000.0
+45f84aa7-656a-4668-9d03-8243895a5177,Ramón Sosa,Paraguay,MF,,1999-08-31,26.0,28,1.0,Palmeiras,Campeonato Brasileiro Série A,True,10000000.0
+cce466f3-786f-4a82-b456-6d3b6e8ea9cd,Diego Gómez,Paraguay,MF,,2003-03-27,23.0,23,3.0,Brighton & Hove Albion,Premier League,True,25000000.0
+ea406bd7-2d8f-4b83-adc4-72565bd9b2d7,Damián Bobadilla,Paraguay,MF,,2001-07-11,24.0,19,1.0,São Paulo,Campeonato Brasileiro Série A,True,6000000.0
+a6ab4aee-d4e3-4bf9-b466-d02f391c85ba,Braian Ojeda,Paraguay,MF,,2000-07-27,25.0,16,0.0,Orlando City,MLS,True,3500000.0
+19d816ef-170b-4cf5-9bfb-f00ef9b1ec5f,Matías Galarza,Paraguay,MF,,2002-02-11,24.0,14,2.0,Atlanta United,MLS,True,3000000.0
+e76a34f4-d88a-41d5-8544-e252e8b17c07,Robert Piris Da Motta,Paraguay,MF,,1994-07-26,31.0,9,0.0,Cerro Porteño,División Profesional,True,600000.0
+abe41925-1c7d-441d-8322-a27ad255c52e,Álvaro Campuzano,Paraguay,MF,,1995-06-12,30.0,4,0.0,Libertad,División Profesional,True,600000.0
+f972907d-9cc3-40cc-bd5c-bdd34e958b98,Diego González,Paraguay,MF,,2003-01-07,23.0,4,0.0,Santos Laguna,Liga MX,True,5500000.0
+88d59f97-e8c2-48fe-a95a-4fbd8de13a9f,Hugo Cuenca,Paraguay,MF,,2005-01-08,21.0,3,0.0,Burgos,La Liga,True,300000.0
+28f4b5f2-5c3a-4e89-9485-9715f6c7219f,Maurício,Paraguay,MF,,2001-06-22,24.0,2,0.0,Palmeiras,Campeonato Brasileiro Série A,True,15000000.0
+c4874024-ebcf-4a68-8793-c9516d302f7e,Lucas Romero,Paraguay,MF,,2002-08-29,23.0,2,0.0,Universidad de Chile,Primera División de Chile,True,350000.0
+2f61050f-0628-4e5d-8155-199f16c6fc9c,Enso González,Paraguay,MF,,2005-01-20,21.0,0,0.0,Wolverhampton Wanderers,Premier League,True,3000000.0
+1cf03927-af67-4ec5-a064-77e1bc31efdd,Rubén Lezcano,Paraguay,MF,,2004-02-09,22.0,0,0.0,Olimpia,División Profesional,True,3500000.0
+3827f363-f85d-4b76-bb2e-3612f178b7e7,Óscar Romero,Paraguay,FW,,1992-07-04,33.0,55,4.0,Huracán,Liga Profesional de Fútbol,True,700000.0
+691b8d24-3320-4fc0-a568-8180565a0d9d,Ángel Romero,Paraguay,FW,,1992-07-04,33.0,51,8.0,Boca Juniors,Liga Profesional de Fútbol,True,600000.0
+964575ab-fbd5-4eb3-ad01-ff04c20b2291,Antonio Sanabria,Paraguay,FW,,1996-03-04,30.0,47,7.0,Cremonese,Serie A,True,2000000.0
+b7dde1ad-1f36-4f16-a9a7-918f72041d56,Julio Enciso,Paraguay,FW,,2004-01-23,22.0,31,4.0,Strasbourg,Ligue 1,True,22000000.0
+786f5267-e1b3-4dce-8106-338af7d14403,Gabriel Ávalos,Paraguay,FW,,1991-07-09,34.0,22,2.0,Independiente,Liga Profesional de Fútbol,True,750000.0
+62be8cf2-d4a6-4168-b2dc-9a6628c0c3ef,Carlos González,Paraguay,FW,,1993-02-04,33.0,15,0.0,Independiente del Valle,Serie A Ecuador,True,1000000.0
+50a763ee-8e85-4ef5-b337-d2f6f8f04755,Álex Arce,Paraguay,FW,,1995-06-16,30.0,14,1.0,Independiente Rivadavia,Liga Profesional de Fútbol,True,3500000.0
+5cade51a-42ed-405e-9bc5-2c355bff6c39,Adam Bareiro,Paraguay,FW,,1996-07-26,29.0,8,0.0,Boca Juniors,Liga Profesional de Fútbol,True,4000000.0
+b8face00-abe8-4666-9883-19cb0d3b23dc,Lorenzo Melgarejo,Paraguay,FW,,1990-08-10,35.0,5,0.0,Libertad,División Profesional,True,275000.0
+c8beafc0-04cf-4a28-8a43-798bb4185a43,Isidro Pitta,Paraguay,FW,,1999-08-14,26.0,5,0.0,Red Bull Bragantino,Campeonato Brasileiro Série A,True,7500000.0
+89986600-f0b0-4b93-88c2-b58426c0e016,Ronaldo Martínez,Paraguay,FW,,1996-04-25,30.0,4,0.0,Talleres,Liga Profesional de Fútbol,True,4000000.0
+04a0b4aa-88c6-431a-860b-3b00c3d6ee57,Gustavo Caballero,Paraguay,FW,,2001-09-21,24.0,2,1.0,Portsmouth,Premier League,True,1000000.0
+8bd73d2f-3edb-4fdd-bef5-35671ce16c20,Robert Morales,Paraguay,FW,,1999-03-17,27.0,2,1.0,UNAM,Liga MX,True,5500000.0
+bf418778-7c99-4359-ae9d-dc70de75658a,Adrián Alcaraz,Paraguay,FW,,1999-09-28,26.0,0,0.0,Olimpia,División Profesional,True,1000000.0
+8bcad933-41b1-4f45-a228-d6b2b0475b40,Rodney Redes,Paraguay,FW,,2000-02-22,26.0,0,0.0,LDU Quito,Serie A Ecuador,True,1200000.0
+71d743db-79cf-4601-b36d-326ab0a6745d,Uğurcan Çakır,Turkey,GK,,1996-04-05,30.0,38,0.0,Galatasaray,Süper Lig,True,15000000.0
+768ad68f-9f47-4756-8cc7-bd686fc64d76,Mert Günok,Turkey,GK,,1989-03-01,37.0,37,0.0,Fenerbahçe,Süper Lig,True,500000.0
+46997147-0ec0-4cb8-9925-774add9e6c2f,Altay Bayındır,Turkey,GK,,1998-04-14,28.0,11,0.0,Manchester United,Premier League,True,7000000.0
+c73283e3-444a-4b06-b5a9-9cc0bae49e0e,Ersin Destanoğlu,Turkey,GK,,2001-01-01,25.0,0,0.0,Beşiktaş,Süper Lig,True,4000000.0
+cbbe0fe1-cef7-45e4-a8be-33deb8870604,Muhammed Şengezer,Turkey,GK,,1997-01-05,29.0,0,0.0,İstanbul Başakşehir,Süper Lig,True,3500000.0
+4d458562-3f23-4547-abb6-c975d25a8af7,Merih Demiral,Turkey,DF,,1998-03-05,28.0,61,6.0,Al-Ahli,,True,14000000.0
+65b06ad2-5efd-4ec7-a9df-0dfa680ea308,Zeki Çelik,Turkey,DF,,1997-02-17,29.0,59,3.0,Roma,Serie A,True,
+00a114da-0549-4d6b-84e1-8fdba87f895d,Çağlar Söyüncü,Turkey,DF,,1996-05-23,30.0,59,2.0,Fenerbahçe,Süper Lig,True,3500000.0
+e07c1840-80ac-44f7-a285-33d708ee1ffe,Mert Müldür,Turkey,DF,,1999-04-03,27.0,43,3.0,Fenerbahçe,Süper Lig,True,7000000.0
+306a9738-aed0-49fe-a323-f8dc07b8ea90,Ferdi Kadıoğlu,Turkey,DF,,1999-10-07,26.0,30,2.0,Brighton & Hove Albion,Premier League,True,30000000.0
+aa1df863-79c4-4a5a-a1eb-a4aedb284205,Ozan Kabak,Turkey,DF,,2000-03-25,26.0,28,2.0,TSG Hoffenheim,Bundesliga,True,15000000.0
+bd1b552b-2133-49e4-a38c-fb247bb14954,Abdülkerim Bardakcı,Turkey,DF,,1994-09-07,31.0,26,2.0,Galatasaray,Süper Lig,True,6500000.0
+94b0f3bf-4694-4bdb-93dd-0d65da8fd1d6,Eren Elmalı,Turkey,DF,,2000-07-07,25.0,21,0.0,Galatasaray,Süper Lig,True,5000000.0
+036e4394-2f42-41a5-839b-5167316dc9a7,Samet Akaydin,Turkey,DF,,1994-05-13,32.0,18,1.0,Çaykur Rizespor,Süper Lig,True,1200000.0
+c2413862-5d8a-4464-b090-830553994277,Yusuf Akçiçek,Turkey,DF,,2006-01-25,20.0,3,0.0,Al-Hilal,,True,15000000.0
+9d59bf65-f205-4b02-8924-b566423c416d,Mustafa Eskihellaç,Turkey,DF,,1997-05-05,29.0,3,0.0,Trabzonspor,Süper Lig,True,4000000.0
+a59c088c-0fd9-4530-a305-0ddb52bfc27d,Ahmetcan Kaplan,Turkey,DF,,2003-01-16,23.0,0,0.0,NEC,Eredivisie,True,7000000.0
+caf7b653-c4e3-4b40-95b7-64146c4cfcfa,Hakan Çalhanoğlu,Turkey,MF,,1994-02-08,32.0,104,22.0,Inter Milan,Serie A,True,18000000.0
+ec643790-0b20-4861-beae-36c516de551e,Kaan Ayhan,Turkey,MF,,1994-11-10,31.0,72,5.0,Galatasaray,Süper Lig,True,
+24fd8961-0144-4288-8feb-e38d6164b175,Orkun Kökçü,Turkey,MF,,2000-12-29,25.0,48,3.0,Beşiktaş,Süper Lig,True,25000000.0
+de01f8f6-0cfd-4506-908e-09871c28f5bc,İsmail Yüksek,Turkey,MF,,1999-01-26,27.0,31,1.0,Fenerbahçe,Süper Lig,True,15000000.0
+02675454-deaa-4fd7-9c7b-ab7796d9504c,Salih Özcan,Turkey,MF,,1998-01-11,28.0,28,1.0,Borussia Dortmund,Bundesliga,True,3500000.0
+8e01b09d-451e-41dd-bd99-a11aed1675e1,Atakan Karazor,Turkey,MF,,1996-10-13,29.0,2,0.0,VfB Stuttgart,Bundesliga,True,8000000.0
+48760c1d-66ea-43d5-af14-3cc85df495c1,Demir Ege Tıknaz,Turkey,MF,,2004-08-17,21.0,1,0.0,Beşiktaş,Süper Lig,True,8000000.0
+d5c09ecc-5e5c-47c3-84ae-97c0a042eb46,Kerem Aktürkoğlu,Turkey,FW,,1998-10-21,27.0,51,15.0,Fenerbahçe,Süper Lig,True,20000000.0
+a8f6acf2-81e3-482c-ba98-569ddc6f18e8,İrfan Can Kahveci,Turkey,FW,,1995-07-15,30.0,45,6.0,Kasımpaşa,Süper Lig,True,3000000.0
+68e1b4c1-27af-4b9f-91da-906e5795310f,Barış Alper Yılmaz,Turkey,FW,,2000-05-23,26.0,33,2.0,Galatasaray,Süper Lig,True,30000000.0
+ad529570-e636-45ee-aa29-c1d5feda222c,Arda Güler,Turkey,FW,,2005-02-25,21.0,28,6.0,Real Madrid,La Liga,True,90000000.0
+9bc40533-0dca-418d-9335-a199f1ba5164,Kenan Yıldız,Turkey,FW,,2005-05-04,21.0,28,5.0,Juventus,Serie A,True,
+7bdc974e-738b-4a90-9721-c86fc45b1031,Yunus Akgün,Turkey,FW,,2000-07-07,25.0,17,3.0,Galatasaray,Süper Lig,True,18000000.0
+633dea8c-a5c0-4f9a-8b5c-ebfbf2cedc51,Oğuz Aydın,Turkey,FW,,2000-10-27,25.0,9,0.0,Fenerbahçe,Süper Lig,True,
+34fe60a2-2286-4c6f-b9f2-80c0456b2271,Deniz Gül,Turkey,FW,,2004-07-02,21.0,6,1.0,Porto,Primeira Liga,True,
+94725e3d-efcb-4c6f-8b2b-e2e375d0a2a1,Yusuf Sarı,Turkey,FW,,1998-11-20,27.0,6,1.0,Başakşehir,Süper Lig,True,
+7ade5285-46f9-48c1-b3f7-186227daabd9,Can Uzun,Turkey,FW,,2005-11-11,20.0,4,0.0,Eintracht Frankfurt,Bundesliga,True,
+4da11030-ad47-41fc-810f-b4c78757c139,Aral Şimşir,Turkey,FW,,2002-06-19,23.0,0,0.0,Midtjylland,Danish Superliga,True,10000000.0
+8f2f4cf3-2dcc-4002-9a53-93e750c7e0dc,Manuel Neuer,Germany,GK,1.0,1986-03-27,40.0,124,0.0,Bayern Munich,Bundesliga,True,4000000.0
+f7c52f96-eb9d-464c-a30d-7ee9b4ed7747,Oliver Baumann,Germany,GK,12.0,1990-06-02,36.0,11,0.0,TSG Hoffenheim,Bundesliga,True,2500000.0
+02170325-1a59-4efd-a908-cff8b5b0044b,Alexander Nübel,Germany,GK,21.0,1996-09-30,29.0,3,0.0,VfB Stuttgart,Bundesliga,True,12000000.0
+6903127d-853c-41eb-8ca6-85e7d6e0705e,Antonio Rüdiger,Germany,DF,2.0,1993-03-03,33.0,82,3.0,Real Madrid,La Liga,True,9000000.0
+f90d23b7-5128-406e-9a48-8c44c9a804d0,Waldemar Anton,Germany,DF,3.0,1996-07-20,29.0,12,0.0,Borussia Dortmund,Bundesliga,True,18000000.0
+9faf5d4a-9048-4c86-affe-06a72835cb43,Jonathan Tah,Germany,DF,4.0,1996-02-11,30.0,45,1.0,Bayern Munich,Bundesliga,True,28000000.0
+a63c08f1-c4bb-4880-afec-d6bbde7e9d5d,Nico Schlotterbeck,Germany,DF,15.0,1999-12-01,26.0,25,0.0,Borussia Dortmund,Bundesliga,True,55000000.0
+12099eb1-a377-4aef-8810-bd9ee6512546,Nathaniel Brown,Germany,DF,18.0,2003-06-16,22.0,3,0.0,Eintracht Frankfurt,Bundesliga,True,40000000.0
+2a632a55-60e6-49c4-a151-94dd7419de22,David Raum,Germany,DF,22.0,1998-04-22,28.0,36,1.0,RB Leipzig,Bundesliga,True,25000000.0
+f6a9b728-6553-486e-8807-dd209ea90f03,Malick Thiaw,Germany,DF,24.0,2001-08-08,24.0,5,0.0,Newcastle United,Premier League,True,45000000.0
+c8eb848b-abbf-41e8-a7c1-3c9f04a823c6,Aleksandar Pavlović,Germany,MF,5.0,2004-05-03,22.0,9,1.0,Bayern Munich,Bundesliga,True,90000000.0
+8e99ce42-d8b6-422b-b33f-11ee09f4e58b,Joshua Kimmich,Germany,MF,6.0,1995-02-08,31.0,108,10.0,Bayern Munich,Bundesliga,True,35000000.0
+87429c04-f223-4127-a021-837b0f8fa6d1,Leon Goretzka,Germany,MF,8.0,1995-02-06,31.0,69,15.0,Bayern Munich,Bundesliga,True,12000000.0
+f322e97a-2f5e-483e-891d-9253b813bf90,Jamie Leweling,Germany,MF,9.0,2001-02-26,25.0,4,1.0,VfB Stuttgart,Bundesliga,True,40000000.0
+e1e5f537-e2b6-4647-8be5-e046ecfebdd5,Jamal Musiala,Germany,MF,10.0,2003-02-26,23.0,40,8.0,Bayern Munich,Bundesliga,True,100000000.0
+c2d7ebdb-e9d3-4458-99f0-43f21217c707,Pascal Groß,Germany,MF,13.0,1991-06-15,34.0,18,1.0,Brighton & Hove Albion,Premier League,True,3500000.0
+b353ec00-d2ba-4150-a748-60b3ad053711,Angelo Stiller,Germany,MF,16.0,2001-04-04,25.0,7,0.0,VfB Stuttgart,Bundesliga,True,45000000.0
+0b9f247c-0fe4-49b1-9eef-207c8621e213,Florian Wirtz,Germany,MF,17.0,2003-05-03,23.0,39,10.0,Liverpool,Premier League,True,110000000.0
+51198feb-7749-4132-9b76-678002dba41d,Nadiem Amiri,Germany,MF,20.0,1996-10-27,29.0,9,1.0,Mainz 05,Bundesliga,True,17000000.0
+b8e5058c-ae36-4388-989e-d1ced04b7072,Felix Nmecha,Germany,MF,23.0,2000-10-10,25.0,6,1.0,Borussia Dortmund,Bundesliga,True,50000000.0
+7b8dd3f9-e481-4ae7-b0b5-a50f34c51e12,Lennart Karl,Germany,MF,25.0,2008-02-22,18.0,2,0.0,Bayern Munich,Bundesliga,True,60000000.0
+a8623653-e22f-4074-94e7-510d81459592,Kai Havertz,Germany,FW,7.0,1999-06-11,27.0,57,21.0,Arsenal,Premier League,True,50000000.0
+7b4d0dc3-c8f0-49ea-a7bd-842bb1447279,Nick Woltemade,Germany,FW,11.0,2002-02-14,24.0,10,4.0,Newcastle United,Premier League,True,65000000.0
+43548220-d821-47be-b5d1-ffc5e23d6340,Maximilian Beier,Germany,FW,14.0,2002-10-17,23.0,7,0.0,Borussia Dortmund,Bundesliga,True,40000000.0
+24cfc7ea-2fa7-49b0-9ebc-fb65b37e36b1,Leroy Sané,Germany,FW,19.0,1996-01-11,30.0,74,16.0,Galatasaray,Süper Lig,True,20000000.0
+a8a6880b-094d-4c03-b7eb-b0f2f2e52e11,Deniz Undav,Germany,FW,26.0,1996-07-19,29.0,7,4.0,VfB Stuttgart,Bundesliga,True,22000000.0
+4517dbbe-1cc6-4d25-a7a4-97e426e17e9a,Hernán Galíndez,Ecuador,GK,,1987-03-30,39.0,34,0.0,Huracán,Liga Profesional de Fútbol,True,300000.0
+50546a0e-fc94-44d8-8802-57610bae158d,Moisés Ramírez,Ecuador,GK,,2000-09-09,25.0,6,0.0,Kifisia,Super League Greece,True,800000.0
+2e475dfd-85ef-4d2d-bc20-3454e2d3422e,Gonzalo Valle,Ecuador,GK,,1996-02-28,30.0,3,0.0,LDU Quito,Serie A Ecuador,True,1800000.0
+08e52634-cd9f-428a-9d1c-5de460fb7144,Cristhian Loor,Ecuador,GK,,2006-03-09,20.0,0,0.0,Botafogo,Campeonato Brasileiro Série A,True,350000.0
+390eea93-dc26-430d-96d2-f2c836fa400c,Ángelo Preciado,Ecuador,DF,,1998-02-18,28.0,53,0.0,Atlético Mineiro,Campeonato Brasileiro Série A,True,3500000.0
+7533b1e5-2904-4e99-8522-eea533f91033,Pervis Estupiñán,Ecuador,DF,,1998-01-21,28.0,52,4.0,Milan,Serie A,True,14000000.0
+f43016bd-0a8e-473b-ac6c-1ac9fd83e7b2,Félix Torres,Ecuador,DF,,1997-01-11,29.0,47,5.0,Internacional,Campeonato Brasileiro Série A,True,1000000.0
+946fd8d8-af93-4c01-8803-06a204d321f2,Joel Ordóñez,Ecuador,DF,,2004-04-21,22.0,16,0.0,Club Brugge,Belgian First Division A,True,33000000.0
+e554135e-b8f1-40d3-bb83-9b2ad880863f,José Hurtado,Ecuador,DF,,2001-12-23,24.0,9,0.0,Red Bull Bragantino,Campeonato Brasileiro Série A,True,3000000.0
+eacf25d3-c556-4912-a490-b993489a78fc,Jackson Porozo,Ecuador,DF,,2000-08-04,25.0,8,0.0,Tijuana,Liga MX,True,2500000.0
+d728ec36-855c-4953-bee5-fb04ef5839f9,Fricio Caicedo,Ecuador,DF,,2008-04-17,18.0,0,0.0,LDU Quito,Serie A Ecuador,True,
+c86cd8a6-9f1e-45ab-b2a1-805a507a78bd,Deinner Ordóñez,Ecuador,DF,,2009-10-29,16.0,0,0.0,Independiente del Valle,Serie A Ecuador,True,
+4fd1a712-e3cf-4a66-9ab1-97e7efe36f7d,Moisés Caicedo,Ecuador,MF,,2001-11-02,24.0,60,3.0,Chelsea,Premier League,True,110000000.0
+a782e934-3090-415e-bb32-3113de73bf6d,Alan Franco,Ecuador,MF,,1998-08-21,27.0,57,1.0,Atlético Mineiro,Campeonato Brasileiro Série A,True,4500000.0
+7ceb0e63-c527-4e3c-82f2-78a0e74e2745,Gonzalo Plata,Ecuador,MF,,2000-11-01,25.0,49,8.0,Flamengo,Campeonato Brasileiro Série A,True,9000000.0
+7209991e-5792-46e5-b240-9a444e69ba1e,Kendry Páez,Ecuador,MF,,2007-05-04,19.0,24,2.0,River Plate,Liga Profesional de Fútbol,True,8000000.0
+45c17f68-cc9c-434c-a035-d0e73a121ce9,John Yeboah,Ecuador,MF,,2000-06-23,25.0,21,3.0,Venezia,Serie A,True,5000000.0
+d241bb16-1bc0-47ee-a87a-7fea71e06292,Alan Minda,Ecuador,MF,,2003-05-14,23.0,19,2.0,Atlético Mineiro,Campeonato Brasileiro Série A,True,3000000.0
+229e0205-f8f4-4d3a-b3c0-41ac38d24f94,Pedro Vite,Ecuador,MF,,2002-03-09,24.0,16,1.0,UNAM,Liga MX,True,6000000.0
+c0a9a081-3217-462d-89a2-80c73c13dd2f,Jordy Alcívar,Ecuador,MF,,1999-08-05,26.0,9,1.0,Independiente del Valle,Serie A Ecuador,True,1800000.0
+2466ebbb-62f9-43a5-8685-fa379afdafe7,Denil Castillo,Ecuador,MF,,2004-03-24,22.0,4,0.0,Midtjylland,Danish Superliga,True,7000000.0
+27f0c8b2-f0ed-4d5b-80c6-b239803893eb,Yaimar Medina,Ecuador,MF,,2004-11-05,21.0,4,0.0,Genk,Belgian First Division A,True,4000000.0
+9c05900f-d96a-4ac5-8057-e5eaa3c69bfe,Darwin Guagua,Ecuador,MF,,2007-11-06,18.0,1,0.0,Independiente del Valle,Serie A Ecuador,True,2000000.0
+069a0455-666c-4302-a590-0d5fda47d844,Bruno Caicedo,Ecuador,MF,,2005-01-15,21.0,0,0.0,Vancouver Whitecaps,,True,1000000.0
+f3d113b8-9dbd-492e-a50a-40860915a84d,Ederson Castillo,Ecuador,MF,,2008-12-10,17.0,0,0.0,LDU Quito,Serie A Ecuador,True,500000.0
+50d64090-8cf6-41c8-a53b-39f3b24ab8b2,Malcom Dacosta,Ecuador,MF,,2008-04-17,18.0,0,0.0,Bournemouth,Premier League,True,
+5a5da779-775c-409e-a101-c84b83e2a0ed,Luis Fragozo,Ecuador,MF,,2010-04-08,16.0,0,0.0,Emelec,Serie A Ecuador,True,
+15ecb3f3-f236-478c-916d-5cfe39ab8ee9,Enner Valencia,Ecuador,FW,,1989-11-04,36.0,105,49.0,Pachuca,Liga MX,True,1000000.0
+2199488f-66e3-4284-a18e-723081fe3708,Kevin Rodríguez,Ecuador,FW,,2000-03-04,26.0,30,2.0,Union Saint-Gilloise,Belgian First Division A,True,5000000.0
+6b7fb10e-0172-434d-a84c-5d3f14a2b1c1,Jordy Caicedo,Ecuador,FW,,1997-11-18,28.0,18,3.0,Huracán,Liga Profesional de Fútbol,True,2000000.0
+85579c11-64d6-433c-a538-cd2c19932695,Nilson Angulo,Ecuador,FW,,2003-06-19,22.0,12,1.0,Sunderland,Premier League,True,17000000.0
+68c6d3bc-74fd-4649-9b25-f5afc2ab01d2,John Mercado,Ecuador,FW,,2002-06-03,24.0,6,0.0,Sparta Prague,Czech First League,True,4000000.0
+60fa9b8e-f441-4cad-b9ad-118a4c7366e5,Jeremy Arévalo,Ecuador,FW,,2005-03-19,21.0,3,0.0,VfB Stuttgart,Bundesliga,True,7000000.0
+28fe1d2c-2a56-4925-bb6c-b7eb6583a8a3,Anthony Valencia,Ecuador,FW,,2003-07-21,22.0,1,0.0,Antwerp,Belgian First Division A,True,1000000.0
+ff2438c9-d345-4f66-973e-61f0e6761128,Yahia Fofana,Ivory Coast,GK,,2000-08-21,25.0,34,0.0,Çaykur Rizespor,Süper Lig,True,5000000.0
+e0cadc7b-5c5f-483f-8fc6-2e6fba427c98,Alban Lafont,Ivory Coast,GK,,1999-01-23,27.0,4,0.0,Panathinaikos,Super League Greece,True,3000000.0
+99b10da2-0797-45a6-a590-8a9a0ad5096b,Mohamed Koné,Ivory Coast,GK,,2002-03-07,24.0,0,0.0,Charleroi,Belgian First Division A,True,
+fd23dc22-5e21-4c08-a568-7088dc2a7073,Ghislain Konan,Ivory Coast,DF,,1995-12-27,30.0,53,0.0,Gil Vicente,Primeira Liga,True,
+6b08d81e-3344-4894-92df-309bd24c81d1,Odilon Kossounou,Ivory Coast,DF,,2001-01-04,25.0,35,0.0,Atalanta,Serie A,True,18000000.0
+915c69f8-aaad-4b33-9104-bd29aecf4010,Wilfried Singo,Ivory Coast,DF,,2000-12-25,25.0,33,1.0,Galatasaray,Süper Lig,True,23000000.0
+32b01694-dafd-4463-8ecf-92f7e623b0ab,Evan Ndicka,Ivory Coast,DF,,1999-08-20,26.0,28,0.0,Roma,Serie A,True,35000000.0
+451dc773-c483-43d0-8e66-c379bfb1d6dc,Emmanuel Agbadou,Ivory Coast,DF,,1997-06-07,29.0,19,2.0,Beşiktaş,Süper Lig,True,16000000.0
+f7184060-9811-40ce-bf2c-599933bbecd1,Guéla Doué,Ivory Coast,DF,,2002-10-17,23.0,19,2.0,Strasbourg,Ligue 1,True,18000000.0
+93c8fea2-347d-49aa-8540-84d9a9082df8,Ousmane Diomande,Ivory Coast,DF,,2003-12-04,22.0,14,1.0,Sporting CP,Primeira Liga,True,
+8d7303b9-8398-4c2e-8f00-55c2345bcb13,Clément Akpa,Ivory Coast,DF,,2001-11-24,24.0,5,0.0,Auxerre,Ligue 1,True,9000000.0
+22f86c51-a8f3-48ac-9ea8-d84112f04326,Franck Kessié,Ivory Coast,MF,,1996-12-19,29.0,102,15.0,Al-Ahli,,True,12000000.0
+c5e6c945-c091-49a2-bbcc-d0c399752585,Jean Michaël Seri,Ivory Coast,MF,,1991-07-19,34.0,65,4.0,Maribor,Slovenian PrvaLiga,True,100000.0
+30cdf21a-7ca7-4cc6-892d-0418277ca016,Ibrahim Sangaré,Ivory Coast,MF,,1997-12-02,28.0,57,12.0,Nottingham Forest,Premier League,True,
+daaca9e2-d442-41bf-bc7b-e877f5ffa611,Seko Fofana,Ivory Coast,MF,,1995-05-07,31.0,31,7.0,Porto,Primeira Liga,True,8000000.0
+cf5b7381-201a-4a85-bf9a-f0ceabdd6042,Christ Inao Oulaï,Ivory Coast,MF,,2006-04-06,20.0,8,0.0,Trabzonspor,Süper Lig,True,23000000.0
+70ed304b-69e4-49c4-b0e9-eb4d5136557e,Parfait Guiagon,Ivory Coast,MF,,2001-02-22,25.0,5,0.0,Charleroi,Belgian First Division A,True,5000000.0
+7d8d11a3-5584-4022-99f5-e9eaff0037e1,Nicolas Pépé,Ivory Coast,FW,,1995-05-29,31.0,54,12.0,Villarreal,La Liga,True,6000000.0
+981b845f-a3dd-4846-a4e4-065a7cac31bd,Oumar Diakité,Ivory Coast,FW,,2003-12-20,22.0,28,6.0,Cercle Brugge,Belgian First Division A,True,
+e6ba978d-2569-4b25-a294-a9569527b422,Simon Adingra,Ivory Coast,FW,,2002-01-01,24.0,28,5.0,Monaco,Ligue 1,True,25000000.0
+44fded0f-cdbb-45b3-80b5-051eda509b97,Evann Guessand,Ivory Coast,FW,,2001-07-01,24.0,21,4.0,Crystal Palace,Premier League,True,28000000.0
+92490d1b-011f-4ec3-be44-ac786cce4f52,Amad Diallo,Ivory Coast,FW,,2002-07-11,23.0,18,5.0,Manchester United,Premier League,True,
+80bb76e9-d43b-4c4a-bc79-778a71bd3cd2,Yan Diomande,Ivory Coast,FW,,2006-11-14,19.0,9,3.0,RB Leipzig,Bundesliga,True,90000000.0
+612fc603-6d0f-4423-a453-00a203132688,Bazoumana Touré,Ivory Coast,FW,,2006-03-02,20.0,5,2.0,TSG Hoffenheim,Bundesliga,True,40000000.0
+f9b56e85-ff60-4e25-a244-b042661bbc3c,Elye Wahi,Ivory Coast,FW,,2003-01-02,23.0,1,0.0,Nice,Ligue 1,True,12000000.0
+f758fcab-8eed-4983-8a09-ea40c95df98d,Ange-Yoan Bonny,Ivory Coast,FW,,2003-10-25,22.0,0,0.0,Inter Milan,Serie A,True,35000000.0
+9d08fcf0-9d04-42e4-a0de-a6baab064252,Eloy Room,Curaçao,GK,1.0,1989-02-06,37.0,70,0.0,Miami FC,MLS,True,150000.0
+373c6039-6c4e-41a8-9ad6-a0cb3061eb3d,Trevor Doornbusch,Curaçao,GK,25.0,1999-07-06,26.0,7,0.0,VVV-Venlo,Eredivisie,True,50000.0
+646cd8d9-292d-4bf1-840a-18bb51dae7c7,Tyrick Bodak,Curaçao,GK,26.0,2002-05-15,24.0,4,0.0,Telstar,Eredivisie,True,25000.0
+a934eb8a-f681-4dec-b0a7-97ac06ac6515,Juriën Gaari,Curaçao,DF,3.0,1993-12-23,32.0,58,1.0,Abha,,True,400000.0
+a0f8f384-56e6-4f6d-9d60-59c7cdb8ea57,Roshon van Eijma,Curaçao,DF,4.0,1998-06-09,28.0,27,1.0,RKC Waalwijk,Eredivisie,True,375000.0
+26eabd69-b26f-43f0-8882-8280be16c060,Sherel Floranus,Curaçao,DF,5.0,1998-08-23,27.0,26,0.0,PEC Zwolle,Eredivisie,True,800000.0
+5f45fa69-7c57-436e-8a62-a22b725996b4,Joshua Brenet,Curaçao,DF,20.0,1994-03-20,32.0,17,1.0,Kayserispor,Süper Lig,True,1000000.0
+f48f782b-3bff-41dd-acf5-e4c2a7913701,Shurandy Sambo,Curaçao,DF,2.0,2001-08-19,24.0,7,0.0,Sparta Rotterdam,Eredivisie,True,1300000.0
+167274e7-a152-4c4f-a2c1-5499618fd9b8,Armando Obispo,Curaçao,DF,18.0,1999-03-05,27.0,4,0.0,PSV,Eredivisie,True,4000000.0
+1d6ba5b5-363c-4d4d-86d7-cb307ccc6a56,Riechedly Bazoer,Curaçao,DF,23.0,1996-10-12,29.0,3,0.0,Konyaspor,Süper Lig,True,1500000.0
+1188f566-9a01-4c0d-8c1b-bffdf8bb4777,Deveron Fonville,Curaçao,DF,24.0,2003-05-16,23.0,0,0.0,NEC,Eredivisie,True,1500000.0
+90ad3d5a-148c-42e9-ac48-23b5e65b0e7d,Leandro Bacuna,Curaçao,MF,10.0,1991-08-21,34.0,70,16.0,Iğdır,Süper Lig,True,250000.0
+48f4f449-28a5-4500-873a-c386660d65a3,Juninho Bacuna,Curaçao,MF,7.0,1997-08-07,28.0,47,14.0,Volendam,Eredivisie,True,1700000.0
+a81fe386-7b6c-4b00-be79-c5b6a3c0463a,Godfried Roemeratoe,Curaçao,MF,6.0,1999-08-19,26.0,26,1.0,RKC Waalwijk,Eredivisie,True,350000.0
+3a3dc581-8f7a-4860-a2b5-7d25f5be81b1,Kevin Felida,Curaçao,MF,22.0,1999-11-11,26.0,19,1.0,Den Bosch,Eredivisie,True,400000.0
+b8333df1-d351-4b06-930b-bdf3c0ee3472,Livano Comenencia,Curaçao,MF,8.0,2004-02-03,22.0,18,1.0,Zürich,Swiss Super League,True,700000.0
+18018e5e-7794-447d-bd4e-35856625c5cd,Ar'jany Martha,Curaçao,MF,15.0,2003-09-04,22.0,8,2.0,Rotherham United,Premier League,True,700000.0
+4532bf7e-4791-4a58-a985-a22cbfb241e4,Tyrese Noslin,Curaçao,MF,13.0,2002-09-11,23.0,5,1.0,Telstar,Eredivisie,True,750000.0
+1a70c9cd-157f-40f6-8747-0c332d475d3e,Kenji Gorré,Curaçao,FW,14.0,1994-09-29,31.0,37,6.0,Maccabi Haifa,,True,650000.0
+4dec139e-3c75-4226-be0e-e41e67ef3f2b,Brandley Kuwas,Curaçao,FW,17.0,1992-09-19,33.0,34,2.0,Volendam,Eredivisie,True,250000.0
+eadbbccd-7522-4070-9b6d-e04f5ca9b445,Gervane Kastaneer,Curaçao,FW,19.0,1996-06-09,30.0,27,9.0,Terengganu,,True,175000.0
+5e516cdf-ba83-43c1-abf5-b18807ff547e,Jeremy Antonisse,Curaçao,FW,11.0,2002-03-29,24.0,25,3.0,Kifisia,Super League Greece,True,800000.0
+f5ef45c5-334e-4468-9d45-afa4d882741f,Jearl Margaritha,Curaçao,FW,16.0,2000-04-10,26.0,21,5.0,Beveren,Belgian First Division A,True,1000000.0
+c7678df7-fae6-4001-9adb-c57bc787ce85,Jürgen Locadia,Curaçao,FW,9.0,1993-11-07,32.0,12,1.0,Miami FC,MLS,True,200000.0
+066e7d67-7096-4ee8-8b99-7929d27e02f9,Sontje Hansen,Curaçao,FW,12.0,2002-05-18,24.0,5,1.0,Middlesbrough,Premier League,True,3500000.0
+5c4edfa9-c8d4-43ea-acd6-4c1952d1dd1a,Tahith Chong,Curaçao,FW,21.0,1999-12-04,26.0,4,2.0,Sheffield United,Premier League,True,3500000.0
+91db4a09-9493-456a-8d90-15eb29e004ca,Bart Verbruggen,Netherlands,GK,,2002-08-18,23.0,27,0.0,Brighton & Hove Albion,Premier League,True,40000000.0
+9362616a-99b4-4ff1-a634-1a6f473ad50f,Mark Flekken,Netherlands,GK,,1993-06-13,32.0,11,0.0,Bayer Leverkusen,Bundesliga,True,6000000.0
+ea71899a-725c-469f-9061-ee5f617ecba3,Robin Roefs,Netherlands,GK,,2003-01-17,23.0,0,0.0,Sunderland,Premier League,True,25000000.0
+09cc821b-887e-43cb-9247-a45208656b50,Virgil van Dijk,Netherlands,DF,,1991-07-08,34.0,90,12.0,Liverpool,Premier League,True,18000000.0
+aba71264-ba99-4d77-a52b-40266b4b1efc,Denzel Dumfries,Netherlands,DF,,1996-04-18,30.0,71,11.0,Internazionale,Serie A,True,25000000.0
+6bc4564d-2ca1-44b6-9c18-4b9ffa7b44a4,Nathan Aké,Netherlands,DF,,1995-02-18,31.0,58,5.0,Manchester City,Premier League,True,15000000.0
+f892d8ee-ab64-4e0d-987a-cfc7efebd255,Jurriën Timber,Netherlands,DF,,2001-06-17,24.0,23,0.0,Arsenal,Premier League,True,70000000.0
+38229c07-70a9-4264-923b-452d356a0b96,Micky van de Ven,Netherlands,DF,,2001-04-19,25.0,19,1.0,Tottenham Hotspur,Premier League,True,65000000.0
+7c21bedb-640f-4ca3-8243-798ab3f15c71,Jan Paul van Hecke,Netherlands,DF,,2000-06-08,26.0,10,0.0,Brighton & Hove Albion,Premier League,True,35000000.0
+1da8a0ce-a4d1-4cde-ba8a-c064fc0ea2fe,Jorrel Hato,Netherlands,DF,,2006-03-07,20.0,7,0.0,Chelsea,Premier League,True,35000000.0
+e4e468cc-082f-4b4d-b39e-6912726b006b,Frenkie de Jong,Netherlands,MF,,1997-05-12,29.0,64,2.0,Barcelona,La Liga,True,45000000.0
+0314d70c-892a-4247-849b-ca26dbd7a2a2,Marten de Roon,Netherlands,MF,,1991-03-29,35.0,42,1.0,Atalanta,Serie A,True,3500000.0
+9e3f7b07-b4ec-4f22-9850-991be3b800fc,Tijjani Reijnders,Netherlands,MF,,1998-07-29,27.0,30,7.0,Manchester City,Premier League,True,60000000.0
+3d2722fb-2232-4361-9ac5-1fc4b647f128,Teun Koopmeiners,Netherlands,MF,,1998-02-28,28.0,27,3.0,Juventus,Serie A,True,20000000.0
+f6cbe4fd-bed3-40db-b744-74eb2046f35e,Ryan Gravenberch,Netherlands,MF,,2002-05-16,24.0,25,1.0,Liverpool,Premier League,True,90000000.0
+4a4c91ca-225a-4354-b91a-b22c06f19565,Mats Wieffer,Netherlands,MF,,1999-11-16,26.0,14,1.0,Brighton & Hove Albion,Premier League,True,25000000.0
+a40f431b-eb74-41a7-9919-34e3a099e03b,Quinten Timber,Netherlands,MF,,2001-06-17,24.0,10,1.0,Marseille,Ligue 1,True,25000000.0
+b48225cb-aedb-4c57-a19c-d10ad18d7844,Guus Til,Netherlands,MF,,1997-12-22,28.0,6,1.0,PSV Eindhoven,Eredivisie,True,15000000.0
+8690e090-b8f9-4194-8156-6011da25f1f3,Memphis Depay,Netherlands,FW,,1994-02-13,32.0,108,,Corinthians,Campeonato Brasileiro Série A,True,7000000.0
+40ce126e-ec64-49b6-9ea4-dda85f43334a,Wout Weghorst,Netherlands,FW,,1992-08-07,33.0,51,14.0,Ajax,Eredivisie,True,2000000.0
+a78e29a0-9445-41b1-9609-3d8be283abde,Donyell Malen,Netherlands,FW,,1999-01-19,27.0,51,13.0,Roma,Serie A,True,35000000.0
+1fdf6bab-9587-44a3-80ef-498f9c75c055,Cody Gakpo,Netherlands,FW,,1999-05-07,27.0,48,19.0,Liverpool,Premier League,True,65000000.0
+d6cdbe61-2b19-4bd4-913e-55af7a43621c,Noa Lang,Netherlands,FW,,1999-06-17,26.0,15,3.0,Galatasaray,Süper Lig,True,22000000.0
+ef969084-d2f7-49d9-a31a-a7b437c48d55,Justin Kluivert,Netherlands,FW,,1999-05-05,27.0,11,0.0,Bournemouth,Premier League,True,30000000.0
+1c3230df-d3dd-49cf-9eda-9334f45af73f,Brian Brobbey,Netherlands,FW,,2002-02-01,24.0,10,1.0,Sunderland,Premier League,True,25000000.0
+2cc7e710-1738-4f49-95fd-09fe478042df,Crysencio Summerville,Netherlands,FW,,2001-10-30,24.0,0,0.0,West Ham United,Premier League,True,30000000.0
+e50626ee-53b7-4cca-9ab5-ee6e36cdc72c,Zion Suzuki,Japan,GK,1.0,2002-08-21,23.0,23,0.0,Parma,Serie A,True,20000000.0
+6e8b6fa8-21f8-45f2-9b4f-443be35e8510,Keisuke Ōsako,Japan,GK,12.0,1999-07-28,26.0,11,0.0,Sanfrecce Hiroshima,J1 League,True,2000000.0
+8a071685-a778-4504-9ffb-904fa0151db8,Tomoki Hayakawa,Japan,GK,23.0,1999-03-03,27.0,3,0.0,Kashima Antlers,J1 League,True,1500000.0
+883ef1ec-f089-4ab8-8d7d-cfde088a8790,Yukinari Sugawara,Japan,DF,2.0,2000-06-28,25.0,20,2.0,Werder Bremen,Bundesliga,True,5500000.0
+a7d46e68-d6d7-420a-bb83-917be6cb0df0,Shōgo Taniguchi,Japan,DF,3.0,1991-07-15,34.0,37,1.0,Sint-Truiden,Belgian First Division A,True,800000.0
+a145c2cb-5cb0-487f-abdc-193cad526053,Kō Itakura,Japan,DF,4.0,1997-01-27,29.0,39,2.0,Ajax,Eredivisie,True,8000000.0
+2ec264f2-958f-4aac-988e-a8416965e921,Yūto Nagatomo,Japan,DF,5.0,1986-09-12,39.0,144,4.0,FC Tokyo,J1 League,True,100000.0
+ba6343e9-12e7-4cde-a38d-7fabbe16ae2e,Takehiro Tomiyasu,Japan,DF,15.0,1998-11-05,27.0,42,1.0,Ajax,Eredivisie,True,5000000.0
+c0edf5ab-43d8-42ea-bce4-f2dfe8b61dd9,Tsuyoshi Watanabe,Japan,DF,16.0,1997-02-05,29.0,10,0.0,Feyenoord,Eredivisie,True,10000000.0
+93732299-4adf-4675-b45b-b6a64133a603,Ayumu Seko,Japan,DF,20.0,2000-06-07,26.0,13,0.0,Le Havre,Ligue 1,True,5000000.0
+6962c14d-f20c-416b-ab2a-3fe88cf67727,Hiroki Itō,Japan,DF,21.0,1999-05-12,27.0,23,1.0,Bayern Munich,Bundesliga,True,18000000.0
+b570effc-9c3e-4106-a34b-242300be22bb,Maya Yoshida,Japan,DF,22.0,1988-08-24,37.0,126,12.0,LA Galaxy,MLS,True,150000.0
+b23af8d9-6eba-424c-aeed-10c315fbc4be,Junnosuke Suzuki,Japan,DF,25.0,2003-07-12,22.0,6,0.0,Copenhagen,Danish Superliga,True,3500000.0
+b3623a30-2026-49e5-8345-9ba7e41366e1,Wataru Endo,Japan,MF,6.0,1993-02-09,33.0,72,4.0,Liverpool,Premier League,True,5000000.0
+6facf435-2d55-41e7-b595-ac763b586f2c,Ao Tanaka,Japan,MF,7.0,1998-09-10,27.0,37,8.0,Leeds United,Premier League,True,10000000.0
+9bbb3b34-7822-4c66-ab03-e52d3a418400,Takefusa Kubo,Japan,MF,8.0,2001-06-04,25.0,48,7.0,Real Sociedad,La Liga,True,30000000.0
+4fe004a0-6bf8-470e-a30f-68a8fef65c4e,Ritsu Dōan,Japan,MF,10.0,1998-06-16,27.0,64,11.0,Eintracht Frankfurt,Bundesliga,True,17000000.0
+de6fa50c-2909-4213-bf65-2116dd786786,Keito Nakamura,Japan,MF,13.0,2000-07-28,25.0,24,10.0,Reims,Ligue 1,True,10000000.0
+1f269eb8-63b5-4cc3-aa92-6ed066bcf65f,Junya Itō,Japan,MF,14.0,1993-03-09,33.0,68,15.0,Genk,Belgian First Division A,True,3500000.0
+f186476c-d295-4965-9674-257eb452ce09,Kaishu Sano,Japan,MF,24.0,2000-12-30,25.0,12,0.0,Mainz 05,Bundesliga,True,40000000.0
+b89cb430-fde4-40db-98a0-529d2a0a92a7,Daichi Kamada,Japan,MF,,1996-08-05,29.0,49,12.0,Crystal Palace,Premier League,True,12000000.0
+095ccf2e-ae3c-40de-b631-4105fab5f78b,Keisuke Gotō,Japan,FW,9.0,2005-06-03,21.0,3,0.0,Sint-Truiden,Belgian First Division A,True,8000000.0
+ee015736-f658-431d-bf47-3b81e05441a9,Daizen Maeda,Japan,FW,11.0,1997-10-20,28.0,27,4.0,Celtic,Scottish Premiership,True,13000000.0
+f14bc74d-5d61-4d2e-b62e-5e206be42fed,Yuito Suzuki,Japan,FW,17.0,2001-10-25,24.0,6,0.0,SC Freiburg,Bundesliga,True,24000000.0
+726e67a5-e0be-469c-8b84-e2a22117a354,Ayase Ueda,Japan,FW,18.0,1998-08-28,27.0,38,16.0,Feyenoord,Eredivisie,True,17000000.0
+121216a3-a047-4d49-b347-80a6f89f6f87,Kōki Ogawa,Japan,FW,19.0,1997-08-08,28.0,14,10.0,NEC,Eredivisie,True,2000000.0
+4dbd39f1-799c-4f9e-896e-320659708f50,Kento Shiogai,Japan,FW,26.0,2005-03-26,21.0,1,0.0,VfL Wolfsburg,Bundesliga,True,8000000.0
+ff9a89a1-d57f-4e07-8339-ae3b840523db,Aymen Dahmen,Tunisia,GK,,1997-01-28,29.0,37,0.0,CS Sfaxien,Ligue Professionnelle 1 Tunisienne,True,800000.0
+7f092104-612d-4fc5-9205-28dff62d7007,Sabri Ben Hessen,Tunisia,GK,,1996-06-13,29.0,2,0.0,Étoile du Sahel,Ligue Professionnelle 1 Tunisienne,True,400000.0
+b3c2f287-3f52-4ae6-a613-ece810398113,Mouhib Chamakh,Tunisia,GK,,2001-08-25,24.0,1,0.0,Club Africain,Ligue Professionnelle 1 Tunisienne,True,450000.0
+66162ee8-cf99-4e23-a07a-b72cb781e895,Montassar Talbi,Tunisia,DF,,1998-05-26,28.0,62,4.0,Lorient,Ligue 1,True,7000000.0
+9b2a1fbd-f39c-497e-a6da-dbbc247ed36d,Dylan Bronn,Tunisia,DF,,1995-06-19,30.0,52,2.0,Servette,Swiss Super League,True,800000.0
+6cd06e7f-a643-41c7-b8cc-78097416c71a,Ali Abdi,Tunisia,DF,,1993-12-20,32.0,45,7.0,Nice,Ligue 1,True,2500000.0
+1791c5fd-1f35-44b7-8c77-6fbdbce4371f,Yan Valery,Tunisia,DF,,1999-02-22,27.0,21,0.0,Young Boys,Swiss Super League,True,1300000.0
+d6731dcb-a1e5-41d3-92f0-1ce5824f1538,Mohamed Amine Ben Hamida,Tunisia,DF,,1995-12-15,30.0,12,0.0,Espérance de Tunis,Ligue Professionnelle 1 Tunisienne,True,700000.0
+fb60be51-e416-451c-9cb7-df86813fc928,Moutaz Neffati,Tunisia,DF,,2004-09-04,21.0,5,0.0,IFK Norrköping,Allsvenskan,True,900000.0
+adcf4ff4-551d-4bb3-9481-fef8158e6093,Omar Rekik,Tunisia,DF,,2001-12-20,24.0,4,0.0,Maribor,Slovenian PrvaLiga,True,500000.0
+ff2f4ae6-f7e2-4660-abe8-47df66e31380,Adem Arous,Tunisia,DF,,2004-07-17,21.0,1,0.0,Kasımpaşa,Süper Lig,True,4000000.0
+343cbda3-df50-41a5-b8bc-8068d54bc90a,Raed Chikhaoui,Tunisia,DF,,2004-06-09,22.0,0,0.0,US Monastir,Ligue Professionnelle 1 Tunisienne,True,250000.0
+ef2ff753-5964-4384-bec8-95367ef1185c,Ellyes Skhiri,Tunisia,MF,,1995-05-10,31.0,81,4.0,Eintracht Frankfurt,Bundesliga,True,5000000.0
+4f1975ac-6b61-4620-b58b-df46d19c3db5,Hannibal Mejbri,Tunisia,MF,,2003-01-21,23.0,44,1.0,Burnley,Premier League,True,16000000.0
+320de549-ced7-43d8-982f-db4422e8d63b,Anis Ben Slimane,Tunisia,MF,,2001-03-16,25.0,39,4.0,Norwich City,Premier League,True,4000000.0
+7cc59a50-633a-4b08-b187-be672d53aa46,Mortadha Ben Ouanes,Tunisia,MF,,1994-07-02,31.0,17,0.0,Kasımpaşa,Süper Lig,True,1500000.0
+e2c246a6-7f28-4f70-aa80-e3844571ff65,Ismaël Gharbi,Tunisia,MF,,2004-04-10,22.0,15,2.0,FC Augsburg,Bundesliga,True,5000000.0
+416c4ff8-ef77-4bf5-8ea6-00612913ee8c,Hadj Mahmoud,Tunisia,MF,,2000-04-24,26.0,7,0.0,Lugano,Swiss Super League,True,2500000.0
+3d07728b-e8cb-435e-84ba-2afe1228b1ac,Rani Khedira,Tunisia,MF,,1994-01-27,32.0,2,0.0,Union Berlin,Bundesliga,True,2000000.0
+16127227-5d3e-4e51-9a4e-1448fb212372,Elias Achouri,Tunisia,FW,,1999-02-10,27.0,29,4.0,Copenhagen,Danish Superliga,True,3000000.0
+fc1cdd8b-2002-4492-9b16-9d32a906f7c4,Firas Chaouat,Tunisia,FW,,1996-05-08,30.0,28,6.0,Club Africain,Ligue Professionnelle 1 Tunisienne,True,850000.0
+c5da6555-15ea-4628-b82f-20af24761da5,Hazem Mastouri,Tunisia,FW,,1997-06-18,28.0,18,4.0,Dynamo Makhachkala,Russian Premier League,True,900000.0
+4f7953dd-6a25-486d-a85f-5fed009bfcbd,Elias Saad,Tunisia,FW,,1999-12-27,26.0,14,4.0,Hannover 96,Bundesliga,True,2500000.0
+e34776a7-aa41-477b-8001-e13136694a98,Sebastian Tounekti,Tunisia,FW,,2002-07-13,23.0,10,1.0,Celtic,Scottish Premiership,True,5000000.0
+3d234086-29bc-4b06-8a6a-9e2f39247d64,Khalil Ayari,Tunisia,FW,,2005-02-02,21.0,2,0.0,Paris Saint-Germain,Ligue 1,True,800000.0
+de96d2f5-05d3-45de-b712-277455045460,Rayan Elloumi,Tunisia,FW,,2007-09-17,18.0,2,0.0,Vancouver Whitecaps,,True,600000.0
+39be8791-44ad-4407-898a-f27d06ad668b,Thibaut Courtois,Belgium,GK,,1992-05-11,34.0,107,0.0,Real Madrid,La Liga,True,18000000.0
+da601b74-ff6c-4bf4-94d9-63a4a8f08460,Senne Lammens,Belgium,GK,,2002-07-07,23.0,2,0.0,Manchester United,Premier League,True,30000000.0
+a8c4961f-6487-4d05-b791-f3705473025b,Mike Penders,Belgium,GK,,2005-07-31,20.0,0,0.0,Strasbourg,Ligue 1,True,22000000.0
+c98ad901-9270-48fe-920a-ac4c5b7aca0f,Thomas Meunier,Belgium,DF,,1991-09-12,34.0,78,10.0,Lille,Ligue 1,True,1800000.0
+97d31dcf-477e-46c2-b9a3-d999be78c059,Timothy Castagne,Belgium,DF,,1995-12-05,30.0,62,2.0,Fulham,Premier League,True,10000000.0
+6c33c850-39dc-48a0-a597-d27963821446,Arthur Theate,Belgium,DF,,2000-05-25,26.0,32,1.0,Eintracht Frankfurt,Bundesliga,True,17000000.0
+eab4ee4e-79de-4d54-b721-fdf78595905e,Zeno Debast,Belgium,DF,,2003-10-24,22.0,26,1.0,Sporting CP,Primeira Liga,True,28000000.0
+e7f711ed-50e4-43c2-9cf4-54ec05f21018,Maxim De Cuyper,Belgium,DF,,2000-12-22,25.0,17,4.0,Brighton & Hove Albion,Premier League,True,22000000.0
+a6a70cbd-86d3-4137-8f8e-1dc6d7c41a62,Brandon Mechele,Belgium,DF,,1993-01-28,33.0,7,1.0,Club Brugge,Belgian First Division A,True,3000000.0
+4c336ca8-99c5-45a8-9c2f-86739f3ba8b6,Koni De Winter,Belgium,DF,,2002-06-12,23.0,7,0.0,Milan,Serie A,True,23000000.0
+08daa9b7-d70c-4490-b76f-7f68f5eccb53,Joaquin Seys,Belgium,DF,,2005-03-28,21.0,4,0.0,Club Brugge,Belgian First Division A,True,17000000.0
+7e77c9b3-cb2b-4ce3-9bc5-585c013e5118,Nathan Ngoy,Belgium,DF,,2003-06-10,23.0,2,0.0,Lille,Ligue 1,True,20000000.0
+ee36c67a-a34d-4306-9d8e-1fb170fbaa1a,Axel Witsel,Belgium,MF,,1989-01-12,37.0,136,12.0,Girona,La Liga,True,1400000.0
+d5789635-410a-4170-95f0-f47923c17074,Kevin De Bruyne,Belgium,MF,,1991-06-28,34.0,117,36.0,Napoli,Serie A,True,10000000.0
+faa8476e-dc05-4ecd-8b3b-ed0d0f3ffdeb,Youri Tielemans,Belgium,MF,,1997-05-07,29.0,83,12.0,Aston Villa,Premier League,True,35000000.0
+05ac1fdf-447a-4c2f-b519-86fd134fc18b,Hans Vanaken,Belgium,MF,,1992-08-24,33.0,32,7.0,Club Brugge,Belgian First Division A,True,6000000.0
+76c73ea0-36ea-4fb5-8fec-2f0a6379520f,Amadou Onana,Belgium,MF,,2001-08-16,24.0,27,1.0,Aston Villa,Premier League,True,45000000.0
+1311dd77-e6c2-491f-bdb3-a3ea0f3c5fdb,Nicolas Raskin,Belgium,MF,,2001-02-23,25.0,11,1.0,Rangers,Scottish Premiership,True,12000000.0
+aef05531-fe57-4974-8f61-ee8771e69c83,Diego Moreira,Belgium,MF,,2004-08-06,21.0,2,0.0,Strasbourg,Ligue 1,True,25000000.0
+974da2a4-9cb2-4481-bf64-40aa62bcf6c8,Romelu Lukaku,Belgium,FW,,1993-05-13,33.0,124,,Napoli,Serie A,True,12000000.0
+f23913b0-0ad3-4923-ab03-963eaa092801,Leandro Trossard,Belgium,FW,,1994-12-04,31.0,50,11.0,Arsenal,Premier League,True,20000000.0
+18b7d575-f296-4109-8e75-8ac9cf854aa7,Charles De Ketelaere,Belgium,FW,,2001-03-10,25.0,28,5.0,Atalanta,Serie A,True,35000000.0
+5464cf57-2ba0-4286-827c-a4123a20a682,Jérémy Doku,Belgium,FW,,2002-05-27,24.0,41,7.0,Manchester City,Premier League,True,65000000.0
+31b0d1b3-87e9-4ccd-9384-448e2c6993e7,Dodi Lukébakio,Belgium,FW,,1997-09-24,28.0,29,5.0,Benfica,Primeira Liga,True,15000000.0
+9c62aad0-6942-4d9d-99cb-34ca0508bc51,Alexis Saelemaekers,Belgium,FW,,1999-06-27,26.0,23,2.0,Milan,Serie A,True,25000000.0
+b2d032e4-caeb-4959-bb55-a00e62946559,Matias Fernandez-Pardo,Belgium,FW,,2005-02-03,21.0,0,0.0,Lille,Ligue 1,True,30000000.0
+f6826537-1928-40c1-a6ee-03d720d02f82,Mohamed El Shenawy,Egypt,GK,,1988-12-18,37.0,75,0.0,Al Ahly,Egyptian Premier League,True,500000.0
+46f4849e-b2e1-4ef3-9195-7455a747a7f2,Mostafa Shobeir,Egypt,GK,,2000-03-17,26.0,7,0.0,Al Ahly,Egyptian Premier League,True,
+5fd91ac3-1fd1-4927-87ce-0854079cb1ff,Mohamed Alaa,Egypt,GK,,1999-01-09,27.0,0,0.0,El Gouna,Egyptian Premier League,True,1200000.0
+3deec15e-7571-40cd-a505-153240fc7a7b,El Mahdy Soliman,Egypt,GK,,1987-06-08,39.0,0,0.0,Zamalek,Egyptian Premier League,True,
+870810f5-81a9-46c4-9a5c-6a557e52df65,Ramy Rabia,Egypt,DF,,1993-05-20,33.0,43,5.0,Al Ain,UAE Pro League,True,600000.0
+923c5ad0-cdf6-4ca4-be2f-37c60c29a8b3,Mohamed Hany,Egypt,DF,,1996-01-25,30.0,40,0.0,Al Ahly,Egyptian Premier League,True,1500000.0
+628428f3-f6f7-498c-a85e-024b46a81965,Ahmed Abou El Fotouh,Egypt,DF,,1998-03-22,28.0,38,1.0,Zamalek,Egyptian Premier League,True,
+fc1b15f7-5d07-4252-9dd2-5c4cf938e6a3,Mohamed Abdelmonem,Egypt,DF,,1999-02-01,27.0,34,3.0,Nice,Ligue 1,True,3000000.0
+b86bfc12-e143-44de-8823-66f2bab60ac5,Yasser Ibrahim,Egypt,DF,,1993-02-10,33.0,15,1.0,Al Ahly,Egyptian Premier League,True,
+cb949f8c-3ddf-45ec-8e3c-fa5172600cdf,Hossam Abdelmaguid,Egypt,DF,,2001-04-30,25.0,12,0.0,Zamalek,Egyptian Premier League,True,2000000.0
+6f55ec62-2162-40e0-9777-6bbd0617785b,Karim Hafez,Egypt,DF,,1996-03-12,30.0,7,0.0,Pyramids,Egyptian Premier League,True,700000.0
+2b13e36a-a9a1-4413-9fe3-75eefc097626,Tarek Alaa,Egypt,DF,,2002-01-05,24.0,1,0.0,ZED,Egyptian Premier League,True,
+22708fc2-be59-4999-8084-9c1d4f047b89,Hamdy Fathy,Egypt,MF,,1994-09-29,31.0,62,3.0,Al-Wakrah,Qatar Stars League,True,1800000.0
+e53b6e54-412e-458c-a5d4-dcfd254d979a,Marwan Attia,Egypt,MF,,1998-08-12,27.0,32,1.0,Al Ahly,Egyptian Premier League,True,
+8fa7b309-6806-4c9b-adaa-1ffadeab4f6e,Emam Ashour,Egypt,MF,,1998-02-20,28.0,27,0.0,Al Ahly,Egyptian Premier League,True,4000000.0
+ec143509-87d9-4343-a3f2-a0bd72ea4e25,Mohanad Lasheen,Egypt,MF,,1996-05-29,30.0,21,0.0,Pyramids,Egyptian Premier League,True,3000000.0
+7921aa80-1bab-497f-99b3-7f91d01d64e7,Mahmoud Saber,Egypt,MF,,2001-07-30,24.0,14,1.0,ZED,Egyptian Premier League,True,1500000.0
+79cab8dc-2709-44a8-bc0e-f4f474076f69,Donga,Egypt,MF,,1996-04-06,30.0,11,0.0,Al-Najma,,True,
+caf50637-03a4-438a-adc4-c4093157c70b,Mostafa Ziko,Egypt,MF,,1997-04-27,29.0,0,0.0,Pyramids,Egyptian Premier League,True,1800000.0
+4d55cf9d-b83f-4711-a603-c0c267de714c,Mohamed Salah,Egypt,FW,,1992-06-15,33.0,116,67.0,Liverpool,Premier League,True,30000000.0
+5bbbe0a6-ded8-4eb4-9798-66e2b731fa6a,Trézéguet,Egypt,FW,,1994-10-01,31.0,94,23.0,Al Ahly,Egyptian Premier League,True,4500000.0
+69026397-6742-4769-bd42-6bd6abfefb5f,Zizo,Egypt,FW,,1996-01-10,30.0,61,5.0,Al Ahly,Egyptian Premier League,True,3500000.0
+961a4d80-c728-41de-856f-8ba148e96fdf,Omar Marmoush,Egypt,FW,,1999-02-07,27.0,47,11.0,Manchester City,Premier League,True,60000000.0
+dd871b49-8929-4b8a-8b71-1492d33cd92f,Ibrahim Adel,Egypt,FW,,2001-04-23,25.0,22,3.0,Nordsjælland,Danish Superliga,True,2500000.0
+2e31ed10-ece6-4bf4-b8a9-732ac4f36966,Haissem Hassan,Egypt,FW,,2002-02-08,24.0,2,0.0,Oviedo,La Liga,True,4000000.0
+ee8aaf35-08c9-47a9-b2b6-3386f53e6f71,Aqtay Abdallah,Egypt,FW,,2003-06-01,23.0,0,0.0,ENPPI,Egyptian Premier League,True,250000.0
+18fb0d8c-7f51-4ea9-9990-ca81c204ffa8,Hamza Abdelkarim,Egypt,FW,,2008-01-01,18.0,0,0.0,Barcelona B,La Liga,True,1000000.0
+10c5c452-318d-47be-bfaa-24b8f51a26e6,Alireza Beiranvand,Iran,GK,,1992-09-21,33.0,84,0.0,Tractor,,True,650000.0
+351b364c-7640-4c1f-a590-b80178924063,Payam Niazmand,Iran,GK,,1995-04-06,31.0,15,0.0,Persepolis,,True,700000.0
+733bbe8e-513d-4a10-9c3b-dd874b952e92,Hossein Hosseini,Iran,GK,,1992-06-30,33.0,13,0.0,Sepahan,,True,500000.0
+5899a846-dc35-4541-93ae-e7943d29be82,Mohammad Khalife,Iran,GK,,2004-08-19,21.0,0,0.0,Aluminium Arak,,True,700000.0
+236db954-fb58-4188-95ca-ee89061924f4,Ehsan Hajsafi,Iran,DF,,1990-02-25,36.0,144,7.0,Sepahan,,True,250000.0
+6e06be17-acdd-4d5c-b60a-82e22e3e91c4,Milad Mohammadi,Iran,DF,,1993-09-29,32.0,75,1.0,Persepolis,,True,900000.0
+cf6851d0-6063-4908-abb7-5dd553bdc957,Ramin Rezaeian,Iran,DF,,1990-03-21,36.0,72,6.0,Foolad,,True,250000.0
+e1c6ccd7-9d37-4719-bc07-b9dbbf55008a,Hossein Kanaanizadegan,Iran,DF,,1994-03-23,32.0,63,6.0,Persepolis,,True,1600000.0
+d23c2a7c-3ed7-44b4-9010-dc7ee19a4f16,Shojae Khalilzadeh,Iran,DF,,1989-05-14,37.0,56,2.0,Tractor,,True,
+1b0d0272-db50-47f8-ab16-cd4417a7dd9d,Saleh Hardani,Iran,DF,,1998-12-26,27.0,17,1.0,Esteghlal,,True,800000.0
+de8edd93-fddb-4674-8b70-eff79dce480c,Ali Nemati,Iran,DF,,1996-02-07,30.0,15,0.0,Foolad,,True,
+44506a33-dd65-4b6c-be33-8cfa5a959022,Aria Yousefi,Iran,DF,,2002-04-22,24.0,12,0.0,Sepahan,,True,1500000.0
+2bfa3d25-ce2b-45ef-a14f-afaad441f61c,Danial Eiri,Iran,DF,,2003-10-26,22.0,0,0.0,Malavan,,True,1000000.0
+e1a319d3-337f-453f-90eb-bf027ef7eca1,Alireza Jahanbakhsh,Iran,MF,,1993-08-11,32.0,98,17.0,Dender,Belgian First Division A,True,600000.0
+7ecc3744-f82a-48ec-8c7e-ffcf8b2a1848,Saeid Ezatolahi,Iran,MF,,1996-10-01,29.0,81,1.0,Shabab Al-Ahli,UAE Pro League,True,
+377fdfef-fc1c-4384-b3e6-66d797a58f92,Saman Ghoddos,Iran,MF,,1993-09-06,32.0,67,3.0,Kalba,UAE Pro League,True,1200000.0
+a16bd62e-96ad-4721-a1d4-80ec2bde8b87,Mahdi Torabi,Iran,MF,,1994-09-10,31.0,51,7.0,Tractor,,True,1200000.0
+0373b2e3-36ce-4ec7-9228-cb7dab7ae1f8,Rouzbeh Cheshmi,Iran,MF,,1993-07-24,32.0,40,3.0,Esteghlal,,True,450000.0
+6fc03ec0-003b-4e8b-a66f-7cd7c9956013,Omid Noorafkan,Iran,MF,,1997-04-09,29.0,39,1.0,,,True,800000.0
+e8f8d9e2-eb7a-4a6d-ac1c-c88e7eec9be8,Mohammad Mohebi,Iran,MF,,1998-12-20,27.0,35,14.0,Rostov,Russian Premier League,True,2500000.0
+78eef917-f2c1-4ca2-bd31-984de085948c,Mohammad Ghorbani,Iran,MF,,2001-05-21,25.0,14,0.0,Al-Wahda,UAE Pro League,True,1200000.0
+ab61671f-bb16-476e-9b18-b6f0151e373a,Amirmohammad Razzaghinia,Iran,MF,,2006-04-11,20.0,2,0.0,Esteghlal,,True,1200000.0
+d3ff803d-5237-4de0-bb76-d1ba50b1832f,Hadi Habibinejad,Iran,MF,,1995-10-17,30.0,0,0.0,Chadormalou,,True,800000.0
+2365149c-8bcd-4fc2-9964-bcaf1060e423,Mehdi Taremi,Iran,FW,,1992-07-18,33.0,103,59.0,Olympiacos,Super League Greece,True,2500000.0
+ed5199a2-7fb5-4a83-919e-dc737316e9dd,Mehdi Ghayedi,Iran,FW,,1998-12-05,27.0,29,10.0,Al-Nasr,UAE Pro League,True,4500000.0
+7e3d4989-bb2b-4f9e-ad1b-b9081e8ea636,Amirhossein Hosseinzadeh,Iran,FW,,2000-10-30,25.0,16,5.0,Tractor,,True,2200000.0
+58c76cb4-632d-46e2-8191-2668744a2013,Ali Alipour,Iran,FW,,1995-11-11,30.0,12,1.0,Persepolis,,True,1700000.0
+e50ac033-6e33-4684-9303-3331b4060071,Kasra Taheri,Iran,FW,,2006-08-06,19.0,2,0.0,Paykan,,True,500000.0
+c3796fc0-81b3-456b-b5cb-bf27af811fe6,Amirhossein Mahmoudi,Iran,FW,,2006-07-12,19.0,1,0.0,Persepolis,,True,
+5b32184c-c741-4d29-a4b7-80f04696392b,Dennis Eckert,Iran,FW,,1997-01-09,29.0,0,0.0,Standard Liège,Belgian First Division A,True,2000000.0
+d6efcfdf-bb5e-4c5a-8654-c38d51009b25,Unai Simón,Spain,GK,,1997-06-11,28.0,57,0.0,Athletic Bilbao,La Liga,True,25000000.0
+f0e7c5ef-b4fe-4df9-8245-48f5286898a3,David Raya,Spain,GK,,1995-09-15,30.0,12,0.0,Arsenal,Premier League,True,35000000.0
+8d2ffbe5-38c3-4c93-bfb9-0b3fd49b7da2,Joan Garcia,Spain,GK,,2001-05-04,25.0,1,0.0,Barcelona,La Liga,True,40000000.0
+5f88e43f-a442-4f07-9cbe-2bc9b78cef2e,Aymeric Laporte,Spain,DF,,1994-05-27,32.0,44,2.0,Athletic Bilbao,La Liga,True,9000000.0
+c4894db0-5a47-46e7-8c80-fe82f7a6abf8,Marc Cucurella,Spain,DF,,1998-07-22,27.0,23,1.0,Chelsea,Premier League,True,50000000.0
+f9684e3b-7231-4398-a00d-805bfce151cb,Marcos Llorente,Spain,DF,,1995-01-30,31.0,23,0.0,Atlético Madrid,La Liga,True,22000000.0
+fa58a033-a253-4187-bab7-19258dd1088d,Eric García,Spain,DF,,2001-01-09,25.0,19,0.0,Barcelona,La Liga,True,35000000.0
+a1a898e6-c50f-43a3-88db-1e49ed6379b4,Pedro Porro,Spain,DF,,1999-09-13,26.0,16,0.0,Tottenham Hotspur,Premier League,True,40000000.0
+ddaf3f57-36eb-42c9-b9c6-9f14f673a950,Álex Grimaldo,Spain,DF,,1995-09-20,30.0,12,0.0,Bayer Leverkusen,Bundesliga,True,20000000.0
+51afb600-d093-4f19-925c-467c5d15bb2d,Pau Cubarsí,Spain,DF,,2007-01-22,19.0,11,0.0,Barcelona,La Liga,True,80000000.0
+80a787f6-a87a-48fb-9297-89d7de2639cf,Marc Pubill,Spain,DF,,2003-06-20,22.0,0,0.0,Atlético Madrid,La Liga,True,28000000.0
+708e941d-d588-449a-9410-154e79cb1e01,Rodri,Spain,MF,,1996-06-22,29.0,61,4.0,Manchester City,Premier League,True,65000000.0
+fb806f42-386f-4d2e-b69c-bfe2e68e3037,Dani Olmo,Spain,MF,,1998-05-07,28.0,48,12.0,Barcelona,La Liga,True,60000000.0
+ff9cc787-1a22-46e1-81f1-a72be600ac1f,Mikel Merino,Spain,MF,,1996-06-22,29.0,41,10.0,Arsenal,Premier League,True,30000000.0
+63c2bbd0-5652-4e42-ae4b-f9a00679afac,Fabián Ruiz,Spain,MF,,1996-04-03,30.0,41,6.0,Paris Saint-Germain,Ligue 1,True,40000000.0
+6ad10d5a-a8fc-4e4d-aa40-cf98978170eb,Pedri,Spain,MF,,2002-11-25,23.0,40,5.0,Barcelona,La Liga,True,150000000.0
+a8f8f13f-9be7-4eb3-90e5-547945d63fe2,Gavi,Spain,MF,,2004-08-05,21.0,28,5.0,Barcelona,La Liga,True,30000000.0
+0e76d1bf-b61b-4379-94c8-6a5523077a4f,Martín Zubimendi,Spain,MF,,1999-02-02,27.0,25,3.0,Arsenal,Premier League,True,80000000.0
+aa3ddace-256f-4688-9f56-1c568113c08f,Ferran Torres,Spain,FW,,2000-02-29,26.0,55,23.0,Barcelona,La Liga,True,50000000.0
+67c4afe0-28dd-44f5-8039-c8cdcc09c35b,Mikel Oyarzabal,Spain,FW,,1997-04-21,29.0,52,24.0,Real Sociedad,La Liga,True,25000000.0
+ed5efa6b-e236-440f-ab90-a8cdc923560e,Nico Williams,Spain,FW,,2002-07-12,23.0,30,6.0,Athletic Bilbao,La Liga,True,50000000.0
+646122f5-4a10-437e-8d2b-ee18dc19a77d,Lamine Yamal,Spain,FW,,2007-07-13,18.0,25,6.0,Barcelona,La Liga,True,200000000.0
+07a27c78-a4a6-489d-b46a-b831914629a3,Yéremy Pino,Spain,FW,,2002-10-20,23.0,21,4.0,Crystal Palace,Premier League,True,35000000.0
+3a3ab409-01c0-4fc1-a553-9f1c23f1fc06,Álex Baena,Spain,FW,,2001-07-20,24.0,15,2.0,Atlético Madrid,La Liga,True,45000000.0
+e1a66b4d-16a5-4d90-860a-8a28ed729676,Borja Iglesias,Spain,FW,,1993-01-17,33.0,6,0.0,Celta Vigo,La Liga,True,3000000.0
+3d4dcda4-60d9-4e90-ab65-5547a02d5d45,Víctor Muñoz,Spain,FW,,2003-07-13,22.0,2,1.0,Osasuna,La Liga,True,20000000.0
+525deeb3-567f-4deb-a456-91ada5803994,Sergio Rochet,Uruguay,GK,1.0,1993-03-23,33.0,35,0.0,Internacional,Campeonato Brasileiro Série A,True,1800000.0
+e61f849a-8f18-40b8-994c-d642ded1b189,Santiago Mele,Uruguay,GK,12.0,1997-09-06,28.0,8,0.0,Monterrey,Liga MX,True,2000000.0
+78a55957-f0a3-4d85-9c4e-d23dbcd8a1b3,Fernando Muslera,Uruguay,GK,23.0,1986-06-16,39.0,134,0.0,Estudiantes,Liga Profesional de Fútbol,True,700000.0
+fa71c075-4b47-42d2-958b-45d6280cfde3,José María Giménez,Uruguay,DF,2.0,1995-01-20,31.0,99,8.0,Atlético Madrid,La Liga,True,12000000.0
+bd8daa67-3e68-4d53-9068-9eee3cecde1d,Sebastián Cáceres,Uruguay,DF,3.0,1999-08-18,26.0,24,0.0,América,Liga MX,True,4500000.0
+b81cf069-273b-4227-a891-d696bccb9077,Ronald Araújo,Uruguay,DF,4.0,1999-03-07,27.0,27,1.0,Barcelona,La Liga,True,20000000.0
+e7b81bb9-7fb9-4bfc-8bf8-f0a8970501f6,Guillermo Varela,Uruguay,DF,13.0,1993-03-24,33.0,28,0.0,Flamengo,Campeonato Brasileiro Série A,True,1000000.0
+e5ed7749-9377-46c8-8d0c-8e2611eefd8e,Mathías Olivera,Uruguay,DF,16.0,1997-10-31,28.0,35,2.0,Napoli,Serie A,True,15000000.0
+386225ac-ca2b-4eca-b28d-323a2734b23c,Matías Viña,Uruguay,DF,17.0,1997-11-09,28.0,43,1.0,River Plate,Liga Profesional de Fútbol,True,3500000.0
+cb78c558-9147-4be1-a89b-2a384e3254e6,Santiago Bueno,Uruguay,DF,22.0,1998-11-09,27.0,8,0.0,Wolverhampton Wanderers,Premier League,True,10000000.0
+417e82bf-146c-4992-a631-e46631fcd076,José Luis Rodríguez,Uruguay,DF,24.0,1997-03-14,29.0,5,0.0,Vasco da Gama,Campeonato Brasileiro Série A,True,1500000.0
+7476c82b-36aa-41bd-9a10-e44786f9f501,Joaquín Piquerez,Uruguay,DF,,1998-08-24,27.0,19,0.0,Palmeiras,Campeonato Brasileiro Série A,True,12000000.0
+4e2e6e3c-e3fe-4f97-9b09-f966c77c0750,Manuel Ugarte,Uruguay,MF,5.0,2001-04-11,25.0,36,1.0,Manchester United,Premier League,True,30000000.0
+f57fb06b-2d55-47dd-9880-58aa374faf4f,Juan Manuel Sanabria,Uruguay,MF,6.0,2000-03-29,26.0,5,1.0,Real Salt Lake,MLS,True,4500000.0
+41737263-0030-4eb7-bffe-a1cb86cf3a14,Nicolás de la Cruz,Uruguay,MF,7.0,1997-06-01,29.0,34,5.0,Flamengo,Campeonato Brasileiro Série A,True,8000000.0
+4f299b2b-6e58-4a21-b75d-2eee8991579f,Emiliano Martínez,Uruguay,MF,8.0,1999-08-17,26.0,10,0.0,Palmeiras,Campeonato Brasileiro Série A,True,6500000.0
+4b5e4bbc-8043-4f63-b04e-1632a4b45769,Giorgian de Arrascaeta,Uruguay,MF,10.0,1994-06-01,32.0,60,13.0,Flamengo,Campeonato Brasileiro Série A,True,14000000.0
+cabd7cbe-14e9-4c12-97df-5073a9427378,Federico Valverde,Uruguay,MF,15.0,1998-07-22,27.0,73,9.0,Real Madrid,La Liga,True,120000000.0
+d4d9669b-b441-4eae-b5fd-dd09742486df,Maximiliano Araújo,Uruguay,MF,20.0,2000-02-15,26.0,28,3.0,Sporting CP,Primeira Liga,True,35000000.0
+20f6d4b1-0317-4923-922e-bd39e12ba585,Nicolás Fonseca,Uruguay,MF,25.0,1998-10-19,27.0,7,0.0,Oviedo,La Liga,True,3000000.0
+88f91363-8a14-4af3-a173-1b8b21acd392,Darwin Núñez,Uruguay,FW,9.0,1999-06-24,26.0,38,13.0,Al-Hilal,,True,25000000.0
+858acfd7-bfbc-4808-a91a-2f6eee88d386,Facundo Pellistri,Uruguay,FW,11.0,2001-12-20,24.0,39,2.0,Panathinaikos,Super League Greece,True,6000000.0
+e3e840d4-c936-4ea9-b3d1-f2893d511a5a,Agustín Canobbio,Uruguay,FW,14.0,1998-10-01,27.0,15,1.0,Fluminense,Campeonato Brasileiro Série A,True,8000000.0
+5dfec667-02a8-49e9-8955-ce9b67a20b51,Brian Rodríguez,Uruguay,FW,18.0,2000-05-20,26.0,32,4.0,América,Liga MX,True,8000000.0
+57c9f089-b76c-41f6-8ce3-50176562fefd,Federico Viñas,Uruguay,FW,19.0,1998-06-30,27.0,11,2.0,Oviedo,La Liga,True,4000000.0
+eb6d2cab-5483-43bd-bff6-a31096def76c,Facundo Torres,Uruguay,FW,21.0,2000-04-13,26.0,23,2.0,Austin FC,MLS,True,10000000.0
+98c4ba71-9491-4739-a918-a4676a965836,Agustín Álvarez,Uruguay,FW,26.0,2001-05-19,25.0,6,1.0,Monza,Serie A,True,2800000.0
+8b49a3a0-c21b-4205-9704-5d8ef6e28acc,Rodrigo Aguirre,Uruguay,FW,,1994-10-01,31.0,10,3.0,UANL,Liga MX,True,2300000.0
+5b4a6ff4-055d-49da-afc9-a611ab55c01e,Mohammed Al-Owais,Saudi Arabia,GK,,1991-10-10,34.0,62,0.0,Al-Ula,,True,300000.0
+c7e4761c-4a0a-4302-80d2-00bbc5774d8c,Nawaf Al-Aqidi,Saudi Arabia,GK,,2000-05-10,26.0,22,0.0,Al-Nassr,,True,700000.0
+35cd4586-4652-47f4-8a26-4bf819c6a166,Ahmed Al-Kassar,Saudi Arabia,GK,,1991-05-08,35.0,8,0.0,Al-Qadsiah,,True,175000.0
+414ee20d-a21b-449c-a4ac-a20177702f14,Abdulquddus Atiah,Saudi Arabia,GK,,1997-03-01,29.0,1,0.0,Al-Taawoun,,True,275000.0
+8dde934c-e7dd-4b6e-a773-17889d3dc7ef,Saud Abdulhamid,Saudi Arabia,DF,,1999-07-18,26.0,53,1.0,Lens,Ligue 1,True,5000000.0
+c9216522-4204-4a04-b32e-3ad8954772cf,Hassan Al-Tambakti,Saudi Arabia,DF,,1999-02-09,27.0,50,0.0,Al-Hilal,,True,1800000.0
+d40509d1-258f-439a-9aa1-a59dc1836278,Abdulelah Al-Amri,Saudi Arabia,DF,,1997-01-15,29.0,40,1.0,Al-Nassr,,True,1000000.0
+4fd656d0-374d-4856-bc89-77ac35a12099,Nawaf Boushal,Saudi Arabia,DF,,1999-09-16,26.0,23,0.0,Al-Nassr,,True,1400000.0
+44bb184e-7bfa-4545-bd53-110feaf22c11,Ali Majrashi,Saudi Arabia,DF,,1999-10-02,26.0,20,0.0,Al-Ahli,,True,1200000.0
+0d510bf9-b315-477a-be2e-50124f70a342,Ali Lajami,Saudi Arabia,DF,,1996-04-24,30.0,19,1.0,Al-Hilal,,True,800000.0
+4172473e-9456-41df-98f5-984cf734a462,Hassan Kadesh,Saudi Arabia,DF,,1992-09-27,33.0,18,2.0,Al-Ittihad,,True,300000.0
+4a5a77c7-d3dc-4af7-9748-75605c56b6b6,Moteb Al-Harbi,Saudi Arabia,DF,,2000-02-20,26.0,10,0.0,Al-Hilal,,True,1200000.0
+b4ad3722-cd56-4320-be22-30de216acadf,Jehad Thakri,Saudi Arabia,DF,,2001-07-21,24.0,6,0.0,Al-Qadsiah,,True,900000.0
+78c9ccdb-286b-48fe-8c58-db588e727e8a,Mohammed Abu Al-Shamat,Saudi Arabia,DF,,2002-08-11,23.0,4,0.0,Al-Qadsiah,,True,1400000.0
+e535d67d-34ff-47c0-9da0-5f9332a7d39d,Zakaria Hawsawi,Saudi Arabia,DF,,2001-01-12,25.0,1,0.0,Al-Ahli,,True,1000000.0
+4c4df0d1-cf39-4627-b494-82ca7319fced,Salem Al-Dawsari,Saudi Arabia,MF,,1991-08-19,34.0,107,26.0,Al-Hilal,,True,1300000.0
+4c4ddc2d-ead9-4b1e-9938-a28d443aab92,Mohamed Kanno,Saudi Arabia,MF,,1994-09-22,31.0,74,8.0,Al-Hilal,,True,900000.0
+0e103af4-dd6c-43bc-b15f-4de61bf7bff4,Nasser Al-Dawsari,Saudi Arabia,MF,,1998-12-19,27.0,41,0.0,Al-Hilal,,True,800000.0
+f0fac255-3ce6-4968-b6e6-104f1284f83f,Abdullah Al-Khaibari,Saudi Arabia,MF,,1996-08-16,29.0,37,0.0,Al-Nassr,,True,800000.0
+9acd2d79-cd10-41cc-8d53-42bc6e7b7c07,Musab Al-Juwayr,Saudi Arabia,MF,,2003-06-20,22.0,32,6.0,Al-Qadsiah,,True,4500000.0
+74a65fc6-2984-4cea-936b-113ad9e732f0,Ayman Yahya,Saudi Arabia,MF,,2001-05-14,25.0,25,0.0,Al-Nassr,,True,1400000.0
+28f0a771-02e6-47fa-b7d2-3ad82d56a2b1,Ziyad Al-Johani,Saudi Arabia,MF,,2001-11-11,24.0,11,0.0,Al-Ahli,,True,800000.0
+61eb43d2-2a6d-4e52-a06a-bc5f862842db,Saleh Abu Al-Shamat,Saudi Arabia,MF,,2002-08-11,23.0,10,2.0,Al-Ahli,,True,375000.0
+be16b4af-1575-48b6-bc07-4b2d1010e55c,Sultan Mandash,Saudi Arabia,MF,,1994-10-17,31.0,4,0.0,Al-Hilal,,True,400000.0
+cf8890c6-14fc-490d-ac4e-0d54f277e1d7,Alaa Al-Hejji,Saudi Arabia,MF,,1995-12-03,30.0,0,0.0,Neom,,True,
+46ce9f56-2b95-4d83-a1d3-a853ad0083c7,Firas Al-Buraikan,Saudi Arabia,FW,,2000-05-14,26.0,68,15.0,Al-Ahli,,True,4000000.0
+8e6afa87-b575-4d42-8416-74e9093222aa,Saleh Al-Shehri,Saudi Arabia,FW,,1993-11-01,32.0,55,18.0,Al-Ittihad,,True,550000.0
+3826297b-6c35-486e-b6d6-4b6887d09b12,Abdullah Al-Hamdan,Saudi Arabia,FW,,1999-09-13,26.0,47,11.0,Al-Nassr,,True,325000.0
+b09e8d1e-0b80-428d-9a4a-2605361ba2bb,Khalid Al-Ghannam,Saudi Arabia,FW,,2000-11-08,25.0,4,0.0,Al-Ettifaq,,True,900000.0
+4b3cc49b-5d52-4590-aa41-d3c0b2b49a62,Abdullah Al-Salem,Saudi Arabia,FW,,1992-12-19,33.0,3,0.0,Al-Qadsiah,,True,250000.0
+92225481-d345-478a-883b-c62599d11a18,Vozinha,Cape Verde,GK,,1986-06-03,40.0,85,0.0,Chaves,Primeira Liga,True,50000.0
+fe2443a6-5b7f-4a48-b678-c9219d474bce,Márcio Rosa,Cape Verde,GK,,1997-02-23,29.0,10,0.0,Montana,,True,350000.0
+8cb6c8de-e766-43c9-9494-dbb61a74c31e,CJ dos Santos,Cape Verde,GK,,2000-08-24,25.0,0,0.0,San Diego,MLS,True,1200000.0
+07bce488-466e-443d-9343-4ba31ae7040a,Stopira,Cape Verde,DF,,1988-05-20,38.0,60,4.0,Torreense,Primeira Liga,True,50000.0
+00944662-1c11-4030-acce-0b1c16a10230,Pico,Cape Verde,DF,,1992-06-17,33.0,44,0.0,Shamrock Rovers,,True,250000.0
+38cde42b-8bf5-4bc4-afe2-60ab595a16c5,João Paulo,Cape Verde,DF,,1998-05-26,28.0,40,1.0,FCSB,,True,
+27889b53-3c94-4089-ab3b-99b4fddb938f,Diney,Cape Verde,DF,,1995-01-17,31.0,29,2.0,Al Bataeh,UAE Pro League,True,900000.0
+598e7201-7058-4486-b7f7-e432b3b2e0cf,Logan Costa,Cape Verde,DF,,2001-04-01,25.0,26,0.0,Villarreal,La Liga,True,18000000.0
+c0713c5a-0c22-4b59-b672-df06f186f247,Steven Moreira,Cape Verde,DF,,1994-08-13,31.0,18,0.0,Columbus Crew,MLS,True,1500000.0
+951d253a-6b90-4ec9-8596-d2b4044e9b20,Wagner Pina,Cape Verde,DF,,2002-11-03,23.0,12,0.0,Trabzonspor,Süper Lig,True,11000000.0
+73621812-ee5f-4923-9452-c3f2d6fbdacf,Sidny Lopes Cabral,Cape Verde,DF,,2003-09-18,22.0,8,3.0,Benfica,Primeira Liga,True,4000000.0
+d8b22981-61b0-4122-a132-10946ca7f3d0,Kelvin Pires,Cape Verde,DF,,2000-06-05,26.0,4,1.0,SJK,,True,300000.0
+e815f15b-1161-4e30-ac5b-dacbca445782,Jamiro Monteiro,Cape Verde,MF,,1993-11-23,32.0,53,5.0,PEC Zwolle,Eredivisie,True,650000.0
+fc78127b-2063-4536-ac0c-21158aefd5ef,Kevin Pina,Cape Verde,MF,,1997-01-27,29.0,30,2.0,Krasnodar,Russian Premier League,True,5000000.0
+eff60b59-707c-480b-bddd-cc26ff8ab0f3,Deroy Duarte,Cape Verde,MF,,1999-07-04,26.0,30,0.0,Ludogorets Razgrad,,True,1800000.0
+08bb103f-e2f4-4472-8296-1abbfeef156c,Telmo Arcanjo,Cape Verde,MF,,2001-06-21,24.0,14,1.0,Vitória de Guimarães,Primeira Liga,True,3000000.0
+c3715c58-034b-4d2b-9b3b-6776a507cfbc,Laros Duarte,Cape Verde,MF,,1997-02-28,29.0,12,0.0,Puskás Akadémia,OTP Bank Liga,True,1000000.0
+07484275-8bf9-4f14-9178-14a3e8b805b8,Yannick Semedo,Cape Verde,MF,,1995-12-29,30.0,10,1.0,Farense,Primeira Liga,True,300000.0
+d3b1e175-67a1-4be9-999f-977bba565ae2,Ryan Mendes,Cape Verde,FW,,1990-01-08,36.0,96,22.0,Iğdır,Süper Lig,True,200000.0
+e87c01fb-52a5-451e-99c8-0d6f655c7852,Garry Rodrigues,Cape Verde,FW,,1990-11-27,35.0,59,9.0,Apollon Limassol,,True,325000.0
+7effca94-c835-4101-b46c-96e964aca84b,Willy Semedo,Cape Verde,FW,,1994-04-27,32.0,36,2.0,Omonia,,True,1000000.0
+9d1cc140-c78a-4fcf-bfe5-7a57dfa8cd75,Jovane Cabral,Cape Verde,FW,,1998-06-14,27.0,25,2.0,Estrela Amadora,Primeira Liga,True,1000000.0
+c8bd18b9-b8c8-45d0-9298-7d5714f7c005,Benchimol,Cape Verde,FW,,2001-12-29,24.0,21,5.0,Akron Tolyatti,Russian Premier League,True,1200000.0
+a014292a-77eb-4547-8281-4f1c296f7123,Dailon Livramento,Cape Verde,FW,,2001-05-04,25.0,20,7.0,Casa Pia,Primeira Liga,True,800000.0
+4bf7311a-e2df-4003-8351-fe851f8d2fa7,Hélio Varela,Cape Verde,FW,,2002-05-03,24.0,19,0.0,Maccabi Tel Aviv,,True,1200000.0
+d3ccdc2a-d78a-4c16-9aae-768054e5892c,Nuno da Costa,Cape Verde,FW,,1991-02-10,35.0,7,1.0,İstanbul Başakşehir,Süper Lig,True,400000.0
+8e88b87f-c5fd-40b8-aa42-6e3c39ef77f9,Brice Samba,France,GK,1.0,1994-04-25,32.0,4,0.0,Rennes,Ligue 1,True,8000000.0
+c5c79903-0cd2-43e6-84f1-4f31b7ec4184,Mike Maignan,France,GK,16.0,1995-07-03,30.0,38,0.0,Milan,Serie A,True,25000000.0
+fcf7d6a4-f7aa-4892-9213-178ba4ee0c6b,Robin Risser,France,GK,23.0,2004-12-02,21.0,0,0.0,Lens,Ligue 1,True,25000000.0
+e88cd1ee-98df-4097-8209-40eacb438dff,Malo Gusto,France,DF,2.0,2003-05-19,23.0,9,0.0,Chelsea,Premier League,True,35000000.0
+8891f809-2bc5-4ef4-8f57-0a759218e2d0,Lucas Digne,France,DF,3.0,1993-07-20,32.0,56,0.0,Aston Villa,Premier League,True,8000000.0
+fbddbbce-1788-48f0-bf90-fa5b37bc1ab9,Dayot Upamecano,France,DF,4.0,1998-10-27,27.0,36,2.0,Bayern Munich,Bundesliga,True,70000000.0
+a845a4e5-f912-4521-a89b-6cda397935b8,Jules Koundé,France,DF,5.0,1998-11-12,27.0,46,0.0,Barcelona,La Liga,True,65000000.0
+56b16280-9cf1-4f19-89c8-c780b9b85e4d,Ibrahima Konaté,France,DF,15.0,1999-05-25,27.0,27,0.0,Liverpool,Premier League,True,50000000.0
+bdfd71b0-3369-4a0f-9147-b922155c0e62,William Saliba,France,DF,17.0,2001-03-24,25.0,31,0.0,Arsenal,Premier League,True,90000000.0
+d0b25a62-ea43-43fc-8cc7-7f9dca067745,Théo Hernandez,France,DF,19.0,1997-10-06,28.0,42,2.0,Al-Hilal,,True,28000000.0
+88f8b8dc-9f63-447f-90ac-69ce0b113bf0,Lucas Hernandez,France,DF,21.0,1996-02-14,30.0,41,0.0,Paris Saint-Germain,Ligue 1,True,20000000.0
+497b94a4-cfe2-4497-8740-a9619bf75d4f,Maxence Lacroix,France,DF,26.0,2000-04-06,26.0,2,0.0,Crystal Palace,Premier League,True,40000000.0
+fd14a9a2-cd6e-45b6-8164-67191596f868,Manu Koné,France,MF,6.0,2001-05-17,25.0,12,0.0,Roma,Serie A,True,50000000.0
+84962615-fdd7-4d12-891b-abb49bf424a4,Aurélien Tchouaméni,France,MF,8.0,2000-01-27,26.0,44,3.0,Real Madrid,La Liga,True,75000000.0
+69e4ed52-0bed-48cc-99a1-3e445c883969,N'Golo Kanté,France,MF,13.0,1991-03-29,35.0,67,2.0,Fenerbahçe,Süper Lig,True,4000000.0
+c0e1fd20-1262-4554-9cca-8499c66dbf75,Adrien Rabiot,France,MF,14.0,1995-04-03,31.0,57,7.0,Milan,Serie A,True,20000000.0
+cbede29f-4ed4-4171-aad4-7c94426f5bf4,Warren Zaïre-Emery,France,MF,18.0,2006-03-08,20.0,10,1.0,Paris Saint-Germain,Ligue 1,True,60000000.0
+5fa8308b-46d2-42cb-bdb3-519cc894be26,Ousmane Dembélé,France,FW,7.0,1997-05-15,29.0,58,7.0,Paris Saint-Germain,Ligue 1,True,100000000.0
+1346cc6f-9b00-4ce3-836d-999256c8d3a9,Marcus Thuram,France,FW,9.0,1997-08-06,28.0,33,3.0,Inter Milan,Serie A,True,50000000.0
+7d1e885d-b1ec-4342-94a1-a1278b37e253,Kylian Mbappé,France,FW,10.0,1998-12-20,27.0,96,,Real Madrid,La Liga,True,200000000.0
+92d02d7c-9bad-490c-8c89-3e38e771f8e6,Michael Olise,France,FW,11.0,2001-12-12,24.0,15,4.0,Bayern Munich,Bundesliga,True,150000000.0
+364d20ab-533b-442a-b9de-8e19d988d077,Bradley Barcola,France,FW,12.0,2002-09-02,23.0,18,3.0,Paris Saint-Germain,Ligue 1,True,70000000.0
+5f6e5649-e48f-40b7-8a1f-8b5a0a596740,Désiré Doué,France,FW,20.0,2005-06-03,21.0,6,2.0,Paris Saint-Germain,Ligue 1,True,90000000.0
+32701c16-71e7-4789-b95e-2e13d7703db6,Jean-Philippe Mateta,France,FW,22.0,1997-06-28,28.0,3,2.0,Crystal Palace,Premier League,True,35000000.0
+815867ff-14d7-404c-a5a0-c14262ac8be1,Rayan Cherki,France,FW,24.0,2003-08-17,22.0,5,1.0,Manchester City,Premier League,True,65000000.0
+8aef5e3f-48f1-498f-afaf-e7b2fa2132ef,Maghnes Akliouche,France,FW,25.0,2002-02-25,24.0,7,1.0,Monaco,Ligue 1,True,50000000.0
+9c1435f4-4dea-48b4-9a58-b94a6a447b60,Édouard Mendy,Senegal,GK,,1992-03-01,34.0,56,0.0,Al-Ahli,,True,4500000.0
+e90fe800-60fa-47b8-b7a9-d9273d5af0fd,Mory Diaw,Senegal,GK,,1993-06-22,32.0,4,0.0,Le Havre,Ligue 1,True,1000000.0
+4722d802-09aa-4aa0-abcf-0d9e60d08825,Yehvann Diouf,Senegal,GK,,1999-11-16,26.0,2,0.0,Nice,Ligue 1,True,7000000.0
+e64c7152-b80c-4e95-ba07-a7bd6f888fe2,Kalidou Koulibaly,Senegal,DF,,1991-06-20,34.0,102,2.0,Al-Hilal,,True,5000000.0
+bdbd97fd-e9ad-4321-9873-c957ddf0f1e7,Krépin Diatta,Senegal,DF,,1999-02-25,27.0,59,2.0,Monaco,Ligue 1,True,6000000.0
+9d8300cf-4ea4-453f-8376-abd8e22fa479,Moussa Niakhaté,Senegal,DF,,1996-03-08,30.0,29,0.0,Lyon,Ligue 1,True,18000000.0
+2cf4c523-e36f-4dd4-8b28-31c6258f8f5b,Ismail Jakobs,Senegal,DF,,1999-08-17,26.0,28,0.0,Galatasaray,Süper Lig,True,8000000.0
+8b6401ef-56dd-4ea1-82d4-9085805ea4b4,Abdoulaye Seck,Senegal,DF,,1992-06-04,34.0,21,4.0,Maccabi Haifa,,True,500000.0
+d5752e63-b8e3-49a4-954b-1895ba28b3a0,El Hadji Malick Diouf,Senegal,DF,,2004-12-28,21.0,18,1.0,West Ham United,Premier League,True,28000000.0
+e4023c22-4645-442e-87bb-d29fa18ab545,Antoine Mendy,Senegal,DF,,2004-05-27,22.0,6,0.0,Nice,Ligue 1,True,6000000.0
+49b0bb0a-8cf0-4fca-a40d-6c1c6816136f,Mamadou Sarr,Senegal,DF,,2005-08-29,20.0,6,0.0,Chelsea,Premier League,True,25000000.0
+12571aca-48fb-4a75-a864-26f4a86e6dc3,Ilay Camara,Senegal,DF,,2003-01-18,23.0,3,0.0,Anderlecht,Belgian First Division A,True,4000000.0
+a1bfc712-8af0-455e-8294-741db2501c1e,Moustapha Mbow,Senegal,DF,,2000-03-08,26.0,0,0.0,Paris,Ligue 1,True,6000000.0
+836d2427-5f08-4480-9ef5-106254a085ad,Idrissa Gueye,Senegal,MF,,1989-09-26,36.0,130,7.0,Everton,Premier League,True,1000000.0
+b8dfb32c-26dd-4af7-956b-dffea204ff97,Pape Gueye,Senegal,MF,,1999-01-24,27.0,40,5.0,Villarreal,La Liga,True,40000000.0
+3b307a22-827b-4c0b-a208-950d0c562787,Pape Matar Sarr,Senegal,MF,,2002-09-14,23.0,38,4.0,Tottenham Hotspur,Premier League,True,32000000.0
+07aeae84-90b8-4216-8fa6-c2ec142b44c5,Lamine Camara,Senegal,MF,,2004-01-01,22.0,31,5.0,Monaco,Ligue 1,True,35000000.0
+007e5ab9-f40d-476c-a969-ec9e392a5d66,Pathé Ciss,Senegal,MF,,1994-03-16,32.0,29,0.0,Rayo Vallecano,La Liga,True,2000000.0
+8246434d-31b4-4c44-89d6-c6a7456248d0,Habib Diarra,Senegal,MF,,2004-01-03,22.0,19,4.0,Sunderland,Premier League,True,32000000.0
+0b1de8e2-7ee0-4412-99e0-0911759704be,Bara Sapoko Ndiaye,Senegal,MF,,2007-12-31,18.0,0,0.0,Bayern Munich,Bundesliga,True,4000000.0
+7299dac8-bdec-417b-8e75-55ed222ed131,Sadio Mané,Senegal,FW,,1992-04-10,34.0,124,52.0,Al-Nassr,,True,7000000.0
+bd57f49a-0c67-443d-90c0-b748bf286b2d,Ismaïla Sarr,Senegal,FW,,1998-02-25,28.0,82,19.0,Crystal Palace,Premier League,True,35000000.0
+b829d9e1-2c51-40ca-aa30-298ba2974845,Iliman Ndiaye,Senegal,FW,,2000-03-06,26.0,38,4.0,Everton,Premier League,True,50000000.0
+3bef0f46-f07e-447a-b3e1-94da48ee8ec0,Nicolas Jackson,Senegal,FW,,2001-06-20,24.0,31,8.0,Bayern Munich,Bundesliga,True,40000000.0
+c4effc53-647e-4b17-be27-230e2787ba95,Bamba Dieng,Senegal,FW,,2000-03-23,26.0,21,2.0,Lorient,Ligue 1,True,6000000.0
+1e2c5b08-063d-4db5-860d-06062f562c30,Cherif Ndiaye,Senegal,FW,,1996-01-23,30.0,17,4.0,Samsunspor,Süper Lig,True,5000000.0
+98a38460-1343-40a9-b4d5-ef4067e06d6c,Ibrahim Mbaye,Senegal,FW,,2008-01-24,18.0,10,3.0,Paris Saint-Germain,Ligue 1,True,30000000.0
+621713a9-c6f8-47d9-8319-ad362d018c26,Assane Diao,Senegal,FW,,2005-12-07,20.0,4,0.0,Como,Serie A,True,30000000.0
+f98c5863-b79f-43f1-a416-ba4ab3cbb5bd,Jalal Hassan,Iraq,GK,,1991-05-18,35.0,100,0.0,Al-Zawraa,,True,300000.0
+c7cfced2-b135-4416-8835-1bdc05afcf72,Fahad Talib,Iraq,GK,,1994-10-21,31.0,20,0.0,Al-Talaba,,True,400000.0
+3fb75cf6-993c-4aff-815c-335688826f24,Ahmed Basil,Iraq,GK,,1996-08-19,29.0,14,0.0,Al-Shorta,,True,450000.0
+aba00886-3505-4542-b211-fe179b16fa3c,Kumel Al-Rekabe,Iraq,GK,,2004-08-19,21.0,0,0.0,Erbil,,True,250000.0
+77805c09-b2a3-4b82-ac5d-8cfe58cbf809,Rebin Sulaka,Iraq,DF,,1992-04-12,34.0,54,1.0,Port,,True,100000.0
+db86a18b-8164-4ec7-9158-c4e0ff04d9c8,Manaf Younis,Iraq,DF,,1996-11-16,29.0,31,1.0,Al-Shorta,,True,350000.0
+40c2b668-86e4-4bcc-9e89-b20a248da78a,Merchas Doski,Iraq,DF,,1999-12-07,26.0,30,0.0,Viktoria Plzeň,Czech First League,True,1700000.0
+cd33e01b-7be8-4450-ad21-87fdeac70e01,Hussein Ali,Iraq,DF,,2002-03-01,24.0,25,1.0,Pogoń Szczecin,Ekstraklasa,True,300000.0
+c0b5a17e-2fc7-4a41-ad64-7283bd2a12c7,Zaid Tahseen,Iraq,DF,,2001-01-29,25.0,25,1.0,Pakhtakor,,True,600000.0
+b9d49b62-729a-47aa-8b57-45acb4164063,Frans Putros,Iraq,DF,,1993-07-14,32.0,25,0.0,Persib,,True,
+af87dcb6-0ee4-4492-9d5f-5170fa5f2c98,Maitham Jabbar,Iraq,DF,,2000-11-10,25.0,19,0.0,Al-Zawraa,,True,
+f8d548c8-0fd7-4fc3-8ad0-4abc48169f4a,Ahmed Yahya,Iraq,DF,,1995-07-01,30.0,18,0.0,Al-Shorta,,True,500000.0
+8396b1fe-1df1-4981-8195-67d3413424df,Mustafa Saadoon,Iraq,DF,,2001-05-25,25.0,14,0.0,Al-Shorta,,True,300000.0
+e0007e01-71f3-4b0e-abde-7df2693ecfda,Akam Hashim,Iraq,DF,,1998-08-16,27.0,11,1.0,Al-Zawraa,,True,600000.0
+6f3403be-f9bc-4376-a6de-c0b226bae8a4,Ahmed Maknzi,Iraq,DF,,2001-09-24,24.0,5,0.0,Al-Karma,,True,
+eb7256a2-0766-4c9f-b0bf-2d2bb9677604,Dario Naamo,Iraq,DF,,2005-06-14,20.0,0,0.0,Dundee United,Scottish Premiership,True,300000.0
+3c26039d-f848-41e1-8631-4d66136dcaf3,Ibrahim Bayesh,Iraq,MF,,2000-05-01,26.0,74,8.0,Al-Dhafra,UAE Pro League,True,800000.0
+19a112b8-505d-4c2f-b81f-0dd174c00531,Amir Al-Ammari,Iraq,MF,,1997-07-27,28.0,49,3.0,Cracovia,Ekstraklasa,True,850000.0
+97609f39-e25f-4fc7-a0c8-a2528ed55729,Ali Jasim,Iraq,MF,,2004-01-20,22.0,35,2.0,Al-Najma,,True,550000.0
+1f9a57c5-9084-4c97-88a9-73815a7fec9f,Youssef Amyn,Iraq,MF,,2003-08-21,22.0,25,2.0,AEK Larnaca,,True,600000.0
+74b35756-9e6b-4562-b7df-1d609dfbb3b1,Zidane Iqbal,Iraq,MF,,2003-04-27,23.0,22,2.0,Utrecht,Eredivisie,True,1000000.0
+304da6b4-9940-4683-b97c-31040eb57573,Hasan Abdulkareem,Iraq,MF,,1999-01-01,27.0,21,1.0,Al-Zawraa,,True,700000.0
+fbf495cb-d391-4a31-9ac8-e814361a3103,Marko Farji,Iraq,MF,,2004-03-16,22.0,9,0.0,Venezia,Serie A,True,1800000.0
+fd046431-2f9d-4744-9210-beed15169cee,Karrar Nabeel,Iraq,MF,,1998-01-16,28.0,8,0.0,Al-Zawraa,,True,
+7a7add44-7b18-4125-938b-030dd9339167,Kevin Yakob,Iraq,MF,,2000-10-10,25.0,6,0.0,AGF,Danish Superliga,True,850000.0
+5601f47b-9a20-44a7-8748-95b1b32bfd3e,Aimar Sher,Iraq,MF,,2002-12-20,23.0,5,0.0,Sarpsborg,Eliteserien,True,1500000.0
+91df9d43-7f61-42a5-a7a3-fa15f18bb4dc,Zaid Ismail,Iraq,MF,,2002-01-03,24.0,4,0.0,Al-Talaba,,True,400000.0
+ce69ea83-2ace-4be0-8823-133ccf3f88c2,Peter Gwargis,Iraq,MF,,2000-09-04,25.0,3,0.0,Duhok,,True,500000.0
+dcb55653-95e6-4b8e-a8d4-bfe613f3f406,Jussef Nasrawe,Iraq,MF,,2007-03-22,19.0,0,0.0,SV Ried,Austrian Football Bundesliga,True,400000.0
+f4357cf0-b654-4c48-95cd-e07a61607887,Ahmed Qasem,Iraq,MF,,2003-07-12,22.0,0,0.0,Nashville,MLS,True,3500000.0
+38dde5df-e8e5-4d4a-acd2-2958a5a32d0f,Aymen Hussein,Iraq,FW,,1996-03-22,30.0,93,,Al-Karma,,True,450000.0
+e2f6bde2-c8fc-48c2-bcc3-ba0f6a2c367b,Mohanad Ali,Iraq,FW,,2000-06-20,25.0,70,27.0,Dibba,UAE Pro League,True,1200000.0
+ccfb0864-ce9b-405f-8496-29fd1d81ff22,Ali Al-Hamadi,Iraq,FW,,2002-03-01,24.0,17,5.0,Ipswich Town,Premier League,True,1500000.0
+bed13f73-28af-4aff-a813-153382584e88,Ali Yousif,Iraq,FW,,1996-01-19,30.0,5,0.0,Al-Talaba,,True,125000.0
+4c337059-6717-4bc2-942b-1dc021cd35a9,Ørjan Nyland,Norway,GK,1.0,1990-09-10,35.0,69,0.0,Sevilla,La Liga,True,900000.0
+487ed110-0b3a-48dd-9c0d-6bd3cb8fcaac,Sander Tangvik,Norway,GK,12.0,2002-11-29,23.0,0,0.0,Hamburg,Bundesliga,True,3000000.0
+9cf6dc08-b99a-4147-bdf1-2c9d9cd1412f,Egil Selvik,Norway,GK,13.0,1997-07-30,28.0,6,0.0,Watford,Premier League,True,1500000.0
+71b8d942-c2d0-4dc9-8085-3caf77722918,Kristoffer Vassbakk Ajer,Norway,DF,3.0,1998-04-17,28.0,50,2.0,Brentford,Premier League,True,
+9866ac03-69cd-4042-9084-dc8aa7e07e62,Leo Østigård,Norway,DF,4.0,1999-11-28,26.0,36,1.0,Genoa,Serie A,True,10000000.0
+7d312b07-f05e-42f1-b6cc-aca007d6c63c,David Møller Wolfe,Norway,DF,5.0,2002-04-23,24.0,20,1.0,Wolverhampton Wanderers,Premier League,True,10000000.0
+903f9040-f968-4f74-bb83-322cd02a1a87,Fredrik André Bjørkan,Norway,DF,15.0,1998-08-21,27.0,19,1.0,Bodø/Glimt,Eliteserien,True,3500000.0
+a9041814-b949-4259-96b1-81c8b9ade727,Marcus Holmgren Pedersen,Norway,DF,16.0,2000-07-16,25.0,31,0.0,Torino,Serie A,True,3500000.0
+f6115b64-319c-4c74-907d-9aa14de1d881,Torbjørn Heggem,Norway,DF,17.0,1999-01-12,27.0,13,0.0,Bologna,Serie A,True,14000000.0
+da8a007e-d605-4df8-9abe-98444726a02f,Sondre Langås,Norway,DF,24.0,2001-02-02,25.0,2,0.0,Derby County,Premier League,True,4000000.0
+4579835a-ab72-4947-a591-4c470d09f35e,Henrik Falchener,Norway,DF,25.0,2003-05-08,23.0,1,0.0,Viking,Eliteserien,True,6000000.0
+578fa0de-844a-49b8-9bf6-bc96af8080da,Julian Ryerson,Norway,DF,26.0,1997-11-17,28.0,41,1.0,Borussia Dortmund,Bundesliga,True,25000000.0
+04973754-2e73-4d4f-af95-6e8a8c3f9761,Morten Thorsby,Norway,MF,2.0,1996-05-05,30.0,30,0.0,Cremonese,Serie A,True,3000000.0
+ce345e3c-6e9a-4849-a4c0-4b5146a95083,Patrick Berg,Norway,MF,6.0,1997-11-24,28.0,41,0.0,Bodø/Glimt,Eliteserien,True,8000000.0
+830ef728-6568-49fe-95ff-1d4ea6973f5e,Sander Berge,Norway,MF,8.0,1998-02-14,28.0,64,1.0,Fulham,Premier League,True,25000000.0
+4d034a3f-92b3-458e-8456-3caf876b7c91,Martin Ødegaard,Norway,MF,10.0,1998-12-17,27.0,67,4.0,Arsenal,Premier League,True,65000000.0
+8342de61-b361-46a4-ab2a-7265dafeebd7,Fredrik Aursnes,Norway,MF,14.0,1995-12-10,30.0,20,1.0,Benfica,Primeira Liga,True,15000000.0
+d55a8f87-4f24-45c1-be30-407e9d9f82a4,Kristian Thorstvedt,Norway,MF,18.0,1999-03-13,27.0,35,4.0,Sassuolo,Serie A,True,10000000.0
+858699ca-75e8-4c8f-b406-6b347f801d77,Thelo Aasgaard,Norway,MF,19.0,2002-05-02,24.0,6,5.0,Rangers,Scottish Premiership,True,2800000.0
+d108f8d1-d822-4ae4-9d24-505c206d968f,Antonio Nusa,Norway,MF,20.0,2005-04-17,21.0,22,7.0,RB Leipzig,Bundesliga,True,32000000.0
+80a634e0-1cf9-46b6-9ddb-56a517b390d6,Andreas Schjelderup,Norway,MF,21.0,2004-06-01,22.0,10,1.0,Benfica,Primeira Liga,True,30000000.0
+dd25a009-2244-445d-8dc5-5bca7282532d,Oscar Bobb,Norway,MF,22.0,2003-07-12,22.0,18,2.0,Fulham,Premier League,True,30000000.0
+dc67a982-e49f-4bbe-a2c3-225fd24c7087,Jens Petter Hauge,Norway,MF,23.0,1999-10-12,26.0,14,1.0,Bodø/Glimt,Eliteserien,True,12000000.0
+55a9c2d2-f267-4008-8ea7-98db9aa5855c,Alexander Sørloth,Norway,FW,7.0,1995-12-05,30.0,70,26.0,Atlético Madrid,La Liga,True,20000000.0
+f185fc1d-90c5-44db-b31d-5acd598a760b,Erling Braut Haaland,Norway,FW,9.0,2000-07-21,25.0,49,,Manchester City,Premier League,True,200000000.0
+affbe4e3-f36f-4ce7-b6e0-4f350c84c569,Jørgen Strand Larsen,Norway,FW,11.0,2000-02-06,26.0,26,4.0,Crystal Palace,Premier League,True,45000000.0
+c6352d35-3d98-4046-8cf7-de9281048ee1,Emiliano Martínez,Argentina,GK,,1992-09-02,33.0,59,0.0,Aston Villa,Premier League,True,15000000.0
+ffd0515d-a94b-4070-bf80-4c0c7cdea2ca,Gerónimo Rulli,Argentina,GK,,1992-05-20,34.0,7,0.0,Marseille,Ligue 1,True,8000000.0
+1d526e23-bfd2-4ad3-b249-67fbb792c6e4,Juan Musso,Argentina,GK,,1994-05-06,32.0,3,0.0,Atlético Madrid,La Liga,True,3000000.0
+406f73b1-580b-4be3-80a8-88594b185a1d,Walter Benítez,Argentina,GK,,1993-01-19,33.0,1,0.0,Crystal Palace,Premier League,True,5000000.0
+6c3a5659-34dd-41c8-bd46-0798c480887d,Facundo Cambeses,Argentina,GK,,1997-04-09,29.0,1,0.0,Racing,Liga Profesional de Fútbol,True,5000000.0
+1317a99a-d393-49e5-b02c-41394daaac93,Santiago Beltrán,Argentina,GK,,2004-10-04,21.0,0,0.0,River Plate,Liga Profesional de Fútbol,True,9000000.0
+9014b2be-ee4d-4426-98e8-d3ee0f09cb1b,Nicolás Otamendi,Argentina,DF,,1988-02-12,38.0,130,8.0,Benfica,Primeira Liga,True,1000000.0
+b5fb05da-341d-48bc-a1b4-4d5ce871389f,Nicolás Tagliafico,Argentina,DF,,1992-08-31,33.0,75,1.0,Lyon,Ligue 1,True,5000000.0
+2d1d448a-9ca4-4d84-a3eb-90cc029ac71f,Marcos Acuña,Argentina,DF,,1991-10-28,34.0,62,0.0,River Plate,Liga Profesional de Fútbol,True,1000000.0
+3bb220b2-e571-4afc-861e-893243872c73,Nahuel Molina,Argentina,DF,,1998-04-06,28.0,58,1.0,Atlético Madrid,La Liga,True,15000000.0
+ef69b952-1327-4400-be3b-fd250e640a04,Cristian Romero,Argentina,DF,,1998-04-27,28.0,49,3.0,Tottenham Hotspur,Premier League,True,50000000.0
+377cc17f-7451-4892-9d96-87344efe29a0,Germán Pezzella,Argentina,DF,,1991-06-27,34.0,42,3.0,River Plate,Liga Profesional de Fútbol,True,500000.0
+6869aedf-432a-4f11-94ae-b20228c7c596,Gonzalo Montiel,Argentina,DF,,1997-01-01,29.0,38,2.0,River Plate,Liga Profesional de Fútbol,True,4500000.0
+dab19075-a4c7-486a-9388-b470ed405ed6,Lisandro Martínez,Argentina,DF,,1998-01-18,28.0,26,1.0,Manchester United,Premier League,True,40000000.0
+c8428aba-3f10-46e0-9d42-5000a8e077f7,Lucas Martínez Quarta,Argentina,DF,,1996-05-10,30.0,16,0.0,River Plate,Liga Profesional de Fútbol,True,4500000.0
+9fac41ed-e1b1-4da6-a237-d9a5a973083f,Leonardo Balerdi,Argentina,DF,,1999-01-26,27.0,11,0.0,Marseille,Ligue 1,True,18000000.0
+93c2f1a4-ea5f-4df4-87be-1f5e90fce52c,Facundo Medina,Argentina,DF,,1999-05-28,27.0,7,0.0,Marseille,Ligue 1,True,18000000.0
+add0eb43-373d-4ec0-9f43-d75d590295b7,Marcos Senesi,Argentina,DF,,1997-05-10,29.0,3,0.0,Bournemouth,Premier League,True,22000000.0
+a6b7dc67-7de9-4d7d-be8b-4dbbb5ec70e5,Agustín Giay,Argentina,DF,,2004-01-16,22.0,1,0.0,Palmeiras,Campeonato Brasileiro Série A,True,10000000.0
+0a841080-63b2-4516-8a2f-b8a44e6f43df,Kevin Mac Allister,Argentina,DF,,1997-11-07,28.0,1,0.0,Union Saint-Gilloise,Belgian First Division A,True,10000000.0
+5615abb2-f7f1-4a31-b6db-5d87a63d91be,Valentín Barco,Argentina,DF,,2004-07-23,21.0,2,1.0,Strasbourg,Ligue 1,True,35000000.0
+d25e1a18-c4f2-4cda-a491-2a5e0cdec2f5,Gabriel Rojas,Argentina,DF,,1997-06-22,28.0,1,0.0,Racing,Liga Profesional de Fútbol,True,4000000.0
+8f82c735-5d38-4983-bc53-93891c9eb236,Nicolás Capaldo,Argentina,DF,,1998-09-14,27.0,0,0.0,Hamburger SV,Bundesliga,True,8000000.0
+ce6a4c56-77fb-4aa4-93d3-cccdbf710787,Lautaro Di Lollo,Argentina,DF,,2004-03-10,22.0,0,0.0,Boca Juniors,Liga Profesional de Fútbol,True,7000000.0
+db6c3117-5b79-4a78-a16f-146569c7a79f,Zaid Romero,Argentina,DF,,1999-12-15,26.0,0,0.0,Getafe,La Liga,True,2500000.0
+22abb4b0-b5bd-4620-b928-49f60acee72a,Rodrigo De Paul,Argentina,MF,,1994-05-24,32.0,85,2.0,Inter Miami,MLS,True,15000000.0
+e2b92641-73cf-465b-858a-7a752ee63eee,Leandro Paredes,Argentina,MF,,1994-06-29,31.0,77,5.0,Boca Juniors,Liga Profesional de Fútbol,True,5000000.0
+f6e2ff2b-d322-4570-abcd-b2291e7e8eb4,Giovani Lo Celso,Argentina,MF,,1996-04-09,30.0,65,4.0,Betis,La Liga,True,10000000.0
+bc9f9608-beb7-49e4-9c57-a2d33deb5db1,Alexis Mac Allister,Argentina,MF,,1998-12-24,27.0,44,6.0,Liverpool,Premier League,True,80000000.0
+3db2c045-43d3-4683-96f7-dac06afec6d8,Enzo Fernández,Argentina,MF,,2001-01-17,25.0,40,6.0,Chelsea,Premier League,True,90000000.0
+d4ef1c7d-627d-4a67-a655-1dfacccc396a,Exequiel Palacios,Argentina,MF,,1998-10-05,27.0,38,0.0,Bayer Leverkusen,Bundesliga,True,25000000.0
+b8a59aa6-c716-49bd-986d-4784f435e948,Guido Rodríguez,Argentina,MF,,1994-04-12,32.0,30,1.0,Valencia,La Liga,True,5000000.0
+e940798a-3562-4213-80d5-4d2145184bbe,Thiago Almada,Argentina,MF,,2001-04-26,25.0,14,4.0,Atlético Madrid,La Liga,True,20000000.0
+db25c407-dffb-41bf-a85a-759da5c1e06c,Nicolás Domínguez,Argentina,MF,,1998-06-28,27.0,11,1.0,Nottingham Forest,Premier League,True,16000000.0
+8809d147-e013-4826-ad7c-e0b6adf04513,Nico Paz,Argentina,MF,,2004-09-08,21.0,8,1.0,Como,Serie A,True,65000000.0
+91553386-3751-4f90-aea7-8169a5a57052,Emiliano Buendía,Argentina,MF,,1996-12-25,29.0,2,0.0,Aston Villa,Premier League,True,18000000.0
+68c3f384-7e7a-44c9-ab07-a01d95d484b4,Máximo Perrone,Argentina,MF,,2003-01-07,23.0,2,0.0,Como,Serie A,True,30000000.0
+e9dd51c7-83f8-4e66-899b-0d7b94356d43,Aníbal Moreno,Argentina,MF,,1999-05-13,27.0,1,0.0,River Plate,Liga Profesional de Fútbol,True,8000000.0
+25950b0a-f311-4734-a5cb-ddb763dde0d9,Milton Delgado,Argentina,MF,,2005-06-16,20.0,0,0.0,Boca Juniors,Liga Profesional de Fútbol,True,10000000.0
+7d7e4530-6293-426d-86fa-5d27faf35956,Equi Fernández,Argentina,MF,,2002-07-25,23.0,0,0.0,Bayer Leverkusen,Bundesliga,True,20000000.0
+84c6e3db-e9b9-4dd4-bd50-4447b169a1bb,Alan Varela,Argentina,MF,,2001-07-04,24.0,0,0.0,Porto,Primeira Liga,True,32000000.0
+4ec040ed-3577-4c4f-864b-22f900024c44,Lionel Messi,Argentina,FW,,1987-06-24,38.0,198,,Inter Miami,MLS,True,15000000.0
+ffb719ba-e08d-492c-b980-a6a0ed79a103,Lautaro Martínez,Argentina,FW,,1997-08-22,28.0,75,36.0,Internazionale,Serie A,True,85000000.0
+dc1720ac-3ae3-431f-991a-00e4e9e1b7ba,Julián Alvarez,Argentina,FW,,2000-01-31,26.0,51,14.0,Atlético Madrid,La Liga,True,90000000.0
+dd0bfd6d-7bb4-4beb-b2ac-8c791c03dfce,Nicolás González,Argentina,FW,,1998-04-06,28.0,50,6.0,Atlético Madrid,La Liga,True,24000000.0
+7e435b81-e473-496e-b5d0-cc9fc944a9c4,Alejandro Garnacho,Argentina,FW,,2004-07-01,21.0,8,0.0,Chelsea,Premier League,True,40000000.0
+eafdf3b4-244b-403a-a8b7-d798323186b8,Giuliano Simeone,Argentina,FW,,2002-12-18,23.0,11,1.0,Atlético Madrid,La Liga,True,40000000.0
+68dacd18-d968-48a8-99ea-e65a55b8faa2,Franco Mastantuono,Argentina,FW,,2007-08-14,18.0,4,0.0,Real Madrid,La Liga,True,45000000.0
+14263ead-4ad7-4ca5-a288-56fd3895d235,José Manuel López,Argentina,FW,,2000-12-06,25.0,3,0.0,Palmeiras,Campeonato Brasileiro Série A,True,25000000.0
+046bc3c8-2ee9-47bb-9b57-51b62df29ffb,Gianluca Prestianni,Argentina,FW,,2006-01-31,20.0,1,0.0,Benfica,Primeira Liga,True,20000000.0
+25ae247d-283d-4f21-a68d-e1d1c8ab4c85,Tomás Aranda,Argentina,FW,,2007-05-09,19.0,0,0.0,Boca Juniors,Liga Profesional de Fútbol,True,9000000.0
+a0429443-3b37-4fab-9aaf-8ca2afe87d55,Santiago Castro,Argentina,FW,,2004-09-18,21.0,0,0.0,Bologna,Serie A,True,35000000.0
+a367265d-0b9c-4ba1-b13a-b5a5edd4fe36,Claudio Echeverri,Argentina,FW,,2006-01-02,20.0,0,0.0,Girona,La Liga,True,15000000.0
+770f3f06-7efc-4c5d-b25d-0669c4338648,Mateo Pellegrino,Argentina,FW,,2001-10-22,24.0,0,0.0,Parma,Serie A,True,15000000.0
+d98fdc53-d80e-4e35-9b47-6bf6c2d488f0,Matías Soulé,Argentina,FW,,2003-04-15,23.0,0,0.0,Roma,Serie A,True,35000000.0
+9de87147-47da-46fa-ad43-8648494a942c,Alexander Schlager,Austria,GK,1.0,1996-02-01,30.0,25,0.0,Red Bull Salzburg,Austrian Football Bundesliga,True,2000000.0
+d572fa5c-5f48-4282-983b-019a2035412b,Florian Wiegele,Austria,GK,12.0,2001-03-21,25.0,1,0.0,Viktoria Plzeň,Czech First League,True,2200000.0
+0ab78a20-86a2-4e20-a5ae-e440235506b3,Patrick Pentz,Austria,GK,13.0,1997-01-02,29.0,18,0.0,Brøndby,Danish Superliga,True,2200000.0
+199b8610-4fc9-448c-b61c-cabb16047bab,David Affengruber,Austria,DF,2.0,2001-03-19,25.0,1,0.0,Elche,La Liga,True,9000000.0
+097af3ca-9d65-4fa2-81bb-d20d11729f49,Kevin Danso,Austria,DF,3.0,1998-09-19,27.0,31,0.0,Tottenham Hotspur,Premier League,True,20000000.0
+cf81e462-733c-4200-81a6-961416e59563,Stefan Posch,Austria,DF,5.0,1997-05-14,29.0,51,5.0,Mainz 05,Bundesliga,True,6000000.0
+85f4c30e-0b8c-427e-a0a3-772176b2fe09,David Alaba,Austria,DF,8.0,1992-06-24,33.0,112,15.0,Real Madrid,La Liga,True,3500000.0
+9ce75c8f-33fc-49c3-8cff-311c6169d0fe,Philipp Lienhart,Austria,DF,15.0,1996-07-11,29.0,40,3.0,SC Freiburg,Bundesliga,True,10000000.0
+c5ce262b-89f8-4f0c-b18c-e8c16d1085f0,Phillipp Mwene,Austria,DF,16.0,1994-01-29,32.0,29,0.0,Mainz 05,Bundesliga,True,1500000.0
+f13c11d1-175c-4696-9fc2-9aefae90e39e,Alexander Prass,Austria,DF,22.0,2001-05-26,25.0,18,0.0,TSG Hoffenheim,Bundesliga,True,9000000.0
+baae988a-7f18-4fb6-b287-ea55871ef224,Marco Friedl,Austria,DF,23.0,1998-03-16,28.0,10,0.0,Werder Bremen,Bundesliga,True,10000000.0
+29c55eef-8871-488a-b239-7dbb01917b5b,Michael Svoboda,Austria,DF,25.0,1998-10-15,27.0,4,0.0,Venezia,Serie A,True,3000000.0
+4a1829f6-c555-4efd-869b-b4ec4fc262c6,Xaver Schlager,Austria,MF,4.0,1997-09-28,28.0,50,4.0,RB Leipzig,Bundesliga,True,10000000.0
+c99961d8-645f-4e67-82a8-dca470fe6573,Nicolas Seiwald,Austria,MF,6.0,2001-05-04,25.0,46,1.0,RB Leipzig,Bundesliga,True,25000000.0
+4285adfb-0d48-4c23-b3bd-0ced22a38972,Marcel Sabitzer,Austria,MF,9.0,1994-03-17,32.0,97,25.0,Borussia Dortmund,Bundesliga,True,6000000.0
+357d0d1e-a54c-4820-9f5b-53873c0bc4fb,Florian Grillitsch,Austria,MF,10.0,1995-08-07,30.0,58,1.0,Braga,Primeira Liga,True,2500000.0
+e8a55376-d167-4760-b939-20f383e19526,Carney Chukwuemeka,Austria,MF,17.0,2003-10-20,22.0,2,1.0,Borussia Dortmund,Bundesliga,True,20000000.0
+27007721-61b4-4c11-ba8b-469ec806eecc,Romano Schmid,Austria,MF,18.0,2000-01-27,26.0,33,3.0,Werder Bremen,Bundesliga,True,15000000.0
+39dfcb14-b82a-49ab-8803-459f70dc94d4,Christoph Baumgartner,Austria,MF,19.0,1999-08-01,26.0,58,19.0,RB Leipzig,Bundesliga,True,40000000.0
+24dd0f5e-8144-4c05-b663-8ab662cb9458,Konrad Laimer,Austria,MF,20.0,1997-05-27,29.0,56,7.0,Bayern Munich,Bundesliga,True,32000000.0
+ad964693-9739-44da-9307-c9c667c04bc3,Patrick Wimmer,Austria,MF,21.0,2001-05-30,25.0,30,1.0,VfL Wolfsburg,Bundesliga,True,12000000.0
+a921a70c-6521-4d9b-84e4-6e5c85a6fc95,Paul Wanner,Austria,MF,24.0,2005-12-23,20.0,2,0.0,PSV,Eredivisie,True,22000000.0
+7495ee26-947a-48f2-8eb1-b7cd265645e2,Alessandro Schöpf,Austria,MF,26.0,1994-02-07,32.0,35,6.0,Wolfsberger AC,Austrian Football Bundesliga,True,800000.0
+19c6c9d8-2ba4-4cd8-861d-fc19de9fdcdd,Marko Arnautović,Austria,FW,7.0,1989-04-19,37.0,132,,Red Star Belgrade,Serbian SuperLiga,True,2500000.0
+d221e2d2-b1d1-42cc-b525-e118eb8eac24,Michael Gregoritsch,Austria,FW,11.0,1994-04-18,32.0,74,24.0,FC Augsburg,Bundesliga,True,1500000.0
+4de89a5a-df0f-4a9c-bec9-47fd2454e4b1,Saša Kalajdžić,Austria,FW,14.0,1997-07-07,28.0,21,4.0,LASK,Austrian Football Bundesliga,True,4000000.0
+146beb31-f0ac-4faf-946f-d38e533407d0,Anthony Mandrea,Algeria,GK,1.0,1996-12-25,29.0,21,0.0,Caen,Ligue 1,True,350000.0
+1ce37ce1-5944-4d76-9970-45e8fd80c7a5,Kilian Belazzoug,Algeria,GK,16.0,2006-07-18,19.0,0,0.0,Rennes B,Ligue 1,True,
+e5893eba-3985-4156-ad0f-640098064dd3,Luca Zidane,Algeria,GK,23.0,1998-05-13,28.0,6,0.0,Granada,La Liga,True,1000000.0
+37886dce-905d-4a70-86c2-9e0a748d1afa,Melvin Mastil,Algeria,GK,28.0,2000-02-19,26.0,1,0.0,Stade Nyonnais,Swiss Super League,True,250000.0
+11397550-5359-41c3-b122-27b5f80b7ef5,Aïssa Mandi,Algeria,DF,2.0,1991-10-22,34.0,116,7.0,Lille,Ligue 1,True,1000000.0
+216d2bd6-6e0f-4912-bb46-e27d2f68f8f2,Mehdi Dorval,Algeria,DF,3.0,2001-02-09,25.0,4,0.0,Bari,Serie A,True,2000000.0
+dc6afef8-87c7-40e5-a5f3-a4ab1379d363,Achref Abada,Algeria,DF,4.0,1999-06-15,26.0,6,1.0,USM Alger,Ligue Professionnelle 1 Algérienne,True,1000000.0
+b7c3dbf1-b8a2-49ce-bf5b-990a4a9790a3,Zineddine Belaïd,Algeria,DF,5.0,1999-03-20,27.0,9,1.0,JS Kabylie,Ligue Professionnelle 1 Algérienne,True,1500000.0
+a2e914ae-51c5-4009-a789-52a3ade6a398,Sohaib Naïr,Algeria,DF,13.0,2002-04-23,24.0,0,0.0,Guingamp,Ligue 1,True,2000000.0
+8eb575f8-6970-42d3-9ef5-83802a296b33,Rayan Aït-Nouri,Algeria,DF,15.0,2001-06-06,25.0,27,0.0,Manchester City,Premier League,True,40000000.0
+6bc7e7e5-6753-45e5-ace6-96ef85dc0b5f,Ramy Bensebaini,Algeria,DF,21.0,1995-04-16,31.0,81,7.0,Borussia Dortmund,Bundesliga,True,7000000.0
+7d96194f-b140-461b-b3b8-3eb2a068f189,Rafik Belghali,Algeria,DF,25.0,2002-06-07,24.0,11,1.0,Hellas Verona,Serie A,True,7000000.0
+e3a8f805-a5d0-4f73-986b-722513a48644,Ramiz Zerrouki,Algeria,MF,6.0,1998-05-26,28.0,51,3.0,Twente,Eredivisie,True,6500000.0
+e79695b4-3337-4378-8939-afee446a7b8b,Houssem Aouar,Algeria,MF,8.0,1998-06-30,27.0,19,6.0,Al-Ittihad,,True,8000000.0
+360fa8fc-14fb-43a9-866a-9541d7416fbc,Farès Chaïbi,Algeria,MF,10.0,2002-11-28,23.0,28,3.0,Eintracht Frankfurt,Bundesliga,True,15000000.0
+d9e0f4ad-faeb-425e-a205-f061774df5bd,Hicham Boudaoui,Algeria,MF,14.0,1999-09-23,26.0,32,0.0,Nice,Ligue 1,True,12000000.0
+3c55d9b6-40b9-4d01-b063-c48ae9b5fb7a,Adil Aouchiche,Algeria,MF,20.0,2002-07-15,23.0,1,0.0,Schalke 04,Bundesliga,True,2000000.0
+e57d2877-b489-4f6c-8e0a-3adcb14de191,Ibrahim Maza,Algeria,MF,22.0,2005-11-24,20.0,15,2.0,Bayer Leverkusen,Bundesliga,True,45000000.0
+7abf3ccf-1ae8-4e50-9ece-876b41d75fed,Yacine Titraoui,Algeria,MF,24.0,2003-07-26,22.0,5,0.0,Charleroi,Belgian First Division A,True,
+2d296732-dd7e-4404-a51f-f666cb05e910,Riyad Mahrez,Algeria,FW,7.0,1991-02-21,35.0,113,38.0,Al-Ahli,,True,7000000.0
+edb87980-025b-4bbc-85c9-ee245e2d6f4d,Amine Gouiri,Algeria,FW,9.0,2000-02-16,26.0,21,8.0,Marseille,Ligue 1,True,28000000.0
+8dd7c8f0-5d1a-4b1c-9614-966f45b23829,Nadhir Benbouali,Algeria,FW,12.0,2000-04-17,26.0,2,1.0,Győr,OTP Bank Liga,True,1200000.0
+295e2d0b-18eb-43d7-a4ea-e982d47f4aa4,Farès Ghedjemis,Algeria,FW,17.0,2002-09-06,23.0,1,1.0,Frosinone,Serie A,True,5500000.0
+9ab53f79-6365-4af0-8168-d2b9f11a441a,Mohamed Amoura,Algeria,FW,18.0,2000-05-09,26.0,44,19.0,VfL Wolfsburg,Bundesliga,True,20000000.0
+d778886a-f802-474b-a356-eaf27f4f6215,Amin Chiakha,Algeria,FW,19.0,2006-03-12,20.0,3,0.0,Rosenborg,Eliteserien,True,3500000.0
+a0c211df-dc9c-4a7e-adeb-5fcf5b25c973,Adil Boulbina,Algeria,FW,27.0,2003-05-02,23.0,10,6.0,Al-Duhail,Qatar Stars League,True,3000000.0
+5485b6ce-6738-4e89-9c8b-3c5b9714704d,Anis Hadj Moussa,Algeria,FW,,2002-02-11,24.0,13,0.0,Feyenoord,Eredivisie,True,23000000.0
+d472e25f-a367-47ce-b2e3-ad9fab80d1bf,Yazeed Abulaila,Jordan,GK,,1993-01-08,33.0,74,0.0,Al-Hussein,,True,300000.0
+4bad143b-3442-4bd6-ab99-7ad27b067c89,Abdallah Al-Fakhouri,Jordan,GK,,2000-01-22,26.0,11,0.0,Al-Wehdat,,True,250000.0
+218dd295-7d57-43b2-a7ab-e3f17c90a793,Nour Bani Attiah,Jordan,GK,,1993-01-25,33.0,4,0.0,Al-Faisaly,,True,
+52272309-50f7-4317-bbca-49246f962a3b,Ihsan Haddad,Jordan,DF,,1994-02-05,32.0,90,2.0,Al-Hussein,,True,
+28887e10-2a17-48e8-9786-ac759594c8aa,Yazan Al-Arab,Jordan,DF,,1996-01-31,30.0,78,3.0,FC Seoul,K League 1,True,1000000.0
+43864e08-4af8-48ec-a5d8-edf443291066,Abdallah Nasib,Jordan,DF,,1994-02-25,32.0,64,3.0,Al-Zawraa,,True,500000.0
+715bd068-13f4-430c-98db-f7b1c9180eba,Saed Al-Rosan,Jordan,DF,,1997-02-01,29.0,19,2.0,Al-Hussein,,True,400000.0
+a3162fae-ed51-4a6f-95fa-df57baa73d54,Husam Abu Dahab,Jordan,DF,,2000-05-13,26.0,16,0.0,Al-Faisaly,,True,350000.0
+d0c3a948-d255-464a-97a4-6d6922b6712e,Mohammad Abualnadi,Jordan,DF,,2001-02-08,25.0,16,0.0,Selangor,,True,225000.0
+bd3739cf-64a2-4df2-bb33-1d06e70d4582,Salim Obaid,Jordan,DF,,1992-01-17,34.0,9,0.0,Al-Hussein,,True,25000.0
+9501c166-7ca6-4f42-8df2-7b40dd890f4e,Anas Badawi,Jordan,DF,,1997-09-13,28.0,0,0.0,Al-Faisaly,,True,175000.0
+6a1566c9-da86-4748-942c-376696c34edd,Rajaei Ayed,Jordan,MF,,1993-07-25,32.0,72,0.0,Al-Hussein,,True,350000.0
+f0e3ecd0-7457-44ea-b829-8b65012fec1f,Noor Al-Rawabdeh,Jordan,MF,,1997-02-24,29.0,66,3.0,Selangor,,True,450000.0
+54a6dd38-da88-457c-9e8d-b0150974a163,Ibrahim Sa'deh,Jordan,MF,,2000-04-27,26.0,55,3.0,Al-Karma,,True,
+6eaeb190-3b31-4bb3-928f-17aabdafbfb2,Mohammad Abu Hashish,Jordan,MF,,1995-05-09,31.0,54,1.0,Al-Karma,,True,450000.0
+917933be-b3df-4a6d-877c-d8a91e8402b1,Nizar Al-Rashdan,Jordan,MF,,1999-03-23,27.0,45,4.0,Qatar,Qatar Stars League,True,600000.0
+3319d8d3-071f-4dad-850d-2e6b0d8582c9,Mohannad Abu Taha,Jordan,MF,,2003-02-02,23.0,27,1.0,Al-Quwa Al-Jawiya,,True,450000.0
+eee32e34-8d19-4d1d-b384-0b9ff594e651,Amer Jamous,Jordan,MF,,2002-07-03,23.0,18,1.0,Al-Zawraa,,True,450000.0
+307a67ac-410a-4d39-aca2-1db3cdaeaa6e,Mohammad Al-Dawoud,Jordan,MF,,1992-12-04,33.0,11,1.0,Al-Wehdat,,True,150000.0
+018d3fd0-9f3c-49fa-837e-01f9f38851b5,Yousef Qashi,Jordan,MF,,2005-04-15,21.0,0,0.0,Al-Hussein,,True,50000.0
+50567f44-e7e6-4b1e-aaeb-597e611b23fb,Mohammad Taha,Jordan,MF,,2005-07-13,20.0,0,0.0,Al-Hussein,,True,250000.0
+e07525a9-df1b-4cdb-b935-6af84a99694d,Mahmoud Al-Mardi,Jordan,FW,,1993-10-06,32.0,87,9.0,Al-Hussein,,True,400000.0
+df3cccf4-e50b-4e5d-8d4d-ef333faac898,Musa Al-Taamari,Jordan,FW,,1997-06-10,29.0,90,24.0,Rennes,Ligue 1,True,
+be9be0c4-67d5-4c57-baef-1a24e08a7b2b,Ali Olwan,Jordan,FW,,2000-03-26,26.0,64,29.0,Al-Sailiya,Qatar Stars League,True,800000.0
+1ca09408-3de7-42eb-a7e4-70c679cdf5ad,Mohammad Abu Zrayq,Jordan,FW,,1997-12-30,28.0,39,5.0,Raja Casablanca,Botola Pro,True,375000.0
+ca1c836d-d893-4a26-8f9f-52d6204ac134,Ibrahim Sabra,Jordan,FW,,2006-02-01,20.0,9,1.0,Lokomotiva Zagreb,HNL,True,400000.0
+09c7b083-c11d-4a9f-9c30-d2b87bfe0117,Odeh Al-Fakhouri,Jordan,FW,,2005-11-22,20.0,8,0.0,Pyramids,Egyptian Premier League,True,
+a3a7dfff-c03d-432c-ab41-d2b076681c97,Ali Azaizeh,Jordan,FW,,2004-04-13,22.0,2,0.0,Al-Shabab,,True,200000.0
+81ef6dde-30cb-4ce8-99d1-4ea13767024c,Diogo Costa,Portugal,GK,,1999-09-19,26.0,42,0.0,Porto,Primeira Liga,True,40000000.0
+8206bcd6-36e9-4938-baba-11342ab83444,José Sá,Portugal,GK,,1993-01-17,33.0,4,0.0,Wolverhampton Wanderers,Premier League,True,5000000.0
+93e29b1a-012f-409d-9c1d-2d24d8116e32,Rui Silva,Portugal,GK,,1994-02-07,32.0,2,0.0,Sporting CP,Primeira Liga,True,7000000.0
+1cf7c7e9-f909-45cf-b808-9b86e4ee445c,Ricardo Velho,Portugal,GK,,1998-08-20,27.0,1,0.0,Gençlerbirliği,Süper Lig,True,3000000.0
+b58055b7-4077-4348-9154-07ec8dbfc1ab,Rúben Dias,Portugal,DF,,1997-05-14,29.0,74,3.0,Manchester City,Premier League,True,60000000.0
+3f560a41-8d58-4b75-981b-9ab196413448,João Cancelo,Portugal,DF,,1994-05-27,32.0,66,12.0,Barcelona,La Liga,True,9000000.0
+961ac911-0074-49de-8a5c-454865b670ab,Nélson Semedo,Portugal,DF,,1993-11-16,32.0,48,0.0,Fenerbahçe,Süper Lig,True,6000000.0
+9105d6a8-76ec-481d-94f2-eb7a1dfc738e,Nuno Mendes,Portugal,DF,,2002-06-19,23.0,43,1.0,Paris Saint-Germain,Ligue 1,True,75000000.0
+c218cc00-ec75-41e9-83a3-8dc3e59e1f3e,Diogo Dalot,Portugal,DF,,1999-03-18,27.0,33,3.0,Manchester United,Premier League,True,30000000.0
+6461da50-a94b-4ef5-abfd-cebf8ba07a7a,Gonçalo Inácio,Portugal,DF,,2001-08-25,24.0,20,2.0,Sporting CP,Primeira Liga,True,40000000.0
+1b33244e-66d0-4752-a7a1-c1748167c8d6,Matheus Nunes,Portugal,DF,,1998-08-27,27.0,19,2.0,Manchester City,Premier League,True,45000000.0
+ef89383f-89be-4820-a274-91ce5df0b584,Renato Veiga,Portugal,DF,,2003-07-29,22.0,11,1.0,Villarreal,La Liga,True,25000000.0
+5b15b92e-4744-4651-bedb-a00bf954a9b8,Tomás Araújo,Portugal,DF,,2002-05-16,24.0,3,0.0,Benfica,Primeira Liga,True,30000000.0
+69847de2-75fc-427e-8101-211fcbefde88,Bernardo Silva,Portugal,MF,,1994-08-10,31.0,107,14.0,Manchester City,Premier League,True,27000000.0
+85581518-a3b3-4cfa-bac9-1657fb6db3d2,Bruno Fernandes,Portugal,MF,,1994-09-08,31.0,87,28.0,Manchester United,Premier League,True,40000000.0
+4e3b1f27-3a73-40c2-acea-be468e9c7c44,Rúben Neves,Portugal,MF,,1997-03-13,29.0,65,1.0,Al-Hilal,,True,25000000.0
+45d981a2-7202-4c28-92e0-a3bc3e7a5a9b,Vitinha,Portugal,MF,,2000-02-13,26.0,37,0.0,Paris Saint-Germain,Ligue 1,True,110000000.0
+555d72b5-893e-44dc-90f6-6d18b3309878,João Neves,Portugal,MF,,2004-09-27,21.0,21,3.0,Paris Saint-Germain,Ligue 1,True,110000000.0
+b9352749-1db4-4925-af56-2884b2f84523,Samú Costa,Portugal,MF,,2000-11-27,25.0,4,0.0,Mallorca,La Liga,True,15000000.0
+b2e28686-afa6-40cc-a08e-083d2bebc0c5,Cristiano Ronaldo,Portugal,FW,,1985-02-05,41.0,226,,Al-Nassr,,True,12000000.0
+293deb56-79fd-44b7-b83d-288da3383a0e,João Félix,Portugal,FW,,1999-11-10,26.0,52,12.0,Al-Nassr,,True,25000000.0
+e18b9fd4-92f8-4244-9619-ac34a364ee3d,Rafael Leão,Portugal,FW,,1999-06-10,27.0,43,5.0,Milan,Serie A,True,65000000.0
+068b461d-022b-4b92-8507-4c330c145078,Gonçalo Guedes,Portugal,FW,,1996-11-29,29.0,33,7.0,Real Sociedad,La Liga,True,6000000.0
+4047d8f6-eadf-4936-8fd8-8600de4cd5da,Gonçalo Ramos,Portugal,FW,,2001-06-20,24.0,24,10.0,Paris Saint-Germain,Ligue 1,True,35000000.0
+5be1662b-9390-45b4-98fd-b1357bc8abe3,Pedro Neto,Portugal,FW,,2000-03-09,26.0,23,2.0,Chelsea,Premier League,True,60000000.0
+e9000779-a19f-4b18-a4fd-640dc733f280,Francisco Trincão,Portugal,FW,,1999-12-29,26.0,17,3.0,Sporting CP,Primeira Liga,True,40000000.0
+2efa5314-c18b-4d92-b3bf-dbbe86e6ce26,Francisco Conceição,Portugal,FW,,2002-12-14,23.0,15,3.0,Juventus,Serie A,True,30000000.0
+f70f8479-04eb-4bec-89fb-28509ecca680,David Ospina,Colombia,GK,,1988-08-31,37.0,129,0.0,Atlético Nacional,Categoría Primera A,True,200000.0
+c71a62da-5e2d-4c65-abc5-fd7e362368ca,Camilo Vargas,Colombia,GK,,1989-03-09,37.0,40,0.0,Atlas,Liga MX,True,450000.0
+12d27485-4e68-4935-9810-7053c6d9a769,Álvaro Montero,Colombia,GK,,1995-03-29,31.0,11,0.0,Vélez Sarsfield,Liga Profesional de Fútbol,True,2500000.0
+8d386175-eec7-4feb-8b9a-692fb00d2e28,Davinson Sánchez,Colombia,DF,,1996-06-12,29.0,77,3.0,Galatasaray,Süper Lig,True,16000000.0
+32c1dbf9-26e4-49ee-a755-9082a37e3394,Santiago Arias,Colombia,DF,,1992-01-13,34.0,66,0.0,Independiente,Liga Profesional de Fútbol,True,1200000.0
+e961b04a-986e-47d4-a917-26e066611252,Yerry Mina,Colombia,DF,,1994-09-23,31.0,52,8.0,Cagliari,Serie A,True,3000000.0
+fe1d4882-14a0-4ddd-a6a7-d609b6e62f0c,Daniel Muñoz,Colombia,DF,,1996-05-26,30.0,44,3.0,Crystal Palace,Premier League,True,27000000.0
+718e7669-20c8-4c00-8295-e94e34f3fbdd,Johan Mojica,Colombia,DF,,1992-08-21,33.0,43,1.0,Mallorca,La Liga,True,1800000.0
+97037c10-12fb-412f-8cc6-50750a3ea8c0,Jhon Lucumí,Colombia,DF,,1998-06-26,27.0,35,1.0,Bologna,Serie A,True,25000000.0
+34243606-31da-4e2a-8b2e-6d54560b1b7e,Deiver Machado,Colombia,DF,,1993-09-02,32.0,14,0.0,Nantes,Ligue 1,True,2000000.0
+fefd2ce9-8435-40e4-bb5e-a2ccd937a3a2,Willer Ditta,Colombia,DF,,1997-01-23,29.0,3,0.0,Cruz Azul,Liga MX,True,5500000.0
+ce4f2360-7480-4127-a211-7137c5f6d685,James Rodríguez,Colombia,MF,,1991-07-12,34.0,124,31.0,Minnesota United,MLS,True,2000000.0
+ea4268ba-1c82-42ee-a1c4-6ac863db8a2e,Jefferson Lerma,Colombia,MF,,1994-10-25,31.0,64,5.0,Crystal Palace,Premier League,True,8000000.0
+64e3a101-acc8-471e-be38-d9fd268266a6,Juan Fernando Quintero,Colombia,MF,,1993-01-18,33.0,47,6.0,River Plate,Liga Profesional de Fútbol,True,1800000.0
+e8281311-ddfc-49a8-be87-fd107f9893cc,Jhon Arias,Colombia,MF,,1997-09-21,28.0,36,4.0,Palmeiras,Campeonato Brasileiro Série A,True,15000000.0
+e732ae80-d990-4178-a910-9ac65aac20f0,Richard Ríos,Colombia,MF,,2000-06-02,26.0,30,2.0,Benfica,Primeira Liga,True,25000000.0
+c9addda3-3c6e-4b52-8020-b2cbabe9d247,Kevin Castaño,Colombia,MF,,2000-09-29,25.0,24,0.0,River Plate,Liga Profesional de Fútbol,True,5000000.0
+e3b70045-ca37-4908-ac69-5e3df221e8f3,Jorge Carrascal,Colombia,MF,,1998-05-25,28.0,22,2.0,Flamengo,Campeonato Brasileiro Série A,True,13000000.0
+fdb68b68-e909-443e-8148-657e17242eec,Jaminton Campaz,Colombia,MF,,2000-05-24,26.0,9,1.0,Rosario Central,Liga Profesional de Fútbol,True,5500000.0
+bc6276fd-04bf-44be-9143-0c6d3b16d9b7,Juan Portilla,Colombia,MF,,1998-09-12,27.0,8,0.0,Athletico Paranaense,Campeonato Brasileiro Série A,True,5000000.0
+bfe59cc7-d265-4b09-ad53-38d08b9d4652,Gustavo Puerta,Colombia,MF,,2003-07-26,22.0,4,1.0,Racing de Santander,La Liga,True,5000000.0
+a58eefa0-4340-46c1-9e98-651fdfca768b,Luis Díaz,Colombia,FW,,1997-01-13,29.0,72,21.0,Bayern Munich,Bundesliga,True,70000000.0
+e2de71dd-e3db-498c-b9ef-ae9e153bb643,Jhon Córdoba,Colombia,FW,,1993-05-11,33.0,21,6.0,Krasnodar,Russian Premier League,True,10000000.0
+b7a394fb-602c-4045-b9a3-4383fef60b7e,Luis Suárez,Colombia,FW,,1997-12-02,28.0,10,4.0,Sporting CP,Primeira Liga,True,30000000.0
+0032fdbc-2f0f-4b63-ac6c-12b2be455e7a,Cucho Hernández,Colombia,FW,,1999-04-20,27.0,7,2.0,Betis,La Liga,True,18000000.0
+7d45fb05-a844-4279-9046-d3c8fcfa96c4,Andrés Gómez,Colombia,FW,,2002-09-12,23.0,6,2.0,Vasco da Gama,Campeonato Brasileiro Série A,True,11000000.0
+64d6d42c-616f-4bb9-beb3-fbe7fadd5f3d,Utkir Yusupov,Uzbekistan,GK,,,,39,0.0,Navbahor,,True,500000.0
+d8a523b4-949c-4d13-b6bc-41178900fe39,Abduvohid Nematov,Uzbekistan,GK,,,,7,0.0,Nasaf,,True,
+dfe0e47c-9c80-47cf-89de-ceba209bbfcf,Botirali Ergashev,Uzbekistan,GK,,,,2,0.0,Neftchi,,True,500000.0
+312a045b-df15-426e-ae3c-fee80b46d1c7,Rustam Ashurmatov,Uzbekistan,DF,,,,47,1.0,Esteghlal,,True,750000.0
+aec352d3-d773-44f8-a65e-a8c6f1272b24,Farrukh Sayfiev,Uzbekistan,DF,,,,44,1.0,Neftchi,,True,225000.0
+407908e2-c207-46c0-a1db-cbd4704c836b,Khojiakbar Alijonov,Uzbekistan,DF,,,,40,2.0,Pakhtakor,,True,
+8b8eef2b-5f49-4c3e-8ed1-914a8605bc21,Sherzod Nasrullaev,Uzbekistan,DF,,,,29,2.0,Nasaf,,True,1200000.0
+9f1391a3-f446-43ba-b05a-e9ce19755098,Umar Eshmurodov,Uzbekistan,DF,,,,29,0.0,Nasaf,,True,450000.0
+7216f31c-3c46-4635-b2a9-65ddc8553f2c,Abdukodir Khusanov,Uzbekistan,DF,,,,25,0.0,Manchester City,Premier League,True,35000000.0
+9fe9c78b-debd-4f14-b148-7896f244a0ba,Abdulla Abdullaev,Uzbekistan,DF,,,,16,0.0,Dibba Al Fujairah,UAE Pro League,True,500000.0
+8e114720-c91a-44df-a56c-506fbae46617,Bekhruz Karimov,Uzbekistan,DF,,,,2,0.0,Surkhon,,True,350000.0
+638dcde0-9355-4a03-8b88-66da53eac769,Jakhongir Urozov,Uzbekistan,DF,,,,2,0.0,Dinamo Samarqand,,True,600000.0
+95825e06-8ed9-49b0-ba36-b02236cbce98,Avazbek Ulmasaliev,Uzbekistan,DF,,,,0,0.0,AGMK,,True,500000.0
+0b5cb2b0-96dc-45c6-a442-ae76777f18fa,Otabek Shukurov,Uzbekistan,MF,,,,82,9.0,Baniyas,UAE Pro League,True,1500000.0
+7ea16906-fdf3-4992-bca7-bf2d959548e3,Odiljon Hamrobekov,Uzbekistan,MF,,,,71,1.0,Tractor,,True,
+41dc4144-0213-4684-84ca-baf688205c9f,Jamshid Iskanderov,Uzbekistan,MF,,,,37,4.0,Neftchi,,True,1000000.0
+326fff3c-96c9-47ce-84ff-12686018dbb8,Akmal Mozgovoy,Uzbekistan,MF,,,,23,1.0,Pakhtakor,,True,1400000.0
+05fd1048-a092-41e4-b18f-f0fb4353ffd3,Azizjon Ganiev,Uzbekistan,MF,,,,18,0.0,Al Bataeh,UAE Pro League,True,2000000.0
+126e3e90-a5d1-4fe5-8d5f-73177a167697,Jasurbek Jaloliddinov,Uzbekistan,MF,,,,1,0.0,Sogdiana,,True,500000.0
+29ac6e94-b0a9-4c2c-b57f-6113a7668e6e,Umarali Rakhmonaliev,Uzbekistan,MF,,,,1,0.0,Sabah,,True,800000.0
+66503d93-608c-4eb4-b706-6f0597c82feb,Sherzod Esanov,Uzbekistan,MF,,,,0,0.0,Bukhara,,True,450000.0
+39c47a7c-ba0b-43ca-9486-1aa76035bf24,Eldor Shomurodov,Uzbekistan,FW,,,,90,44.0,İstanbul Başakşehir,Süper Lig,True,7000000.0
+8e9100d5-0dbb-4658-98ec-5e3aef031e25,Igor Sergeev,Uzbekistan,FW,,,,81,24.0,Persepolis,,True,1200000.0
+351121cb-7357-4505-abb4-0e3ed8ef3638,Jaloliddin Masharipov,Uzbekistan,FW,,,,74,12.0,Esteghlal,,True,1000000.0
+333250cc-a111-4daf-aae6-6024c073bb16,Oston Urunov,Uzbekistan,FW,,,,40,10.0,Persepolis,,True,2000000.0
+f7f22aff-1ef7-4923-893f-39ecb5e891a8,Dostonbek Khamdamov,Uzbekistan,FW,,,,33,5.0,Pakhtakor,,True,900000.0
+7b71be3a-2a80-4127-b103-5d60bfa12400,Abbosbek Fayzullaev,Uzbekistan,FW,,,,30,8.0,İstanbul Başakşehir,Süper Lig,True,7000000.0
+0f8f9e1d-cd16-4e8e-98f9-484686c91b5e,Azizbek Amonov,Uzbekistan,FW,,,,11,2.0,Buxoro,,True,
+0bb4fba8-019e-456b-b7d6-c9f21c10d9db,Ruslanbek Jiyanov,Uzbekistan,FW,,,,5,0.0,Navbahor,,True,800000.0
+dd4d5687-303b-4a32-8583-910d53ac9fb6,Sherzod Temirov,Uzbekistan,FW,,,,2,0.0,Erbil,,True,600000.0
+2a2cb930-6207-496e-8648-016eaf3fafc7,Lionel Mpasi,DR Congo,GK,,1994-08-01,31.0,27,0.0,Le Havre,Ligue 1,True,400000.0
+2622a3cd-bac9-44aa-8eeb-e31872eddbf8,Timothy Fayulu,DR Congo,GK,,1999-07-24,26.0,3,0.0,Noah,,True,800000.0
+d7dfe83e-3cb5-4469-9e6b-3effd94a22a0,Matthieu Epolo,DR Congo,GK,,2005-01-15,21.0,1,0.0,Standard Liège,Belgian First Division A,True,5000000.0
+5a40e527-b8d6-4c6b-9602-96b24a7d4ce4,Chancel Mbemba,DR Congo,DF,,1994-08-08,31.0,107,7.0,Lille,Ligue 1,True,2500000.0
+cb2055ce-8e36-489d-ab4c-07c988bc7861,Arthur Masuaku,DR Congo,DF,,1993-11-07,32.0,44,4.0,Lens,Ligue 1,True,2500000.0
+8bafaa7d-4960-4e81-8251-c09cc6ad29a2,Gédéon Kalulu,DR Congo,DF,,1997-08-29,28.0,27,0.0,Aris Limassol,,True,1300000.0
+2b6729a6-6492-45f2-b11d-d4f45a080f48,Joris Kayembe,DR Congo,DF,,1994-08-08,31.0,24,0.0,Genk,Belgian First Division A,True,2500000.0
+932144bd-c271-40f4-a156-63d005726836,Dylan Batubinsika,DR Congo,DF,,1996-02-15,30.0,14,1.0,AEL,Super League Greece,True,700000.0
+a79b8e3d-3636-4b4e-a704-cb9992414b38,Axel Tuanzebe,DR Congo,DF,,1997-11-14,28.0,12,1.0,Burnley,Premier League,True,5000000.0
+0f9fa70c-80a2-40df-946f-1cac05acf7f0,Aaron Wan-Bissaka,DR Congo,DF,,1997-11-26,28.0,10,0.0,West Ham United,Premier League,True,22000000.0
+5f081e0e-39f5-466f-ad28-05cb6db86224,Steve Kapuadi,DR Congo,DF,,1998-04-30,28.0,3,0.0,Widzew Łódź,Ekstraklasa,True,2500000.0
+59ddc04f-eb26-446f-b242-4e4893665c4e,Meschak Elia,DR Congo,MF,,1997-08-06,28.0,68,12.0,Alanyaspor,Süper Lig,True,1500000.0
+2c2e94f0-3416-4812-b83c-4afd06ee9ddb,Samuel Moutoussamy,DR Congo,MF,,1996-08-12,29.0,56,0.0,Atromitos,Super League Greece,True,1200000.0
+03918669-5ca4-4ee0-8e90-e7b1fd2c205a,Edo Kayembe,DR Congo,MF,,1998-06-03,28.0,41,2.0,Watford,Premier League,True,4000000.0
+0086c471-54cd-4043-864a-1c2c8cc46286,Théo Bongonda,DR Congo,MF,,1995-11-20,30.0,37,7.0,Spartak Moscow,Russian Premier League,True,3000000.0
+0ce8cc13-899b-42f5-8e95-e0a952bfd7c8,Charles Pickel,DR Congo,MF,,1997-05-15,29.0,33,1.0,Espanyol,La Liga,True,2500000.0
+78ed79ca-bb0b-4362-966f-29d498792e91,Gaël Kakuta,DR Congo,MF,,1991-06-21,34.0,30,5.0,AEL,Super League Greece,True,300000.0
+7f03cfe5-c48a-4dd9-beb0-40ac52a4623a,Noah Sadiki,DR Congo,MF,,2004-12-17,21.0,18,0.0,Sunderland,Premier League,True,30000000.0
+0f1c2be6-a58c-492c-bc22-016eb1605b25,Nathanaël Mbuku,DR Congo,MF,,2002-03-16,24.0,17,2.0,Montpellier,Ligue 1,True,2000000.0
+5559a344-8508-4f66-a52f-f2d47dd4ed0c,Aaron Tshibola,DR Congo,MF,,1995-01-02,31.0,16,1.0,Kilmarnock,Scottish Premiership,True,150000.0
+0a4b712b-d623-4296-a103-7638eaf6ad13,Ngal'ayel Mukau,DR Congo,MF,,2004-11-03,21.0,12,0.0,Lille,Ligue 1,True,12000000.0
+5d934bbe-5a47-471f-8f55-eb5ee3a2ce60,Brian Cipenga,DR Congo,MF,,1998-03-11,28.0,7,0.0,Castellón,La Liga,True,2000000.0
+ee5a2ca9-86a9-49e2-a704-ce88c367df14,Cédric Bakambu,DR Congo,FW,,1991-04-11,35.0,68,21.0,Betis,La Liga,True,1400000.0
+48ef2613-ea59-4c38-8bad-5a05d3b318b6,Fiston Mayele,DR Congo,FW,,1994-06-24,31.0,37,6.0,Pyramids,Egyptian Premier League,True,1800000.0
+2a78e95c-54bf-4c39-beac-c4cebfef535b,Yoane Wissa,DR Congo,FW,,1996-09-03,29.0,36,9.0,Newcastle United,Premier League,True,30000000.0
+afa30617-b322-48ad-8111-7bac90d10616,Simon Banza,DR Congo,FW,,1996-08-13,29.0,14,2.0,Al Jazira,UAE Pro League,True,10000000.0
+345763e1-de1f-4139-9a45-949a5289b176,Jordan Pickford,England,GK,,1994-03-07,32.0,82,0.0,Everton,Premier League,True,15000000.0
+03a68c22-1605-4220-acee-25fe3906da37,Dean Henderson,England,GK,,1997-03-12,29.0,4,0.0,Crystal Palace,Premier League,True,28000000.0
+ec0de691-d306-45e6-9bad-52889ca9b4b3,James Trafford,England,GK,,2002-10-10,23.0,1,0.0,Manchester City,Premier League,True,25000000.0
+49537264-638c-4d0c-b97b-e95f66220b5d,John Stones,England,DF,,1994-05-28,32.0,87,3.0,Manchester City,Premier League,True,15000000.0
+10a10c09-2734-4bd6-9f00-d3a2af577e5e,Marc Guéhi,England,DF,,2000-07-13,25.0,27,1.0,Manchester City,Premier League,True,65000000.0
+00c3d4c4-54c5-47ea-a369-8e596e4bbb7d,Reece James,England,DF,,1999-12-08,26.0,22,1.0,Chelsea,Premier League,True,60000000.0
+289407b1-2a50-4dd1-ae74-30876798747c,Ezri Konsa,England,DF,,1997-10-23,28.0,18,1.0,Aston Villa,Premier League,True,40000000.0
+4873ecdf-c804-4fa3-b36c-e60feaa51596,Dan Burn,England,DF,,1992-05-09,34.0,6,0.0,Newcastle United,Premier League,True,5000000.0
+314bb304-cc61-4b87-af24-714c458fc799,Tino Livramento,England,DF,,2002-11-12,23.0,5,0.0,Newcastle United,Premier League,True,40000000.0
+b25b375b-30ce-44da-b616-6198ede70e53,Djed Spence,England,DF,,2000-08-09,25.0,4,0.0,Tottenham Hotspur,Premier League,True,30000000.0
+fe7c62de-9858-48d0-b2d7-dc1c6478a132,Nico O'Reilly,England,DF,,2005-03-21,21.0,3,0.0,Manchester City,Premier League,True,50000000.0
+8a0c57b8-23cd-4485-99d4-847b97071f1a,Jarell Quansah,England,DF,,2003-01-29,23.0,1,0.0,Bayer Leverkusen,Bundesliga,True,45000000.0
+2b5e2d63-c174-4321-8aa4-2b6e607d3b20,Jordan Henderson,England,MF,,1990-06-17,35.0,89,3.0,Brentford,Premier League,True,2000000.0
+1aa0541a-a51d-4ac1-9573-e3064ddfee91,Declan Rice,England,MF,,1999-01-14,27.0,72,6.0,Arsenal,Premier League,True,120000000.0
+287a0dab-fa88-4ed8-9ae5-3187b08f7bd7,Jude Bellingham,England,MF,,2003-06-29,22.0,46,6.0,Real Madrid,La Liga,True,140000000.0
+efa58b9d-89ee-41f4-bf63-c1388cc6d59a,Eberechi Eze,England,MF,,1998-06-29,27.0,16,3.0,Arsenal,Premier League,True,60000000.0
+c4eb8289-d974-4280-b1cc-5203b51594b9,Morgan Rogers,England,MF,,2002-07-26,23.0,13,1.0,Aston Villa,Premier League,True,80000000.0
+6d231d84-e843-4789-96a8-298574e0a525,Kobbie Mainoo,England,MF,,2005-04-19,21.0,12,0.0,Manchester United,Premier League,True,50000000.0
+3772813b-64d7-448a-8c54-fadb0d2200ed,Elliot Anderson,England,MF,,2002-11-06,23.0,7,0.0,Nottingham Forest,Premier League,True,60000000.0
+7e6c5ba5-57b1-41cc-ae06-dd12f6a4fd8d,Harry Kane,England,FW,,1993-07-28,32.0,112,,Bayern Munich,Bundesliga,True,60000000.0
+3dcea3b0-5dad-49f3-aa76-8c5a33a88a74,Marcus Rashford,England,FW,,1997-10-31,28.0,70,18.0,Barcelona,La Liga,True,40000000.0
+01793265-7636-43b1-975f-8b7deb6e5f24,Bukayo Saka,England,FW,,2001-09-05,24.0,48,14.0,Arsenal,Premier League,True,120000000.0
+2ccb70ae-cb51-49e1-96ef-f62c45cb671b,Ollie Watkins,England,FW,,1995-12-30,30.0,20,6.0,Aston Villa,Premier League,True,30000000.0
+581c7097-ee3e-4492-b0c2-0befd25e7889,Anthony Gordon,England,FW,,2001-02-24,25.0,17,2.0,Newcastle United,Premier League,True,60000000.0
+e51867c4-fc48-496e-b5a6-5de2c4f541fb,Noni Madueke,England,FW,,2002-03-10,24.0,10,1.0,Arsenal,Premier League,True,50000000.0
+99aa7515-3cd0-489d-b5ba-7eb5a8725af6,Ivan Toney,England,FW,,1996-03-16,30.0,7,1.0,Al-Ahli,,True,20000000.0
+ea8f0195-524c-483b-b335-45511afaf3f4,Dominik Livaković,Croatia,GK,,1995-01-09,31.0,73,0.0,Dinamo Zagreb,HNL,True,4000000.0
+f941056f-1bbf-4008-b5e3-d51d295c687d,Dominik Kotarski,Croatia,GK,,2000-02-10,26.0,3,0.0,Copenhagen,Danish Superliga,True,5000000.0
+a754bf90-838c-483b-89df-6c3869d5ba8a,Ivor Pandur,Croatia,GK,,2000-03-25,26.0,0,0.0,Hull City,Premier League,True,4500000.0
+d5b2886c-9be0-4bf2-8d5c-e4b6027cfffe,Joško Gvardiol,Croatia,DF,,2002-01-23,24.0,46,4.0,Manchester City,Premier League,True,70000000.0
+cc53c7eb-31fe-4407-8714-ceb209d3c5bc,Duje Ćaleta-Car,Croatia,DF,,1996-09-17,29.0,38,1.0,Real Sociedad,La Liga,True,3000000.0
+39425bc8-1c35-4359-a9fd-fa097cb33034,Josip Šutalo,Croatia,DF,,2000-02-28,26.0,31,0.0,Ajax,Eredivisie,True,12000000.0
+8289f800-1710-4371-8390-0eae4c4d0bf6,Josip Stanišić,Croatia,DF,,2000-04-02,26.0,29,0.0,Bayern Munich,Bundesliga,True,40000000.0
+23358635-7212-4839-9a1b-150ccf17f6bd,Marin Pongračić,Croatia,DF,,1997-09-11,28.0,18,0.0,Fiorentina,Serie A,True,7500000.0
+8f6badbf-8cc5-4af4-a272-c1dca74598fd,Martin Erlić,Croatia,DF,,1998-01-24,28.0,12,1.0,Midtjylland,Danish Superliga,True,4000000.0
+06de0209-79c2-41ed-bec4-6a7b44308dc5,Luka Vušković,Croatia,DF,,2007-02-24,19.0,4,1.0,Hamburger SV,Bundesliga,True,60000000.0
+0eb54911-b547-484a-9df8-59be7a974967,Luka Modrić,Croatia,MF,,1985-09-09,40.0,196,28.0,Milan,Serie A,True,4000000.0
+3fb24d02-0b58-470b-b101-56e82700543e,Mateo Kovačić,Croatia,MF,,1994-05-06,32.0,111,5.0,Manchester City,Premier League,True,12000000.0
+975f3e1d-df86-4b04-8e16-13445b59e470,Mario Pašalić,Croatia,MF,,1995-02-09,31.0,83,11.0,Atalanta,Serie A,True,7000000.0
+e56fe0b4-e1e7-4975-a79f-3f82b2d75204,Nikola Vlašić,Croatia,MF,,1997-10-04,28.0,61,10.0,Torino,Serie A,True,9000000.0
+90b8a118-1634-4b19-97dc-5de597456067,Luka Sučić,Croatia,MF,,2002-09-08,23.0,19,1.0,Real Sociedad,La Liga,True,10000000.0
+7ac835d9-ed4d-48a2-9cce-b682aeac43ba,Martin Baturina,Croatia,MF,,2003-02-16,23.0,17,1.0,Como,Serie A,True,24000000.0
+8abd16a3-c90c-44ca-be42-d7f543316030,Kristijan Jakić,Croatia,MF,,1997-05-14,29.0,16,2.0,FC Augsburg,Bundesliga,True,6000000.0
+830fc51f-9324-45fd-b76c-3dde4416848e,Petar Sučić,Croatia,MF,,2003-10-25,22.0,15,1.0,Inter Milan,Serie A,True,30000000.0
+dd25bf3f-6c98-4205-b147-bc9ea2f45c55,Nikola Moro,Croatia,MF,,1998-03-12,28.0,9,0.0,Bologna,Serie A,True,6500000.0
+a02e793a-ade0-4016-9cdb-4272a5ccef15,Toni Fruk,Croatia,MF,,2001-04-09,25.0,7,1.0,Rijeka,HNL,True,9000000.0
+ee9f7703-dbab-46e8-b738-0b6b257e07e4,Ivan Perišić,Croatia,FW,,1989-02-02,37.0,152,38.0,PSV Eindhoven,Eredivisie,True,1200000.0
+d5cc48f5-0a2c-4683-973e-ec28242718b3,Andrej Kramarić,Croatia,FW,,1991-06-19,34.0,114,36.0,TSG Hoffenheim,Bundesliga,True,2500000.0
+dbacb683-f22b-47b8-b226-2339cb8ff90d,Ante Budimir,Croatia,FW,,1991-07-22,34.0,36,6.0,Osasuna,La Liga,True,3000000.0
+243d00ea-7068-4ecb-a936-014c06e3babc,Marco Pašalić,Croatia,FW,,2000-09-14,25.0,13,1.0,Orlando City,MLS,True,6500000.0
+5b361ab4-2820-47da-a24e-0f4881f7ea9a,Petar Musa,Croatia,FW,,1998-03-04,28.0,10,1.0,FC Dallas,MLS,True,8000000.0
+7a0a5b7d-90db-44ce-8959-5a0ed2260bf7,Igor Matanović,Croatia,FW,,2003-03-31,23.0,8,2.0,SC Freiburg,Bundesliga,True,22000000.0
+9096edb8-2efe-49b5-8243-4e7eee1b1dda,Luis Mejía,Panama,GK,,1991-03-16,35.0,56,0.0,Nacional,Primera División Uruguaya,True,250000.0
+08c039de-d31c-4997-81d0-62aaa1bc717e,Orlando Mosquera,Panama,GK,,1994-12-25,31.0,46,0.0,Al-Fayha,,True,650000.0
+98d84c59-1c4e-42e9-a1a4-c4c9e3b53e27,César Samudio,Panama,GK,,1994-03-26,32.0,4,0.0,Marathón,,True,300000.0
+2950d718-2a17-42ad-bcae-cb611dd9e0fc,Eric Davis,Panama,DF,,1991-03-31,35.0,104,9.0,Plaza Amador,,True,50000.0
+2cf25fa9-5c5d-464d-835f-551d1fb5677f,Fidel Escobar,Panama,DF,,1995-01-09,31.0,96,4.0,Saprissa,,True,350000.0
+81669a40-ad2d-431b-9b8e-86d1e8df02da,Amir Murillo,Panama,DF,,1996-02-11,30.0,91,9.0,Beşiktaş,Süper Lig,True,7000000.0
+516286df-cf5a-4cb5-bc9a-a9e73de98e31,Roderick Miller,Panama,DF,,1992-04-03,34.0,48,2.0,Turan Tovuz,,True,200000.0
+f50c0cae-72e6-4260-b5b4-aa1bd3ea2a46,Andrés Andrade,Panama,DF,,1998-10-16,27.0,47,1.0,LASK,Austrian Football Bundesliga,True,2500000.0
+b3040463-bb88-477b-b83e-77bf6c631483,César Blackman,Panama,DF,,1998-04-02,28.0,37,3.0,Slovan Bratislava,Slovak Super Liga,True,2500000.0
+5b830f83-0307-476d-8f75-f4de330a0367,José Córdoba,Panama,DF,,2001-06-03,25.0,30,1.0,Norwich City,Premier League,True,5000000.0
+9efaa89b-29b5-4a4d-8357-f7108a05246d,Jiovany Ramos,Panama,DF,,1997-01-26,29.0,20,1.0,Puerto Cabello,,True,400000.0
+58e4cf62-c7fe-4fe6-824f-196ecfbb8caf,Jorge Gutiérrez,Panama,DF,,1998-09-01,27.0,17,0.0,Deportivo La Guaira,,True,750000.0
+91494ba0-e86e-489d-9027-ee7384f70337,Edgardo Fariña,Panama,DF,,2001-09-21,24.0,15,0.0,Pari Nizhny Novgorod,Russian Premier League,True,900000.0
+6edcd735-2f4e-455b-b5ce-cf8b71f51d37,Aníbal Godoy,Panama,MF,,1990-02-10,36.0,159,4.0,San Diego,MLS,True,100000.0
+5d39491c-9520-4db2-b185-57d8733c52c9,Alberto Quintero,Panama,MF,,1987-12-18,38.0,140,7.0,Plaza Amador,,True,75000.0
+9134a16f-e390-45f3-9677-37b5932b29db,Yoel Bárcenas,Panama,MF,,1993-10-23,32.0,101,10.0,''Unattached'',,True,650000.0
+a490661e-7042-41a9-afaf-4a0bf2b12b5d,Adalberto Carrasquilla,Panama,MF,,1998-11-28,27.0,73,3.0,UNAM,Liga MX,True,4000000.0
+b747e16e-a824-4c86-b800-1dba51bf2efc,José Luis Rodríguez,Panama,MF,,1998-06-19,27.0,67,8.0,Juárez,Liga MX,True,2500000.0
+d7e0550d-058e-4b70-8e00-66b3af4df6bb,Cristian Martínez,Panama,MF,,1997-02-06,29.0,63,2.0,Ironi Kiryat Shmona,,True,750000.0
+3462192d-075e-4dc0-ab21-5c184495e506,César Yanis,Panama,MF,,1996-01-28,30.0,55,5.0,Cobresal,Primera División de Chile,True,350000.0
+a2cf7054-398c-408a-b0d8-301b5ee4ec56,Carlos Harvey,Panama,MF,,2000-02-03,26.0,25,2.0,Minnesota United,MLS,True,600000.0
+107450e4-b12e-4fed-b2dd-e52247f68bcd,Azarias Londoño,Panama,MF,,2001-06-21,24.0,10,0.0,Universidad Católica,Serie A Ecuador,True,1200000.0
+18cc9dfb-428e-47da-9763-7f271a60173e,José Fajardo,Panama,FW,,1993-08-18,32.0,65,17.0,Universidad Católica,Serie A Ecuador,True,600000.0
+672e48bf-42d8-4d84-b3d5-77b08bade89d,Ismael Díaz,Panama,FW,,1997-05-12,29.0,54,17.0,León,Liga MX,True,1800000.0
+2d1e5f56-5540-4acc-b419-8e2c67ce6c7d,Cecilio Waterman,Panama,FW,,1991-04-13,35.0,52,14.0,Universidad de Concepción,Primera División de Chile,True,350000.0
+82037c78-6d05-4b7d-af30-b807480103ae,Tomás Rodríguez,Panama,FW,,1999-03-09,27.0,11,3.0,Saprissa,,True,1000000.0
+e5b6d163-0bb8-4371-aba8-62042dba9f7d,Lawrence Ati-Zigi,Ghana,GK,,1996-11-29,29.0,28,0.0,St. Gallen,Swiss Super League,True,
+c3524629-2acc-4e9a-81f1-7250878f4c36,Benjamin Asare,Ghana,GK,,1992-07-13,33.0,10,0.0,Hearts of Oak,Ghana Premier League,True,100000.0
+bd91fea6-2102-42d7-b571-0f1b884cc494,Solomon Agbasi,Ghana,GK,,2000-10-13,25.0,1,0.0,Hearts of Oak,Ghana Premier League,True,25000.0
+4f5d19d6-ff27-4f27-bb61-c91af9972034,Joseph Anang,Ghana,GK,,2000-06-08,26.0,1,0.0,St Patrick's Athletic,,True,275000.0
+7c360a5a-fab3-4563-b519-42a3669df081,Paul Reverson,Ghana,GK,,2005-06-20,20.0,0,0.0,Jong Ajax,Eredivisie,True,350000.0
+6ad06ee2-d705-402f-8cc3-4643a1a03250,Abdul Rahman Baba,Ghana,DF,,1994-07-02,31.0,50,1.0,PAOK,Super League Greece,True,2000000.0
+a5a65ed2-8b9a-4eba-bc5a-fb72221e92f3,Gideon Mensah,Ghana,DF,,1998-07-18,27.0,39,0.0,Auxerre,Ligue 1,True,3500000.0
+3e6fc0c8-dbc6-4e2b-bca4-7321d3c67a4f,Alexander Djiku,Ghana,DF,,1994-08-09,31.0,38,4.0,Spartak Moscow,Russian Premier League,True,3500000.0
+ca7ead46-d67f-4040-875d-f202b4c73a42,Alidu Seidu,Ghana,DF,,2000-06-04,26.0,23,1.0,Rennes,Ligue 1,True,6000000.0
+c26478df-f4ae-48df-9f64-be45d3a1e712,Jerome Opoku,Ghana,DF,,1998-10-14,27.0,10,1.0,İstanbul Başakşehir,Süper Lig,True,5000000.0
+489ae99e-a460-42c2-90e4-5404bddd6bb1,Jonas Adjetey,Ghana,DF,,2003-12-13,22.0,9,0.0,VfL Wolfsburg,Bundesliga,True,6000000.0
+e4abd8b2-d8b8-4138-9649-033352ca3982,Abdul Mumin,Ghana,DF,,1998-06-06,28.0,4,0.0,Rayo Vallecano,La Liga,True,4000000.0
+c3a418f4-5b8c-43c0-a393-92d7297883ee,Kojo Peprah Oppong,Ghana,DF,,2004-06-04,22.0,4,0.0,Nice,Ligue 1,True,10000000.0
+5cca33e0-e338-431f-93d1-b20df2f32d46,Marvin Senaya,Ghana,DF,,2001-01-28,25.0,1,0.0,Auxerre,Ligue 1,True,3000000.0
+e90774ae-b259-4575-a8d0-43719a6089ab,Thomas Partey,Ghana,MF,,1993-06-13,32.0,56,15.0,Villarreal,La Liga,True,2500000.0
+2b468c2b-5c23-4fa5-a11b-b2a3f2ed8039,Abdul Fatawu,Ghana,MF,,2004-03-08,22.0,27,3.0,Leicester City,Premier League,True,20000000.0
+f2fe5a52-4848-44c3-b020-af3bcb412f06,Kamaldeen Sulemana,Ghana,MF,,2002-02-15,24.0,27,1.0,Atalanta,Serie A,True,18000000.0
+5987455e-0c28-4839-b5f2-e82921b94f6e,Elisha Owusu,Ghana,MF,,1997-11-07,28.0,19,0.0,Auxerre,Ligue 1,True,3500000.0
+e9cb692c-da26-4b73-ba41-8accaf7f650d,Caleb Yirenkyi,Ghana,MF,,2006-01-15,20.0,10,0.0,Nordsjælland,Danish Superliga,True,10000000.0
+6b714d14-0f14-4fc8-bd7b-d7ebd224b73f,Kwasi Sibo,Ghana,MF,,1998-06-24,27.0,7,0.0,Oviedo,La Liga,True,1500000.0
+f9dae4ec-2cee-4365-b12b-a8d63bc308d5,Augustine Boakye,Ghana,MF,,2000-11-03,25.0,0,0.0,Saint-Étienne,Ligue 1,True,6000000.0
+a3d8ba01-1b1c-4c19-8853-451304dd6b12,Jordan Ayew,Ghana,FW,,1991-09-11,34.0,119,34.0,Leicester City,Premier League,True,1000000.0
+f0367a98-5275-4ca9-8c3a-6d62485b4ae4,Antoine Semenyo,Ghana,FW,,2000-01-07,26.0,34,3.0,Manchester City,Premier League,True,75000000.0
+ec410cd6-c685-4bde-9b3e-793478341eb4,Iñaki Williams,Ghana,FW,,1994-06-15,31.0,25,2.0,Athletic Bilbao,La Liga,True,10000000.0
+b8a47c4b-8b77-4025-9d4b-b139459898c2,Ernest Nuamah,Ghana,FW,,2003-11-01,22.0,17,4.0,Lyon,Ligue 1,True,12000000.0
+2e12dd3c-1b25-49a2-86af-38edcf70f29c,Christopher Bonsu Baah,Ghana,FW,,2004-12-14,21.0,8,0.0,Al-Qadsiah,,True,12000000.0
+d5d8a406-aecf-463c-8e88-1f7ef670bf68,Brandon Thomas-Asante,Ghana,FW,,1998-12-28,27.0,7,1.0,Coventry City,Premier League,True,16000000.0
+be400e0d-b28f-4653-ba14-3246a3c57af5,Prince Kwabena Adu,Ghana,FW,,2003-09-23,22.0,4,0.0,Viktoria Plzeň,Czech First League,True,3000000.0

@@ -47,6 +47,9 @@ _HISTORICAL_CONF: dict[str, str] = {
 
 _CONFEDERATIONS = ["UEFA", "CONMEBOL", "AFC", "CAF", "CONCACAF", "OFC"]
 _MIN_MATCHES    = 8
+# OFC : seulement 3 matchs cross-conf. en WC 2010-2022 (NZ 2010).
+# -30 pts bruts → après normalisation UEFA/CONMEBOL ≈ -69 pts finaux.
+# Valeur heuristique conservatrice : mi-chemin entre AFC (-108) et UEFA (0).
 _FALLBACK_ADJ   = -30.0
 
 

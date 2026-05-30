@@ -1,0 +1,249 @@
+"""
+Équipes, groupes et fixtures Mondial 2026.
+Données issues de Wikipedia (tirage du 05/12/2025) — statiques, tirage définitif.
+"""
+
+import logging
+from pathlib import Path
+
+import pandas as pd
+
+logger = logging.getLogger(__name__)
+PROCESSED_DIR = Path(__file__).parents[2] / "data" / "processed"
+
+# ── Équipes : (team, group, confederation, pot) ───────────────────────────────
+
+TEAMS_DATA = [
+    ("Mexico",                 "A", "CONCACAF",  1),
+    ("South Korea",            "A", "AFC",        2),
+    ("South Africa",           "A", "CAF",        3),
+    ("Czech Republic",         "A", "UEFA",       4),
+    ("Canada",                 "B", "CONCACAF",  1),
+    ("Switzerland",            "B", "UEFA",       2),
+    ("Qatar",                  "B", "AFC",        3),
+    ("Bosnia and Herzegovina", "B", "UEFA",       4),
+    ("Brazil",                 "C", "CONMEBOL",  1),
+    ("Morocco",                "C", "CAF",        2),
+    ("Haiti",                  "C", "CONCACAF",  4),
+    ("Scotland",               "C", "UEFA",       3),
+    ("United States",          "D", "CONCACAF",  1),
+    ("Paraguay",               "D", "CONMEBOL",  3),
+    ("Australia",              "D", "AFC",        2),
+    ("Turkey",                 "D", "UEFA",       4),
+    ("Germany",                "E", "UEFA",       1),
+    ("Ecuador",                "E", "CONMEBOL",  2),
+    ("Ivory Coast",            "E", "CAF",        3),
+    ("Curaçao",                "E", "CONCACAF",  4),
+    ("Netherlands",            "F", "UEFA",       1),
+    ("Japan",                  "F", "AFC",        2),
+    ("Sweden",                 "F", "UEFA",       4),
+    ("Tunisia",                "F", "CAF",        3),
+    ("Belgium",                "G", "UEFA",       1),
+    ("Egypt",                  "G", "CAF",        3),
+    ("Iran",                   "G", "AFC",        2),
+    ("New Zealand",            "G", "OFC",        4),
+    ("Spain",                  "H", "UEFA",       1),
+    ("Uruguay",                "H", "CONMEBOL",  2),
+    ("Saudi Arabia",           "H", "AFC",        3),
+    ("Cape Verde",             "H", "CAF",        4),
+    ("France",                 "I", "UEFA",       1),
+    ("Senegal",                "I", "CAF",        2),
+    ("Iraq",                   "I", "AFC",        4),
+    ("Norway",                 "I", "UEFA",       3),
+    ("Argentina",              "J", "CONMEBOL",  1),
+    ("Austria",                "J", "UEFA",       2),
+    ("Algeria",                "J", "CAF",        3),
+    ("Jordan",                 "J", "AFC",        4),
+    ("Portugal",               "K", "UEFA",       1),
+    ("Colombia",               "K", "CONMEBOL",  2),
+    ("Uzbekistan",             "K", "AFC",        3),
+    ("DR Congo",               "K", "CAF",        4),
+    ("England",                "L", "UEFA",       1),
+    ("Croatia",                "L", "UEFA",       2),
+    ("Panama",                 "L", "CONCACAF",  3),
+    ("Ghana",                  "L", "CAF",        4),
+]
+
+# ── Fixtures : (match_id, date, kickoff_utc, stage, group, home_slot, away_slot, venue, city, country)
+
+FIXTURES_DATA = [
+    # ── GROUP A ──────────────────────────────────────────────────────────────
+    (1,  "2026-06-11", "2026-06-11T19:00:00Z", "group", "A", "Mexico",       "South Africa",   "Estadio Azteca",          "Mexico City",   "Mexico"),
+    (2,  "2026-06-11", "2026-06-12T02:00:00Z", "group", "A", "South Korea",  "Czech Republic", "Estadio Akron",           "Zapopan",       "Mexico"),
+    (3,  "2026-06-18", "2026-06-18T16:00:00Z", "group", "A", "Czech Republic","South Africa",  "Mercedes-Benz Stadium",   "Atlanta",       "United States"),
+    (4,  "2026-06-18", "2026-06-19T01:00:00Z", "group", "A", "Mexico",       "South Korea",    "Estadio Akron",           "Zapopan",       "Mexico"),
+    (5,  "2026-06-24", "2026-06-25T01:00:00Z", "group", "A", "Czech Republic","Mexico",        "Estadio Azteca",          "Mexico City",   "Mexico"),
+    (6,  "2026-06-24", "2026-06-25T01:00:00Z", "group", "A", "South Africa", "South Korea",    "Estadio BBVA",            "Guadalupe",     "Mexico"),
+    # ── GROUP B ──────────────────────────────────────────────────────────────
+    (7,  "2026-06-12", "2026-06-12T19:00:00Z", "group", "B", "Canada",       "Bosnia and Herzegovina", "BMO Field",       "Toronto",       "Canada"),
+    (8,  "2026-06-13", "2026-06-13T19:00:00Z", "group", "B", "Qatar",        "Switzerland",    "Levi's Stadium",          "Santa Clara",   "United States"),
+    (9,  "2026-06-18", "2026-06-18T19:00:00Z", "group", "B", "Switzerland",  "Bosnia and Herzegovina", "SoFi Stadium",    "Inglewood",     "United States"),
+    (10, "2026-06-18", "2026-06-18T22:00:00Z", "group", "B", "Canada",       "Qatar",          "BC Place",                "Vancouver",     "Canada"),
+    (11, "2026-06-24", "2026-06-24T19:00:00Z", "group", "B", "Switzerland",  "Canada",         "BC Place",                "Vancouver",     "Canada"),
+    (12, "2026-06-24", "2026-06-24T19:00:00Z", "group", "B", "Bosnia and Herzegovina", "Qatar","Lumen Field",             "Seattle",       "United States"),
+    # ── GROUP C ──────────────────────────────────────────────────────────────
+    (13, "2026-06-13", "2026-06-13T22:00:00Z", "group", "C", "Brazil",       "Morocco",        "MetLife Stadium",         "East Rutherford","United States"),
+    (14, "2026-06-13", "2026-06-14T01:00:00Z", "group", "C", "Haiti",        "Scotland",       "Gillette Stadium",        "Foxborough",    "United States"),
+    (15, "2026-06-19", "2026-06-19T22:00:00Z", "group", "C", "Scotland",     "Morocco",        "Gillette Stadium",        "Foxborough",    "United States"),
+    (16, "2026-06-19", "2026-06-20T00:30:00Z", "group", "C", "Brazil",       "Haiti",          "Lincoln Financial Field", "Philadelphia",  "United States"),
+    (17, "2026-06-24", "2026-06-24T22:00:00Z", "group", "C", "Scotland",     "Brazil",         "Hard Rock Stadium",       "Miami Gardens", "United States"),
+    (18, "2026-06-24", "2026-06-24T22:00:00Z", "group", "C", "Morocco",      "Haiti",          "Mercedes-Benz Stadium",   "Atlanta",       "United States"),
+    # ── GROUP D ──────────────────────────────────────────────────────────────
+    (19, "2026-06-12", "2026-06-13T01:00:00Z", "group", "D", "United States","Paraguay",       "SoFi Stadium",            "Inglewood",     "United States"),
+    (20, "2026-06-13", "2026-06-14T04:00:00Z", "group", "D", "Australia",    "Turkey",         "BC Place",                "Vancouver",     "Canada"),
+    (21, "2026-06-19", "2026-06-19T19:00:00Z", "group", "D", "United States","Australia",      "Lumen Field",             "Seattle",       "United States"),
+    (22, "2026-06-19", "2026-06-20T03:00:00Z", "group", "D", "Turkey",       "Paraguay",       "Levi's Stadium",          "Santa Clara",   "United States"),
+    (23, "2026-06-25", "2026-06-26T02:00:00Z", "group", "D", "Turkey",       "United States",  "SoFi Stadium",            "Inglewood",     "United States"),
+    (24, "2026-06-25", "2026-06-26T02:00:00Z", "group", "D", "Paraguay",     "Australia",      "Levi's Stadium",          "Santa Clara",   "United States"),
+    # ── GROUP E ──────────────────────────────────────────────────────────────
+    (25, "2026-06-14", "2026-06-14T17:00:00Z", "group", "E", "Germany",      "Curaçao",        "NRG Stadium",             "Houston",       "United States"),
+    (26, "2026-06-14", "2026-06-14T23:00:00Z", "group", "E", "Ivory Coast",  "Ecuador",        "Lincoln Financial Field", "Philadelphia",  "United States"),
+    (27, "2026-06-20", "2026-06-20T20:00:00Z", "group", "E", "Germany",      "Ivory Coast",    "BMO Field",               "Toronto",       "Canada"),
+    (28, "2026-06-20", "2026-06-21T00:00:00Z", "group", "E", "Ecuador",      "Curaçao",        "Arrowhead Stadium",       "Kansas City",   "United States"),
+    (29, "2026-06-25", "2026-06-25T20:00:00Z", "group", "E", "Curaçao",      "Ivory Coast",    "Lincoln Financial Field", "Philadelphia",  "United States"),
+    (30, "2026-06-25", "2026-06-25T20:00:00Z", "group", "E", "Ecuador",      "Germany",        "MetLife Stadium",         "East Rutherford","United States"),
+    # ── GROUP F ──────────────────────────────────────────────────────────────
+    (31, "2026-06-14", "2026-06-14T20:00:00Z", "group", "F", "Netherlands",  "Japan",          "AT&T Stadium",            "Arlington",     "United States"),
+    (32, "2026-06-14", "2026-06-15T02:00:00Z", "group", "F", "Sweden",       "Tunisia",        "Estadio BBVA",            "Guadalupe",     "Mexico"),
+    (33, "2026-06-20", "2026-06-20T17:00:00Z", "group", "F", "Netherlands",  "Sweden",         "NRG Stadium",             "Houston",       "United States"),
+    (34, "2026-06-20", "2026-06-21T04:00:00Z", "group", "F", "Tunisia",      "Japan",          "Estadio BBVA",            "Guadalupe",     "Mexico"),
+    (35, "2026-06-25", "2026-06-25T23:00:00Z", "group", "F", "Japan",        "Sweden",         "AT&T Stadium",            "Arlington",     "United States"),
+    (36, "2026-06-25", "2026-06-25T23:00:00Z", "group", "F", "Tunisia",      "Netherlands",    "Arrowhead Stadium",       "Kansas City",   "United States"),
+    # ── GROUP G ──────────────────────────────────────────────────────────────
+    (37, "2026-06-15", "2026-06-15T19:00:00Z", "group", "G", "Belgium",      "Egypt",          "Lumen Field",             "Seattle",       "United States"),
+    (38, "2026-06-15", "2026-06-16T01:00:00Z", "group", "G", "Iran",         "New Zealand",    "SoFi Stadium",            "Inglewood",     "United States"),
+    (39, "2026-06-21", "2026-06-21T19:00:00Z", "group", "G", "Belgium",      "Iran",           "SoFi Stadium",            "Inglewood",     "United States"),
+    (40, "2026-06-21", "2026-06-22T01:00:00Z", "group", "G", "New Zealand",  "Egypt",          "BC Place",                "Vancouver",     "Canada"),
+    (41, "2026-06-26", "2026-06-27T03:00:00Z", "group", "G", "Egypt",        "Iran",           "Lumen Field",             "Seattle",       "United States"),
+    (42, "2026-06-26", "2026-06-27T03:00:00Z", "group", "G", "New Zealand",  "Belgium",        "BC Place",                "Vancouver",     "Canada"),
+    # ── GROUP H ──────────────────────────────────────────────────────────────
+    (43, "2026-06-15", "2026-06-15T16:00:00Z", "group", "H", "Spain",        "Cape Verde",     "Mercedes-Benz Stadium",   "Atlanta",       "United States"),
+    (44, "2026-06-15", "2026-06-15T22:00:00Z", "group", "H", "Saudi Arabia", "Uruguay",        "Hard Rock Stadium",       "Miami Gardens", "United States"),
+    (45, "2026-06-21", "2026-06-21T16:00:00Z", "group", "H", "Spain",        "Saudi Arabia",   "Mercedes-Benz Stadium",   "Atlanta",       "United States"),
+    (46, "2026-06-21", "2026-06-21T22:00:00Z", "group", "H", "Uruguay",      "Cape Verde",     "Hard Rock Stadium",       "Miami Gardens", "United States"),
+    (47, "2026-06-26", "2026-06-27T00:00:00Z", "group", "H", "Cape Verde",   "Saudi Arabia",   "NRG Stadium",             "Houston",       "United States"),
+    (48, "2026-06-26", "2026-06-27T00:00:00Z", "group", "H", "Uruguay",      "Spain",          "Estadio Akron",           "Zapopan",       "Mexico"),
+    # ── GROUP I ──────────────────────────────────────────────────────────────
+    (49, "2026-06-16", "2026-06-16T19:00:00Z", "group", "I", "France",       "Senegal",        "MetLife Stadium",         "East Rutherford","United States"),
+    (50, "2026-06-16", "2026-06-16T22:00:00Z", "group", "I", "Iraq",         "Norway",         "Gillette Stadium",        "Foxborough",    "United States"),
+    (51, "2026-06-22", "2026-06-22T21:00:00Z", "group", "I", "France",       "Iraq",           "Lincoln Financial Field", "Philadelphia",  "United States"),
+    (52, "2026-06-22", "2026-06-23T00:00:00Z", "group", "I", "Norway",       "Senegal",        "MetLife Stadium",         "East Rutherford","United States"),
+    (53, "2026-06-26", "2026-06-26T19:00:00Z", "group", "I", "Norway",       "France",         "Gillette Stadium",        "Foxborough",    "United States"),
+    (54, "2026-06-26", "2026-06-26T19:00:00Z", "group", "I", "Senegal",      "Iraq",           "BMO Field",               "Toronto",       "Canada"),
+    # ── GROUP J ──────────────────────────────────────────────────────────────
+    (55, "2026-06-16", "2026-06-17T01:00:00Z", "group", "J", "Argentina",    "Algeria",        "Arrowhead Stadium",       "Kansas City",   "United States"),
+    (56, "2026-06-16", "2026-06-17T04:00:00Z", "group", "J", "Austria",      "Jordan",         "Levi's Stadium",          "Santa Clara",   "United States"),
+    (57, "2026-06-22", "2026-06-22T17:00:00Z", "group", "J", "Argentina",    "Austria",        "AT&T Stadium",            "Arlington",     "United States"),
+    (58, "2026-06-22", "2026-06-23T03:00:00Z", "group", "J", "Jordan",       "Algeria",        "Levi's Stadium",          "Santa Clara",   "United States"),
+    (59, "2026-06-27", "2026-06-28T02:00:00Z", "group", "J", "Algeria",      "Austria",        "Arrowhead Stadium",       "Kansas City",   "United States"),
+    (60, "2026-06-27", "2026-06-28T02:00:00Z", "group", "J", "Jordan",       "Argentina",      "AT&T Stadium",            "Arlington",     "United States"),
+    # ── GROUP K ──────────────────────────────────────────────────────────────
+    (61, "2026-06-17", "2026-06-17T17:00:00Z", "group", "K", "Portugal",     "DR Congo",       "NRG Stadium",             "Houston",       "United States"),
+    (62, "2026-06-17", "2026-06-18T02:00:00Z", "group", "K", "Uzbekistan",   "Colombia",       "Estadio Azteca",          "Mexico City",   "Mexico"),
+    (63, "2026-06-23", "2026-06-23T17:00:00Z", "group", "K", "Portugal",     "Uzbekistan",     "NRG Stadium",             "Houston",       "United States"),
+    (64, "2026-06-23", "2026-06-24T02:00:00Z", "group", "K", "Colombia",     "DR Congo",       "Estadio Akron",           "Zapopan",       "Mexico"),
+    (65, "2026-06-27", "2026-06-27T23:30:00Z", "group", "K", "Colombia",     "Portugal",       "Hard Rock Stadium",       "Miami Gardens", "United States"),
+    (66, "2026-06-27", "2026-06-27T23:30:00Z", "group", "K", "DR Congo",     "Uzbekistan",     "Mercedes-Benz Stadium",   "Atlanta",       "United States"),
+    # ── GROUP L ──────────────────────────────────────────────────────────────
+    (67, "2026-06-17", "2026-06-17T20:00:00Z", "group", "L", "England",      "Croatia",        "AT&T Stadium",            "Arlington",     "United States"),
+    (68, "2026-06-17", "2026-06-17T23:00:00Z", "group", "L", "Ghana",        "Panama",         "BMO Field",               "Toronto",       "Canada"),
+    (69, "2026-06-23", "2026-06-23T20:00:00Z", "group", "L", "England",      "Ghana",          "Gillette Stadium",        "Foxborough",    "United States"),
+    (70, "2026-06-23", "2026-06-23T23:00:00Z", "group", "L", "Panama",       "Croatia",        "BMO Field",               "Toronto",       "Canada"),
+    (71, "2026-06-27", "2026-06-27T21:00:00Z", "group", "L", "Panama",       "England",        "MetLife Stadium",         "East Rutherford","United States"),
+    (72, "2026-06-27", "2026-06-27T21:00:00Z", "group", "L", "Croatia",      "Ghana",          "Lincoln Financial Field", "Philadelphia",  "United States"),
+    # ── ROUND OF 32 ──────────────────────────────────────────────────────────
+    (73,  "2026-06-28", "2026-06-28T19:00:00Z", "r32",   None, "Runner-up Group A",       "Runner-up Group B",       "SoFi Stadium",            "Inglewood",      "United States"),
+    (74,  "2026-06-29", "2026-06-29T20:30:00Z", "r32",   None, "Winner Group E",          "3rd Group A/B/C/D/F",     "Gillette Stadium",        "Foxborough",     "United States"),
+    (75,  "2026-06-29", "2026-06-30T01:00:00Z", "r32",   None, "Winner Group F",          "Runner-up Group C",       "Estadio BBVA",            "Guadalupe",      "Mexico"),
+    (76,  "2026-06-29", "2026-06-29T17:00:00Z", "r32",   None, "Winner Group C",          "Runner-up Group F",       "NRG Stadium",             "Houston",        "United States"),
+    (77,  "2026-06-30", "2026-06-30T21:00:00Z", "r32",   None, "Winner Group I",          "3rd Group C/D/F/G/H",     "MetLife Stadium",         "East Rutherford","United States"),
+    (78,  "2026-06-30", "2026-06-30T17:00:00Z", "r32",   None, "Runner-up Group E",       "Runner-up Group I",       "AT&T Stadium",            "Arlington",      "United States"),
+    (79,  "2026-06-30", "2026-07-01T01:00:00Z", "r32",   None, "Winner Group A",          "3rd Group C/E/F/H/I",     "Estadio Azteca",          "Mexico City",    "Mexico"),
+    (80,  "2026-07-01", "2026-07-01T16:00:00Z", "r32",   None, "Winner Group L",          "3rd Group E/H/I/J/K",     "Mercedes-Benz Stadium",   "Atlanta",        "United States"),
+    (81,  "2026-07-01", "2026-07-02T00:00:00Z", "r32",   None, "Winner Group D",          "3rd Group B/E/F/I/J",     "Levi's Stadium",          "Santa Clara",    "United States"),
+    (82,  "2026-07-01", "2026-07-01T20:00:00Z", "r32",   None, "Winner Group G",          "3rd Group A/E/H/I/J",     "Lumen Field",             "Seattle",        "United States"),
+    (83,  "2026-07-02", "2026-07-02T23:00:00Z", "r32",   None, "Runner-up Group K",       "Runner-up Group L",       "BMO Field",               "Toronto",        "Canada"),
+    (84,  "2026-07-02", "2026-07-02T19:00:00Z", "r32",   None, "Winner Group H",          "Runner-up Group J",       "SoFi Stadium",            "Inglewood",      "United States"),
+    (85,  "2026-07-02", "2026-07-03T03:00:00Z", "r32",   None, "Winner Group B",          "3rd Group E/F/G/I/J",     "BC Place",                "Vancouver",      "Canada"),
+    (86,  "2026-07-03", "2026-07-03T22:00:00Z", "r32",   None, "Winner Group J",          "Runner-up Group H",       "Hard Rock Stadium",       "Miami Gardens",  "United States"),
+    (87,  "2026-07-03", "2026-07-04T01:30:00Z", "r32",   None, "Winner Group K",          "3rd Group D/E/I/J/L",     "Arrowhead Stadium",       "Kansas City",    "United States"),
+    (88,  "2026-07-03", "2026-07-03T18:00:00Z", "r32",   None, "Runner-up Group D",       "Runner-up Group G",       "AT&T Stadium",            "Arlington",      "United States"),
+    # ── ROUND OF 16 ──────────────────────────────────────────────────────────
+    (89,  "2026-07-04", "2026-07-04T21:00:00Z", "r16",   None, "Winner Match 74",         "Winner Match 77",         "Lincoln Financial Field", "Philadelphia",   "United States"),
+    (90,  "2026-07-04", "2026-07-04T17:00:00Z", "r16",   None, "Winner Match 73",         "Winner Match 75",         "NRG Stadium",             "Houston",        "United States"),
+    (91,  "2026-07-05", "2026-07-05T20:00:00Z", "r16",   None, "Winner Match 76",         "Winner Match 78",         "MetLife Stadium",         "East Rutherford","United States"),
+    (92,  "2026-07-05", "2026-07-06T00:00:00Z", "r16",   None, "Winner Match 79",         "Winner Match 80",         "Estadio Azteca",          "Mexico City",    "Mexico"),
+    (93,  "2026-07-06", "2026-07-06T19:00:00Z", "r16",   None, "Winner Match 83",         "Winner Match 84",         "AT&T Stadium",            "Arlington",      "United States"),
+    (94,  "2026-07-06", "2026-07-07T00:00:00Z", "r16",   None, "Winner Match 81",         "Winner Match 82",         "Lumen Field",             "Seattle",        "United States"),
+    (95,  "2026-07-07", "2026-07-07T16:00:00Z", "r16",   None, "Winner Match 86",         "Winner Match 88",         "Mercedes-Benz Stadium",   "Atlanta",        "United States"),
+    (96,  "2026-07-07", "2026-07-07T20:00:00Z", "r16",   None, "Winner Match 85",         "Winner Match 87",         "BC Place",                "Vancouver",      "Canada"),
+    # ── QUARTERFINALS ────────────────────────────────────────────────────────
+    (97,  "2026-07-09", "2026-07-09T20:00:00Z", "qf",    None, "Winner Match 89",         "Winner Match 90",         "Gillette Stadium",        "Foxborough",     "United States"),
+    (98,  "2026-07-10", "2026-07-10T19:00:00Z", "qf",    None, "Winner Match 93",         "Winner Match 94",         "SoFi Stadium",            "Inglewood",      "United States"),
+    (99,  "2026-07-11", "2026-07-11T21:00:00Z", "qf",    None, "Winner Match 91",         "Winner Match 92",         "Hard Rock Stadium",       "Miami Gardens",  "United States"),
+    (100, "2026-07-11", "2026-07-12T01:00:00Z", "qf",    None, "Winner Match 95",         "Winner Match 96",         "Arrowhead Stadium",       "Kansas City",    "United States"),
+    # ── SEMIFINALS ───────────────────────────────────────────────────────────
+    (101, "2026-07-14", "2026-07-14T19:00:00Z", "sf",    None, "Winner Match 97",         "Winner Match 98",         "AT&T Stadium",            "Arlington",      "United States"),
+    (102, "2026-07-15", "2026-07-15T19:00:00Z", "sf",    None, "Winner Match 99",         "Winner Match 100",        "Mercedes-Benz Stadium",   "Atlanta",        "United States"),
+    # ── THIRD PLACE ──────────────────────────────────────────────────────────
+    (103, "2026-07-18", "2026-07-18T21:00:00Z", "3rd",   None, "Loser Match 101",         "Loser Match 102",         "Hard Rock Stadium",       "Miami Gardens",  "United States"),
+    # ── FINAL ────────────────────────────────────────────────────────────────
+    (104, "2026-07-19", "2026-07-19T19:00:00Z", "final", None, "Winner Match 101",        "Winner Match 102",        "MetLife Stadium",         "East Rutherford","United States"),
+]
+
+_COLS_FIXTURES = ["match_id", "date", "kickoff_utc", "stage", "group",
+                  "home_slot", "away_slot", "venue", "city", "country"]
+_COLS_TEAMS    = ["team", "group", "confederation", "pot"]
+
+
+def build_teams_df() -> pd.DataFrame:
+    df = pd.DataFrame(TEAMS_DATA, columns=_COLS_TEAMS)
+    df["fifa_ranking"] = None  # à enrichir depuis FIFA ranking (page JS-renderée)
+    return df
+
+
+def build_fixtures_df() -> pd.DataFrame:
+    df = pd.DataFrame(FIXTURES_DATA, columns=_COLS_FIXTURES)
+    df["date"] = pd.to_datetime(df["date"]).dt.date
+    return df
+
+
+def _validate(teams: pd.DataFrame, fixtures: pd.DataFrame) -> None:
+    assert len(teams) == 48, f"48 équipes attendues, {len(teams)} trouvées"
+    groups = teams.groupby("group").size()
+    assert len(groups) == 12, f"12 groupes attendus, {len(groups)} trouvés"
+    assert (groups == 4).all(), f"Groupes déséquilibrés : {groups.to_dict()}"
+    assert len(fixtures) == 104, f"104 matchs attendus, {len(fixtures)} trouvés"
+    group_matches = (fixtures["stage"] == "group").sum()
+    assert group_matches == 72, f"72 matchs de poule attendus, {group_matches} trouvés"
+    knockout_matches = (fixtures["stage"] != "group").sum()
+    assert knockout_matches == 32, f"32 matchs KO attendus, {knockout_matches} trouvés"
+    logger.info("Validation OK : 48 équipes, 12 groupes, 72+32=104 matchs")
+
+
+def save_all() -> dict[str, pd.DataFrame]:
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    teams = build_teams_df()
+    fixtures = build_fixtures_df()
+    _validate(teams, fixtures)
+
+    out_t = PROCESSED_DIR / "teams.csv"
+    teams.to_csv(out_t, index=False)
+    logger.info("Sauvegardé : %s (%d lignes)", out_t, len(teams))
+
+    out_f = PROCESSED_DIR / "fixtures.csv"
+    fixtures.to_csv(out_f, index=False)
+    logger.info("Sauvegardé : %s (%d lignes)", out_f, len(fixtures))
+
+    return {"teams": teams, "fixtures": fixtures}
+
+
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    dfs = save_all()
+    print("\n=== teams.csv (5 lignes) ===")
+    print(dfs["teams"].head(5).to_string(index=False))
+    print("\n=== fixtures.csv — group stage (5 lignes) ===")
+    print(dfs["fixtures"][dfs["fixtures"]["stage"] == "group"].head(5).to_string(index=False))
+    print("\n=== fixtures.csv — knockout (5 lignes) ===")
+    print(dfs["fixtures"][dfs["fixtures"]["stage"] != "group"].head(5).to_string(index=False))

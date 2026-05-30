@@ -32,7 +32,8 @@ c1, c2, c3, c4 = st.columns(4)
 c1.metric("Matchs total", total_matches)
 c2.metric("Matchs joués", played_matches)
 c3.metric("Pronos disponibles", n_picks, help="Matchs de poule avec cotes MPP")
-c4.metric("Mes points", my_score if my_score is not None else "—")
+c4.metric("Mes points", my_score if my_score is not None else "—",
+          help="Renseigné via data/processed/my_score.csv (Phase 4 live)")
 
 st.divider()
 

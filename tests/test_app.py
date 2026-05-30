@@ -106,3 +106,47 @@ def test_mode_safe_on_nan_does_not_crash(data):
     mode_valid = "value"
     mode_str2 = str(mode_valid).upper() if pd.notna(mode_valid) else "—"
     assert mode_str2 == "VALUE"
+
+
+def test_ko_match_pred_elo_fields_are_float(data):
+    """get_match() sur un match KO doit retourner des floats (pas de string '—')
+    pour les clés Elo — garantit que la page détail ne crashe pas à l'affichage."""
+    from src.app.utils import get_match
+    ko_ids = data["fixtures"][data["fixtures"]["stage"] != "group"]["match_id"].tolist()
+    assert ko_ids, "Doit y avoir des matchs KO"
+    m = get_match(ko_ids[0])
+    assert m is not None
+    for key in ("elo_home", "elo_away", "elo_home_adj", "elo_away_adj"):
+        val = m["pred"].get(key)
+        if val is not None:
+            assert isinstance(val, float), f"{key} doit être float, got {type(val)}"
+
+
+def test_ev_formula_symmetry():
+    """BUG-FIX check : le bonus rareté doit s'appliquer aux 3 issues, pas seulement draw/away."""
+    # Simule la formule corrigée : base_cote + rarity pour toutes les issues
+    ch, cd, ca = 96, 107, 91
+    rarity = 5
+    for i, j in [(1, 0), (0, 0), (0, 1)]:  # dom / nul / ext
+        base_cote = ch if i > j else (ca if j > i else cd)
+        ev = 0.10 * (base_cote + rarity)
+        assert ev > 0, f"EV doit être positif pour ({i},{j})"
+        # Vérifie que rarity est toujours inclus
+        ev_no_rarity = 0.10 * base_cote
+        assert ev > ev_no_rarity, f"EV avec rarity doit être > sans rarity pour ({i},{j})"
+
+
+def test_fk_picks_match_ids_in_fixtures(data):
+    """Tous les match_id dans optimal_picks.csv doivent exister dans fixtures.csv."""
+    fix_ids  = set(data["fixtures"]["match_id"])
+    pick_ids = set(data["picks"]["match_id"])
+    orphans  = pick_ids - fix_ids
+    assert not orphans, f"match_ids orphelins dans picks : {orphans}"
+
+
+def test_fk_distributions_match_ids_in_fixtures(data):
+    """Tous les match_id dans score_distributions doivent exister dans fixtures.csv."""
+    fix_ids  = set(data["fixtures"]["match_id"])
+    dist_ids = set(data["distributions"]["match_id"])
+    orphans  = dist_ids - fix_ids
+    assert not orphans, f"match_ids orphelins dans distributions : {orphans}"

@@ -12,6 +12,8 @@ from src.app.utils import (
     STAGE_LABELS, STAGE_ORDER, flag, format_pct, format_ev, mpp_implied,
 )
 
+_STAGE_ORDER = {s: i for i, s in enumerate(STAGE_ORDER)}
+
 st.title("📅 Calendrier & Pronos")
 
 # ── Données ───────────────────────────────────────────────────────────────────
@@ -40,8 +42,9 @@ n_total      = len(base)
 n_missing    = n_total - n_with_picks
 st.info(
     f"📊 Picks recommandés disponibles pour **{n_with_picks} matchs sur {n_total}** "
-    f"(matchs avec cotes MPP saisies). Les {n_missing} autres matchs affichent "
-    f"uniquement les probabilités du modèle."
+    f"(phase de groupes avec cotes MPP saisies). "
+    f"Les {n_missing} matchs KO n'ont pas encore de picks ni de probas affichées "
+    f"(équipes non qualifiées — voir la page Bracket pour les probabilités de qualification)."
 )
 
 # ── Filtres ───────────────────────────────────────────────────────────────────
@@ -72,7 +75,6 @@ filtered = filtered[
 ]
 
 # Tri : picks en premier, puis groupes avant KO, puis date ASC
-_STAGE_ORDER = {"group": 0, "r32": 1, "r16": 2, "qf": 3, "sf": 4, "final": 5, "3rd": 6}
 filtered = filtered.copy()
 filtered["_has_pick"]    = filtered["mode_recommended"].notna()
 filtered["_stage_order"] = filtered["stage"].map(_STAGE_ORDER).fillna(99)
@@ -120,8 +122,8 @@ for _, r in filtered.iterrows():
         "Match":          f"{flag(home)} {home}  vs  {flag(away)} {away}",
         "Gr.":            r.get("group") or "—",
         "Phase":          STAGE_LABELS.get(r["stage"], r["stage"]),
-        "Cotes MPP":      cotes_str,
-        "Probas (1-N-2)": probas_str,
+        "Cotes MPP":           cotes_str,
+        "Probas grp. (1-N-2)": probas_str,
         "SAFE":           safe_str,
         "VALUE":          value_str,
         "LOTTERY":        lottery_str,
