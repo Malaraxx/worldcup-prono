@@ -71,6 +71,16 @@ filtered = filtered[
     (filtered["date_local"].dt.date <= sel_d2)
 ]
 
+# Tri : picks en premier, puis groupes avant KO, puis date ASC
+_STAGE_ORDER = {"group": 0, "r32": 1, "r16": 2, "qf": 3, "sf": 4, "final": 5, "3rd": 6}
+filtered = filtered.copy()
+filtered["_has_pick"]    = filtered["mode_recommended"].notna()
+filtered["_stage_order"] = filtered["stage"].map(_STAGE_ORDER).fillna(99)
+filtered = filtered.sort_values(
+    ["_has_pick", "_stage_order", "kickoff_dt"],
+    ascending=[False, True, True],
+)
+
 st.caption(f"{len(filtered)} match(s) affiché(s)")
 
 # ── Tableau principal ─────────────────────────────────────────────────────────
@@ -80,11 +90,15 @@ for _, r in filtered.iterrows():
     away = r["away_slot"]
     dt_str = r["date_local"].strftime("%d/%m %H:%M") if pd.notna(r["date_local"]) else "—"
 
-    # Probas modèle
+    # Probas modèle — uniquement pour les matchs de poule avec équipes nominales
     ph  = r.get("p_home_win_cal")
     pd_ = r.get("p_draw_cal")
     pa  = r.get("p_away_win_cal")
-    probas_str = f"{ph:.0%} / {pd_:.0%} / {pa:.0%}" if pd.notna(ph) else "—"
+    probas_str = (
+        f"{ph:.0%} / {pd_:.0%} / {pa:.0%}"
+        if pd.notna(ph) and r["stage"] == "group"
+        else "—"
+    )
 
     # Cotes MPP
     ch = r.get("cote_home")
