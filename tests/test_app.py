@@ -73,3 +73,36 @@ def test_mpp_implied_sums_to_one():
     from src.app.utils import mpp_implied
     ih, id_, ia = mpp_implied(96, 107, 91)
     assert abs(ih + id_ + ia - 1.0) < 1e-9
+
+
+def test_picks_nan_coverage(data):
+    """optimal_picks.csv couvre 24 matchs (groupes) ; le merge left sur 104 fixtures
+    doit produire exactement 80 matchs sans pick (NaN sur mode_recommended)."""
+    import pandas as pd
+    fix   = data["fixtures"]
+    picks = data["picks"]
+
+    merged = fix.merge(
+        picks[["match_id", "mode_recommended"]], on="match_id", how="left"
+    )
+    n_with    = merged["mode_recommended"].notna().sum()
+    n_without = merged["mode_recommended"].isna().sum()
+
+    assert n_with == 24,  f"Attendu 24 matchs avec picks, got {n_with}"
+    assert n_without == 80, f"Attendu 80 matchs sans pick (NaN), got {n_without}"
+
+
+def test_mode_safe_on_nan_does_not_crash(data):
+    """Vérifie que str(NaN).upper() ne crashe pas et donne 'NAN' ou qu'on
+    protège correctement avec pd.notna() — test de la logique de guard."""
+    import pandas as pd
+    import numpy as np
+
+    mode_nan = float("nan")
+    # La guard utilisée dans les pages
+    mode_str = str(mode_nan).upper() if pd.notna(mode_nan) else "—"
+    assert mode_str == "—"
+
+    mode_valid = "value"
+    mode_str2 = str(mode_valid).upper() if pd.notna(mode_valid) else "—"
+    assert mode_str2 == "VALUE"

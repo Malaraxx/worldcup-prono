@@ -96,9 +96,20 @@ with col_p:
         }
         st.dataframe(pd.DataFrame(data_cmp).set_index(""), use_container_width=True)
 
-        max_edge = max(abs(ph-ip_h), abs(pd_-ip_d), abs(pa-ip_a))
-        if max_edge > 0.15:
-            st.warning(f"**VALUE BET ⚠️** — Écart modèle/MPP > 15% ({max_edge:.0%})")
+        diffs = [
+            (abs(ph - ip_h), home,  ph,  ip_h, ch),
+            (abs(pd_ - ip_d), "Nul", pd_, ip_d, cd),
+            (abs(pa - ip_a), away,  pa,  ip_a, ca),
+        ]
+        max_diff, best_label, model_p, mpp_p, best_cote = max(diffs, key=lambda x: x[0])
+        if max_diff > 0.15:
+            direction = "plus" if model_p > mpp_p else "moins"
+            st.warning(
+                f"**VALUE BET ⚠️** — Écart modèle/MPP > 15% ({max_diff:.0%})\n\n"
+                f"Le modèle donne **{best_label}** à {model_p:.0%}, "
+                f"mais MPP cote {best_label} à {best_cote} (= {mpp_p:.0%} implicite). "
+                f"Écart de {max_diff:.0%} → le modèle est {direction} confiant que MPP sur cette issue."
+            )
     else:
         st.markdown(f"""
 | Issue | Proba modèle |
