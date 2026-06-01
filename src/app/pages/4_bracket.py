@@ -4,6 +4,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parents[3]))
 
 import pandas as pd
+import plotly.graph_objects as go
 import streamlit as st
 
 from src.app.utils import (
@@ -25,21 +26,56 @@ st.subheader("Standings de poule (MC 10 000 simulations)")
 all_groups = sorted(gsim["group"].unique())
 tabs_groups = st.tabs([f"Groupe {g}" for g in all_groups])
 
+pts_cols = [c for c in gsim.columns if c.startswith("pts_")]
+
 for tab, grp in zip(tabs_groups, all_groups):
     with tab:
         g_df = gsim[gsim["group"] == grp].sort_values("proba_1st", ascending=False).copy()
-        rows = []
-        for _, r in g_df.iterrows():
-            team = r["team"]
-            rows.append({
-                "Équipe":     f"{flag(team)} {team}",
-                "Elo":        f"{r['elo_rating']:.0f}",
-                "P(1er)":    format_pct(r["proba_1st"]),
-                "P(2e)":     format_pct(r["proba_2nd"]),
-                "P(3e)":     format_pct(r["proba_3rd"]),
-                "P(Élim.)":  format_pct(r["proba_elim"]),
-            })
-        st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+
+        col_table, col_pts = st.columns([1.2, 1.8])
+
+        with col_table:
+            rows = []
+            for _, r in g_df.iterrows():
+                team = r["team"]
+                rows.append({
+                    "Équipe":    f"{flag(team)} {team}",
+                    "Elo":       f"{r['elo_rating']:.0f}",
+                    "P(1er)":   format_pct(r["proba_1st"]),
+                    "P(2e)":    format_pct(r["proba_2nd"]),
+                    "P(3e)":    format_pct(r["proba_3rd"]),
+                    "P(Élim.)": format_pct(r["proba_elim"]),
+                })
+            st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+
+        with col_pts:
+            if pts_cols:
+                # Distribution des points simulés par équipe
+                fig = go.Figure()
+                colors = ["#1565C0", "#2E7D32", "#E65100", "#6A1B9A"]
+                for idx, (_, r) in enumerate(g_df.iterrows()):
+                    team = r["team"]
+                    pts_vals = [int(c.split("_")[1]) for c in pts_cols]
+                    probas   = [float(r[c]) for c in pts_cols]
+                    fig.add_trace(go.Bar(
+                        name=f"{flag(team)} {team}",
+                        x=pts_vals,
+                        y=probas,
+                        marker_color=colors[idx % len(colors)],
+                        opacity=0.85,
+                    ))
+                fig.update_layout(
+                    barmode="group",
+                    title_text="Distribution des points en phase de groupes",
+                    xaxis_title="Points",
+                    yaxis_title="Probabilité",
+                    yaxis_tickformat=".0%",
+                    height=280,
+                    margin=dict(l=10, r=10, t=40, b=30),
+                    legend=dict(orientation="h", y=-0.25, font_size=10),
+                    xaxis=dict(tickmode="array", tickvals=pts_vals),
+                )
+                st.plotly_chart(fig, use_container_width=True)
 
 st.divider()
 
@@ -47,8 +83,11 @@ st.divider()
 st.subheader("Phase éliminatoire")
 st.caption("Top 3 équipes les plus probables pour chaque slot · proba conditionnelle d'atteindre ce slot")
 
-STAGE_SEQ = ["r32", "r16", "qf", "sf", "final"]
-STAGE_NAMES = {"r32": "R32 (32→16)", "r16": "R16 (16→8)", "qf": "Quarts (8→4)", "sf": "Demies (4→2)", "final": "Finale"}
+STAGE_SEQ   = ["r32", "r16", "qf", "sf", "final"]
+STAGE_NAMES = {
+    "r32": "R32 (32→16)", "r16": "R16 (16→8)",
+    "qf": "Quarts (8→4)", "sf": "Demies (4→2)", "final": "Finale",
+}
 
 for stage_key in STAGE_SEQ:
     stage_df = ko[ko["stage"] == stage_key]
@@ -62,7 +101,6 @@ for stage_key in STAGE_SEQ:
     for col_idx, (_, row) in enumerate(stage_df.iterrows()):
         col = cols[col_idx % len(cols)]
         with col:
-            # Home slot
             h_teams = [
                 (row.get(f"home_team_{k}"), row.get(f"home_team_{k}_prob"))
                 for k in range(1, 4)
@@ -81,20 +119,30 @@ for stage_key in STAGE_SEQ:
             home_lines = "\n".join(f"  {fmt_team(n, p)}" for n, p in h_teams if n)
             away_lines = "\n".join(f"  {fmt_team(n, p)}" for n, p in a_teams if n)
 
-            slot_label = row["home_slot"].replace("Runner-up", "2e").replace("Winner", "1er")
-            slot_a_label = row["away_slot"].replace("Runner-up", "2e").replace("Winner", "1er")
+            raw_h = row["home_slot"]
+            raw_a = row["away_slot"]
+
+            # Winner = bleu, Runner-up = orange
+            if "Winner" in raw_h or "1er" in raw_h:
+                h_color, h_label = "#1565C0", raw_h.replace("Winner", "🥇 1er")
+            else:
+                h_color, h_label = "#E65100", raw_h.replace("Runner-up", "🥈 2e")
+
+            if "Winner" in raw_a or "1er" in raw_a:
+                a_color, a_label = "#1565C0", raw_a.replace("Winner", "🥇 1er")
+            else:
+                a_color, a_label = "#E65100", raw_a.replace("Runner-up", "🥈 2e")
 
             st.markdown(f"""
 <div style="border:1px solid #ddd;border-radius:6px;padding:10px;font-size:0.8rem;margin-bottom:8px">
-<div style="font-weight:600;color:#1565C0;margin-bottom:4px">{slot_label}</div>
+<div style="font-weight:600;color:{h_color};margin-bottom:4px">{h_label}</div>
 {home_lines}
 <hr style="margin:6px 0;border-color:#eee">
-<div style="font-weight:600;color:#BF360C;margin-bottom:4px">{slot_a_label}</div>
+<div style="font-weight:600;color:{a_color};margin-bottom:4px">{a_label}</div>
 {away_lines}
 </div>
 """, unsafe_allow_html=True)
 
-    # Séparation entre stages
     if stage_key != "final":
         st.markdown("")
 
@@ -107,15 +155,17 @@ left, right = st.columns([1.2, 1])
 
 with left:
     st.markdown("**Top 10 — Probabilité de remporter le titre**")
-    top_tp = tp.sort_values("proba_winner", ascending=False).head(10).copy()
+    top_tp = tp.merge(teams[["team", "pot", "confederation"]], on="team", how="left")
+    top_tp = top_tp.sort_values("proba_winner", ascending=False).head(10).copy()
     rows_tp = []
     for _, r in top_tp.iterrows():
         team = r["team"]
         rows_tp.append({
-            "Équipe":      f"{flag(team)} {team}",
+            "Équipe":       f"{flag(team)} {team}",
+            "Pot":          int(r["pot"]) if pd.notna(r.get("pot")) else "—",
             "P(Vainqueur)": format_pct(r["proba_winner"]),
-            "P(Finale)":   format_pct(r["proba_final"]),
-            "P(Demi)":     format_pct(r["proba_sf"]),
+            "P(Finale)":    format_pct(r["proba_final"]),
+            "P(Demi)":      format_pct(r["proba_sf"]),
         })
     st.dataframe(pd.DataFrame(rows_tp), use_container_width=True, hide_index=True)
 
@@ -149,17 +199,18 @@ third_df = ko[ko["stage"] == "3rd"]
 if not third_df.empty:
     st.divider()
     st.subheader("Match pour la 3e place")
+    st.caption("Les 2 perdants des demi-finales s'affrontent pour la 3e place")
     r = third_df.iloc[0]
-    h_teams = [(r.get(f"home_team_{k}"), r.get(f"home_team_{k}_prob")) for k in range(1,4) if pd.notna(r.get(f"home_team_{k}"))]
-    a_teams = [(r.get(f"away_team_{k}"), r.get(f"away_team_{k}_prob")) for k in range(1,4) if pd.notna(r.get(f"away_team_{k}"))]
+    h_teams = [(r.get(f"home_team_{k}"), r.get(f"home_team_{k}_prob")) for k in range(1, 4) if pd.notna(r.get(f"home_team_{k}"))]
+    a_teams = [(r.get(f"away_team_{k}"), r.get(f"away_team_{k}_prob")) for k in range(1, 4) if pd.notna(r.get(f"away_team_{k}"))]
     c1, c2 = st.columns(2)
     with c1:
-        st.markdown("**Équipe 1**")
+        st.markdown("**Équipe 1 (perdant Demi 1)**")
         for nm, pb in h_teams:
             if nm:
                 st.write(f"{flag(nm)} {nm} ({pb:.0%})")
     with c2:
-        st.markdown("**Équipe 2**")
+        st.markdown("**Équipe 2 (perdant Demi 2)**")
         for nm, pb in a_teams:
             if nm:
                 st.write(f"{flag(nm)} {nm} ({pb:.0%})")

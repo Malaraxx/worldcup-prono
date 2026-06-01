@@ -114,13 +114,19 @@ def load_data() -> dict:
     }
 
 
+@st.cache_data(ttl=3600)
+def load_team_stats() -> pd.DataFrame:
+    return pd.read_csv(PROCESSED / "team_stats.csv")
+
+
 def get_match(match_id: int) -> dict | None:
     """Retourne un dict complet (fixture + prediction + picks + distributions) pour un match."""
-    fix  = load_fixtures()
-    pred = load_predictions()
-    picks = load_picks()
-    dist = load_score_distributions()
-    teams = load_teams()
+    fix        = load_fixtures()
+    pred       = load_predictions()
+    picks      = load_picks()
+    dist       = load_score_distributions()
+    teams      = load_teams()
+    team_stats = load_team_stats()
 
     fix_row = fix[fix["match_id"] == match_id]
     if fix_row.empty:
@@ -138,8 +144,18 @@ def get_match(match_id: int) -> dict | None:
     home = fix_row.get("home_slot", "")
     away = fix_row.get("away_slot", "")
 
-    conf_home = teams.loc[teams["team"] == home, "confederation"].values
-    conf_away = teams.loc[teams["team"] == away, "confederation"].values
+    def _team_info(team):
+        row_t = teams.loc[teams["team"] == team]
+        row_s = team_stats.loc[team_stats["team"] == team]
+        conf = row_t["confederation"].values[0] if not row_t.empty else ""
+        pot  = int(row_t["pot"].values[0]) if not row_t.empty and "pot" in row_t.columns else None
+        xg   = float(row_s["xG_p90"].values[0]) if not row_s.empty and pd.notna(row_s["xG_p90"].values[0] if not row_s.empty else None) else None
+        xga  = float(row_s["xGA_p90"].values[0]) if not row_s.empty and pd.notna(row_s["xGA_p90"].values[0] if not row_s.empty else None) else None
+        mv   = float(row_s["squad_value_eur"].values[0]) if not row_s.empty and pd.notna(row_s["squad_value_eur"].values[0] if not row_s.empty else None) else None
+        return conf, pot, xg, xga, mv
+
+    home_conf, home_pot, home_xg, home_xga, home_mv = _team_info(home)
+    away_conf, away_pot, away_xg, away_xga, away_mv = _team_info(away)
 
     return {
         "match_id":   match_id,
@@ -147,8 +163,16 @@ def get_match(match_id: int) -> dict | None:
         "away":       away,
         "home_flag":  flag(home),
         "away_flag":  flag(away),
-        "home_conf":  conf_home[0] if len(conf_home) else "",
-        "away_conf":  conf_away[0] if len(conf_away) else "",
+        "home_conf":  home_conf,
+        "away_conf":  away_conf,
+        "home_pot":   home_pot,
+        "away_pot":   away_pot,
+        "home_xg":    home_xg,
+        "home_xga":   home_xga,
+        "home_mv":    home_mv,
+        "away_xg":    away_xg,
+        "away_xga":   away_xga,
+        "away_mv":    away_mv,
         "kickoff_dt": fix_row.get("kickoff_dt"),
         "date_local": fix_row.get("date_local"),
         "venue":      fix_row.get("venue", ""),
@@ -191,3 +215,8 @@ def load_my_winner_pick() -> str | None:
 
 def save_my_winner_pick(team: str) -> None:
     (PROCESSED / "my_winner_pick.txt").write_text(team, encoding="utf-8")
+
+
+@st.cache_data(ttl=3600)
+def load_mv_baseline() -> pd.DataFrame:
+    return pd.read_csv(PROCESSED / "team_mv_baseline.csv")

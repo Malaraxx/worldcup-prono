@@ -56,6 +56,10 @@ dist  = m["dist"]
 dt_obj = m.get("date_local")
 dt_str = dt_obj.strftime("%A %d %B %Y · %H:%M (Paris)") if pd.notna(dt_obj) and dt_obj else "—"
 
+pot_h = m.get("home_pot")
+pot_a = m.get("away_pot")
+pot_str = f"Pot {pot_h} vs Pot {pot_a}" if pot_h and pot_a else ""
+
 st.markdown(f"""
 <div style="text-align:center;padding:16px 0 8px">
   <div style="font-size:2.4rem;font-weight:800;letter-spacing:2px">
@@ -63,6 +67,7 @@ st.markdown(f"""
   </div>
   <div style="font-size:1rem;color:#666;margin-top:4px">
     {dt_str} &nbsp;·&nbsp; {m['venue']}, {m['city']} &nbsp;·&nbsp; {STAGE_LABELS.get(m['stage'], m['stage'])} {('Gr. ' + m['group']) if m['group'] else ''}
+    {('&nbsp;·&nbsp; ' + pot_str) if pot_str else ''}
   </div>
 </div>
 """, unsafe_allow_html=True)
@@ -137,6 +142,12 @@ with col_e:
     def _fmt_lam(v):
         return f"{v:.3f}" if isinstance(v, (int, float)) and v == v else "—"
 
+    def _fmt_xg(v):
+        return f"{v:.2f}" if isinstance(v, float) and v == v else "—"
+
+    def _fmt_mv(v):
+        return f"{v/1e6:.0f} M€" if isinstance(v, float) and v == v and v > 0 else "—"
+
     st.markdown(f"""
 | | {home} | {away} |
 |--|--:|--:|
@@ -144,6 +155,9 @@ with col_e:
 | **Elo ajusté** | {_fmt_elo(elo_h_adj)} | {_fmt_elo(elo_a_adj)} |
 | **Conf.** | {m['home_conf']} | {m['away_conf']} |
 | **λ Poisson** | {_fmt_lam(lam_h)} | {_fmt_lam(lam_a)} |
+| **xG/90** | {_fmt_xg(m.get('home_xg'))} | {_fmt_xg(m.get('away_xg'))} |
+| **xGA/90** | {_fmt_xg(m.get('home_xga'))} | {_fmt_xg(m.get('away_xga'))} |
+| **Squad MV** | {_fmt_mv(m.get('home_mv'))} | {_fmt_mv(m.get('away_mv'))} |
 """)
     if isinstance(diff, float):
         direction = home if diff > 0 else away

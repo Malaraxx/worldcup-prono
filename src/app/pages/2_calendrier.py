@@ -14,6 +14,14 @@ from src.app.utils import (
 
 _STAGE_ORDER = {s: i for i, s in enumerate(STAGE_ORDER)}
 
+# Couleur par pot matchup (1vs1=rouge, 1vs2=orange, 1vs3=jaune, 1vs4=vert, autres=gris)
+_POT_CLASH_COLOR = {
+    (1, 1): "#FFCDD2", (2, 2): "#FFE0B2", (3, 3): "#FFF9C4",
+    (4, 4): "#F5F5F5", (1, 2): "#FFE0B2", (1, 3): "#FFF9C4",
+    (1, 4): "#E8F5E9", (2, 3): "#FFF9C4", (2, 4): "#E8F5E9",
+    (3, 4): "#E8F5E9",
+}
+
 st.title("📅 Calendrier & Pronos")
 
 # ── Données ───────────────────────────────────────────────────────────────────
@@ -36,6 +44,9 @@ base = fix.merge(
     on="match_id", how="left",
 ).sort_values("kickoff_dt")
 
+# Enrichir avec Pot des équipes
+pot_map = dict(zip(teams["team"], teams["pot"]))
+
 # ── Bandeau couverture picks ──────────────────────────────────────────────────
 n_with_picks = base["mode_recommended"].notna().sum()
 n_total      = len(base)
@@ -48,13 +59,15 @@ st.info(
 )
 
 # ── Filtres ───────────────────────────────────────────────────────────────────
-col_g, col_s, col_d1, col_d2 = st.columns([1, 1, 1, 1])
+col_g, col_s, col_f, col_d1, col_d2 = st.columns([1, 1, 1, 1, 1])
 
 all_groups = sorted(fix["group"].dropna().unique())
 sel_group = col_g.selectbox("Groupe", ["Tous"] + all_groups)
 
 stage_labels_ordered = [STAGE_LABELS.get(s, s) for s in STAGE_ORDER if s in fix["stage"].unique()]
 sel_stage = col_s.selectbox("Phase", ["Tous"] + stage_labels_ordered)
+
+sel_picks_only = col_f.selectbox("Afficher", ["Tous les matchs", "Picks seulement", "KO seulement"])
 
 min_date = fix["date_local"].dt.date.min()
 max_date = fix["date_local"].dt.date.max()
@@ -69,6 +82,10 @@ if sel_stage != "Tous":
     inv_labels = {v: k for k, v in STAGE_LABELS.items()}
     stage_key = inv_labels.get(sel_stage, sel_stage)
     filtered = filtered[filtered["stage"] == stage_key]
+if sel_picks_only == "Picks seulement":
+    filtered = filtered[filtered["mode_recommended"].notna()]
+elif sel_picks_only == "KO seulement":
+    filtered = filtered[filtered["mode_recommended"].isna()]
 filtered = filtered[
     (filtered["date_local"].dt.date >= sel_d1) &
     (filtered["date_local"].dt.date <= sel_d2)
@@ -87,10 +104,35 @@ st.caption(f"{len(filtered)} match(s) affiché(s)")
 
 # ── Tableau principal ─────────────────────────────────────────────────────────
 rows = []
+row_colors = []
+
 for _, r in filtered.iterrows():
     home = r["home_slot"]
     away = r["away_slot"]
     dt_str = r["date_local"].strftime("%d/%m %H:%M") if pd.notna(r["date_local"]) else "—"
+
+    # Elo diff (favori)
+    elo_diff = r.get("elo_diff")
+    if pd.notna(elo_diff):
+        if elo_diff > 0:
+            elo_str = f"+{elo_diff:.0f} {flag(home)}"
+        elif elo_diff < 0:
+            elo_str = f"{elo_diff:.0f} {flag(away)}"
+        else:
+            elo_str = "Égal"
+    else:
+        elo_str = "—"
+
+    # Pot matchup color
+    pot_h = pot_map.get(home)
+    pot_a = pot_map.get(away)
+    if pot_h and pot_a:
+        key = (min(pot_h, pot_a), max(pot_h, pot_a))
+        row_colors.append(_POT_CLASH_COLOR.get(key, ""))
+        pot_str = f"P{pot_h} vs P{pot_a}"
+    else:
+        row_colors.append("")
+        pot_str = "—"
 
     # Probas modèle — uniquement pour les matchs de poule avec équipes nominales
     ph  = r.get("p_home_win_cal")
@@ -108,7 +150,7 @@ for _, r in filtered.iterrows():
     ca = r.get("cote_away")
     cotes_str = f"{int(ch)} / {int(cd)} / {int(ca)}" if pd.notna(ch) else "—"
 
-    # Picks — toutes les colonnes picks peuvent être NaN pour les KO
+    # Picks
     mode        = r.get("mode_recommended")
     safe_str    = str(r["safe_score"])    if pd.notna(r.get("safe_score"))    else "—"
     value_str   = str(r["value_score"])   if pd.notna(r.get("value_score"))   else "—"
@@ -116,25 +158,36 @@ for _, r in filtered.iterrows():
     mode_str    = str(mode).upper()       if pd.notna(mode)                   else "—"
     ev_float    = float(r["value_ev"])    if pd.notna(r.get("value_ev"))      else np.nan
 
+    # WR du mode recommandé
+    if pd.notna(mode) and mode == "value":
+        wr_float = float(r["value_wr"]) if pd.notna(r.get("value_wr")) else np.nan
+    elif pd.notna(mode) and mode == "lottery":
+        wr_float = float(r["lottery_wr"]) if pd.notna(r.get("lottery_wr")) else np.nan
+    elif pd.notna(mode) and mode == "safe":
+        wr_float = float(r["safe_wr"]) if pd.notna(r.get("safe_wr")) else np.nan
+    else:
+        wr_float = np.nan
+
     rows.append({
         "ID":             int(r["match_id"]),
         "Date":           dt_str,
         "Match":          f"{flag(home)} {home}  vs  {flag(away)} {away}",
         "Gr.":            r.get("group") or "—",
-        "Phase":          STAGE_LABELS.get(r["stage"], r["stage"]),
-        "Cotes MPP":           cotes_str,
-        "Probas grp. (1-N-2)": probas_str,
+        "Pots":           pot_str,
+        "Elo diff":       elo_str,
+        "Cotes (1/N/2)":  cotes_str,
+        "Probas grp.":    probas_str,
         "SAFE":           safe_str,
         "VALUE":          value_str,
         "LOTTERY":        lottery_str,
         "Mode":           mode_str,
-        "EV":             ev_float,   # float/NaN pour la coloration
+        "WR":             wr_float,
+        "EV":             ev_float,
     })
 
 if rows:
     df_table = pd.DataFrame(rows).set_index("ID")
 
-    # Coloration EV : vert ≥15, jaune ≥8, gris <8, vide si NaN
     def _ev_bg(val):
         if pd.isna(val):
             return ""
@@ -147,17 +200,40 @@ if rows:
     styled = (
         df_table.style
         .map(_ev_bg, subset=["EV"])
-        .format({"EV": lambda x: f"{x:.1f}" if pd.notna(x) else "—"})
+        .format({
+            "EV": lambda x: f"{x:.1f}" if pd.notna(x) else "—",
+            "WR": lambda x: f"{x:.0%}" if pd.notna(x) else "—",
+        })
     )
     st.dataframe(styled, use_container_width=True, height=520)
 
-    # Lien vers détail
+    # ── Navigation vers détail ────────────────────────────────────────────────
     st.markdown("---")
+    col_sel, col_btn = st.columns([4, 1])
     match_options = {f"#{r['ID']} — {r['Match']}": r["ID"] for r in rows}
-    sel_match_label = st.selectbox("Voir le détail d'un match :", list(match_options.keys()))
-    if st.button("🔍 Ouvrir le détail"):
-        st.session_state["selected_match_id"] = match_options[sel_match_label]
-        st.switch_page("pages/3_detail_match.py")
+    with col_sel:
+        sel_match_label = st.selectbox(
+            "Voir le détail d'un match :",
+            list(match_options.keys()),
+            label_visibility="collapsed",
+        )
+    with col_btn:
+        if st.button("🔍 Détail", use_container_width=True):
+            st.session_state["selected_match_id"] = match_options[sel_match_label]
+            st.switch_page("pages/3_detail_match.py")
+
+    # ── Export CSV ────────────────────────────────────────────────────────────
+    picks_rows = [r for r in rows if r["Mode"] != "—"]
+    if picks_rows:
+        export_df = pd.DataFrame(picks_rows)[["ID", "Date", "Match", "Mode", "SAFE", "VALUE", "LOTTERY", "Cotes (1/N/2)", "WR", "EV"]]
+        csv_bytes = export_df.to_csv(index=False).encode("utf-8")
+        st.download_button(
+            label="⬇️ Télécharger les picks (CSV)",
+            data=csv_bytes,
+            file_name="picks_mpp.csv",
+            mime="text/csv",
+        )
+
 else:
     st.info("Aucun match ne correspond aux filtres sélectionnés.")
 
@@ -170,4 +246,5 @@ st.markdown("""
 - 🎰 **LOTTERY** — Meilleur EV absolu (sans contrainte WR) — score rare à forte prime MPP
 - **EV** = espérance de points si prono exact · **WR** = proba que le résultat (1/N/2) soit correct
 - **EV couleur** : 🟢 ≥ 15 pts (très bon) · 🟡 8–15 pts (correct) · ⬜ < 8 pts (faible)
+- **Pots** : P1 vs P4 🟢 (déséquilibre attendu) · P1 vs P1 🔴 (choc de favoris)
 """)
