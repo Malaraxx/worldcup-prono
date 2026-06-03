@@ -22,7 +22,18 @@ _POT_CLASH_COLOR = {
     (3, 4): "#E8F5E9",
 }
 
-st.title("📅 Calendrier & Pronos")
+st.markdown("""
+<div style="background:linear-gradient(135deg,#0A2342 0%,#1565C0 55%,#1976D2 100%);
+            border-radius:14px;padding:22px 28px;margin-bottom:20px;
+            box-shadow:0 4px 20px rgba(21,101,192,0.25)">
+  <div style="font-size:1.9rem;font-weight:800;color:#fff;letter-spacing:0.5px">
+    📅 Calendrier & Pronos
+  </div>
+  <div style="font-size:0.9rem;color:rgba(255,255,255,0.65);margin-top:4px">
+    104 matchs · Phase de groupes &amp; KO · Filtres par groupe, phase et date
+  </div>
+</div>
+""", unsafe_allow_html=True)
 
 # ── Données ───────────────────────────────────────────────────────────────────
 fix   = load_fixtures()
@@ -192,14 +203,24 @@ if rows:
         if pd.isna(val):
             return ""
         if val >= 15:
-            return "background-color: #C8E6C9; color: #1B5E20"
+            return "background-color: #C8E6C9; color: #1B5E20; font-weight:600"
         if val >= 8:
-            return "background-color: #FFF9C4; color: #F57F17"
-        return "background-color: #F5F5F5; color: #757575"
+            return "background-color: #FFF9C4; color: #E65100; font-weight:600"
+        return "background-color: #F5F5F5; color: #9E9E9E"
+
+    def _mode_bg(val):
+        if val == "SAFE":
+            return "background-color:#E3F2FD;color:#1565C0;font-weight:700"
+        if val == "VALUE":
+            return "background-color:#E8F5E9;color:#2E7D32;font-weight:700"
+        if val == "LOTTERY":
+            return "background-color:#EDE7F6;color:#6A1B9A;font-weight:700"
+        return ""
 
     styled = (
         df_table.style
         .map(_ev_bg, subset=["EV"])
+        .map(_mode_bg, subset=["Mode"])
         .format({
             "EV": lambda x: f"{x:.1f}" if pd.notna(x) else "—",
             "WR": lambda x: f"{x:.0%}" if pd.notna(x) else "—",

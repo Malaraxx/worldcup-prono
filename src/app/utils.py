@@ -195,28 +195,6 @@ def model_update_time() -> str:
     return "—"
 
 
-def load_my_score() -> int | None:
-    path = PROCESSED / "my_score.csv"
-    if not path.exists():
-        return None
-    try:
-        df = pd.read_csv(path)
-        return int(df["score"].sum())
-    except Exception:
-        return None
-
-
-def load_my_winner_pick() -> str | None:
-    path = PROCESSED / "my_winner_pick.txt"
-    if not path.exists():
-        return None
-    return path.read_text(encoding="utf-8").strip() or None
-
-
-def save_my_winner_pick(team: str) -> None:
-    (PROCESSED / "my_winner_pick.txt").write_text(team, encoding="utf-8")
-
-
 @st.cache_data(ttl=3600)
 def load_mv_baseline() -> pd.DataFrame:
     return pd.read_csv(PROCESSED / "team_mv_baseline.csv")

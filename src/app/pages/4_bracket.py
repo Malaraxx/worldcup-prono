@@ -10,10 +10,20 @@ import streamlit as st
 from src.app.utils import (
     load_ko_predictions, load_tournament_probabilities, load_teams,
     load_group_simulations, STAGE_LABELS, flag, format_pct,
-    load_my_winner_pick, save_my_winner_pick,
 )
 
-st.title("🏆 Bracket WC 2026")
+st.markdown("""
+<div style="background:linear-gradient(135deg,#0A2342 0%,#1565C0 55%,#1976D2 100%);
+            border-radius:14px;padding:22px 28px;margin-bottom:20px;
+            box-shadow:0 4px 20px rgba(21,101,192,0.25)">
+  <div style="font-size:1.9rem;font-weight:800;color:#fff;letter-spacing:0.5px">
+    🏆 Bracket WC 2026
+  </div>
+  <div style="font-size:0.9rem;color:rgba(255,255,255,0.65);margin-top:4px">
+    Standings de poule · Phase éliminatoire · Pick vainqueur
+  </div>
+</div>
+""", unsafe_allow_html=True)
 
 ko   = load_ko_predictions()
 tp   = load_tournament_probabilities()
@@ -21,7 +31,7 @@ teams = load_teams()
 gsim = load_group_simulations()
 
 # ── Phase de groupes — Standings ──────────────────────────────────────────────
-st.subheader("Standings de poule (MC 10 000 simulations)")
+st.markdown("### 📊 Standings de poule *(Monte-Carlo · 10 000 simulations)*")
 
 all_groups = sorted(gsim["group"].unique())
 tabs_groups = st.tabs([f"Groupe {g}" for g in all_groups])
@@ -80,7 +90,7 @@ for tab, grp in zip(tabs_groups, all_groups):
 st.divider()
 
 # ── Bracket KO ────────────────────────────────────────────────────────────────
-st.subheader("Phase éliminatoire")
+st.markdown("### ⚔️ Phase éliminatoire")
 st.caption("Top 3 équipes les plus probables pour chaque slot · proba conditionnelle d'atteindre ce slot")
 
 STAGE_SEQ   = ["r32", "r16", "qf", "sf", "final"]
@@ -133,13 +143,21 @@ for stage_key in STAGE_SEQ:
             else:
                 a_color, a_label = "#E65100", raw_a.replace("Runner-up", "🥈 2e")
 
+            h_bg = "rgba(21,101,192,0.06)" if "#1565C0" in h_color else "rgba(230,81,0,0.06)"
+            a_bg = "rgba(21,101,192,0.06)" if "#1565C0" in a_color else "rgba(230,81,0,0.06)"
             st.markdown(f"""
-<div style="border:1px solid #ddd;border-radius:6px;padding:10px;font-size:0.8rem;margin-bottom:8px">
-<div style="font-weight:600;color:{h_color};margin-bottom:4px">{h_label}</div>
-{home_lines}
-<hr style="margin:6px 0;border-color:#eee">
-<div style="font-weight:600;color:{a_color};margin-bottom:4px">{a_label}</div>
-{away_lines}
+<div style="border:1px solid #DDE3F0;border-radius:10px;overflow:hidden;
+            margin-bottom:10px;box-shadow:0 2px 8px rgba(0,0,0,0.06)">
+  <div style="background:{h_bg};padding:10px 14px;border-bottom:1px solid #E8ECF4">
+    <div style="font-size:0.68rem;font-weight:700;color:{h_color};
+                letter-spacing:1px;margin-bottom:5px">{h_label}</div>
+    <div style="font-size:0.8rem;line-height:1.6">{home_lines}</div>
+  </div>
+  <div style="background:{a_bg};padding:10px 14px">
+    <div style="font-size:0.68rem;font-weight:700;color:{a_color};
+                letter-spacing:1px;margin-bottom:5px">{a_label}</div>
+    <div style="font-size:0.8rem;line-height:1.6">{away_lines}</div>
+  </div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -148,51 +166,23 @@ for stage_key in STAGE_SEQ:
 
 st.divider()
 
-# ── Top candidats vainqueur + pick Flo ───────────────────────────────────────
-st.subheader("🏅 Équipe vainqueur")
+# ── Top candidats vainqueur ──────────────────────────────────────────────────
+st.markdown("### 🏅 Équipe vainqueur")
 
-left, right = st.columns([1.2, 1])
-
-with left:
-    st.markdown("**Top 10 — Probabilité de remporter le titre**")
-    top_tp = tp.merge(teams[["team", "pot", "confederation"]], on="team", how="left")
-    top_tp = top_tp.sort_values("proba_winner", ascending=False).head(10).copy()
-    rows_tp = []
-    for _, r in top_tp.iterrows():
-        team = r["team"]
-        rows_tp.append({
-            "Équipe":       f"{flag(team)} {team}",
-            "Pot":          int(r["pot"]) if pd.notna(r.get("pot")) else "—",
-            "P(Vainqueur)": format_pct(r["proba_winner"]),
-            "P(Finale)":    format_pct(r["proba_final"]),
-            "P(Demi)":      format_pct(r["proba_sf"]),
-        })
-    st.dataframe(pd.DataFrame(rows_tp), use_container_width=True, hide_index=True)
-
-with right:
-    st.markdown("**Mon pick équipe vainqueur**")
-    current_pick = load_my_winner_pick()
-
-    all_teams_sorted = tp.sort_values("proba_winner", ascending=False)["team"].tolist()
-    team_options = [f"{flag(t)} {t}" for t in all_teams_sorted]
-    team_map = {f"{flag(t)} {t}": t for t in all_teams_sorted}
-
-    default_idx = 0
-    if current_pick and current_pick in all_teams_sorted:
-        default_idx = all_teams_sorted.index(current_pick)
-
-    sel = st.selectbox("Sélectionner l'équipe vainqueur", team_options, index=default_idx)
-    sel_team = team_map[sel]
-
-    if current_pick:
-        pick_proba = tp.loc[tp["team"] == current_pick, "proba_winner"]
-        pwin_str = format_pct(pick_proba.values[0]) if not pick_proba.empty else "—"
-        st.info(f"Pick actuel : {flag(current_pick)} **{current_pick}** — P(win) = {pwin_str}")
-
-    if st.button("💾 Sauvegarder mon pick"):
-        save_my_winner_pick(sel_team)
-        st.success(f"Pick sauvegardé : {flag(sel_team)} **{sel_team}**")
-        st.rerun()
+top_tp = tp.merge(teams[["team", "pot", "confederation"]], on="team", how="left")
+top_tp = top_tp.sort_values("proba_winner", ascending=False).head(10).copy()
+rows_tp = []
+for _, r in top_tp.iterrows():
+    team = r["team"]
+    rows_tp.append({
+        "Équipe":       f"{flag(team)} {team}",
+        "Pot":          int(r["pot"]) if pd.notna(r.get("pot")) else "—",
+        "P(Vainqueur)": format_pct(r["proba_winner"]),
+        "P(Finale)":    format_pct(r["proba_final"]),
+        "P(Demi)":      format_pct(r["proba_sf"]),
+        "P(R32)":       format_pct(r["proba_r32"]),
+    })
+st.dataframe(pd.DataFrame(rows_tp), use_container_width=True, hide_index=True)
 
 # ── 3e place ─────────────────────────────────────────────────────────────────
 third_df = ko[ko["stage"] == "3rd"]

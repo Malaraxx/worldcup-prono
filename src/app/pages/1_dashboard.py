@@ -10,11 +10,22 @@ import streamlit as st
 
 from src.app.utils import (
     load_fixtures, load_picks, load_tournament_probabilities, load_teams,
-    STAGE_LABELS, flag, format_pct, model_update_time, load_my_score,
+    STAGE_LABELS, flag, format_pct, model_update_time,
     load_mv_baseline,
 )
 
-st.title("🏆 Mon Petit Prono — WC 2026")
+st.markdown("""
+<div style="background:linear-gradient(135deg,#0A2342 0%,#1565C0 55%,#1976D2 100%);
+            border-radius:14px;padding:22px 28px;margin-bottom:20px;
+            box-shadow:0 4px 20px rgba(21,101,192,0.25)">
+  <div style="font-size:1.9rem;font-weight:800;color:#fff;letter-spacing:0.5px">
+    🏆 Mon Petit Prono
+  </div>
+  <div style="font-size:0.9rem;color:rgba(255,255,255,0.65);margin-top:4px">
+    FIFA World Cup 2026 &nbsp;·&nbsp; Modèle Elo + Poisson + Platt Scaling &nbsp;·&nbsp; Monte-Carlo 10 000 simulations
+  </div>
+</div>
+""", unsafe_allow_html=True)
 
 # ── Données ───────────────────────────────────────────────────────────────────
 fix   = load_fixtures()
@@ -27,20 +38,17 @@ now_utc = datetime.now(tz=timezone.utc)
 total_matches  = len(fix)
 played_matches = int((fix["kickoff_dt"] < now_utc).sum())
 n_picks        = len(picks)
-my_score       = load_my_score()
 
 # ── Métriques ─────────────────────────────────────────────────────────────────
-c1, c2, c3, c4 = st.columns(4)
+c1, c2, c3 = st.columns(3)
 c1.metric("Matchs total", total_matches)
 c2.metric("Matchs joués", played_matches)
 c3.metric("Pronos disponibles", n_picks, help="Matchs de poule avec cotes MPP")
-c4.metric("Mes points", my_score if my_score is not None else "—",
-          help="Renseigné via data/processed/my_score.csv (Phase 4 live)")
 
 st.divider()
 
 # ── Prochains matchs ──────────────────────────────────────────────────────────
-st.subheader("Prochains matchs")
+st.markdown("### 📅 Prochains matchs")
 
 upcoming = fix[fix["kickoff_dt"] >= now_utc].copy()
 
@@ -143,7 +151,7 @@ else:
 st.divider()
 
 # ── Top 10 candidats vainqueur ────────────────────────────────────────────────
-st.subheader("Top 10 — Candidats vainqueur")
+st.markdown("### 🥇 Top 10 — Candidats vainqueur")
 
 tp_teams = (
     tp

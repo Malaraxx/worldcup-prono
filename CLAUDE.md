@@ -25,10 +25,11 @@ martj42 (historique 2010+)
 |-------|---------|-------------------|
 | **Phase 0** | Ingestion uniquement | `pytest tests/ -v` 100% vert |
 | **Phase 1** | Baseline Elo + Poisson sur **résultats uniquement** (pas joueurs) | Calibration Brier score |
-| **Phase 1.5** | Enrichissement features joueurs **si** baseline sous-performe | À décider en session |
+| **Phase 1.5a** | Ajustement Market Value (alpha) — **ROLLBACK** : alpha_optimal=0 | ✗ Dégradait Brier |
+| **Phase 1.5b** | Dixon-Coles correction (rho) — **ROLLBACK** : rho=-0.019, Δbrier=+0.0002 | ✗ Insuffisant |
 | **Phase 2** | Frontend Streamlit — distribution probabiliste des scores | App interactive |
 | **Phase 3** | Deploy VPS OVH | Disponible H24 |
-| **Phase 4** | Dixon-Coles + mise à jour bayésienne pendant le tournoi | WC live |
+| **Phase 4** | Mise à jour bayésienne live pendant le tournoi (scores réels → recalibration) | WC live |
 
 **Règle absolue** : ne pas anticiper les phases. Phase 0 = ingestion, rien d'autre.
 
@@ -99,9 +100,22 @@ src/app/
     └── pick_card.py          # HTML card safe/value/lottery
 ```
 
-**Fichiers persistés par l'app :**
-- `data/processed/my_winner_pick.txt` — pick vainqueur de Flo
-- `data/processed/my_score.csv` — (futur Phase 4) score live
+## État du modèle (02/06/2026)
+
+**Pipeline actif** : Elo brut → conf_adj → Poisson → Platt scaling  
+**Modèle** : Elo + Poisson indépendant + Platt scaling (calibration multinomiale)  
+**Brier val 2023-2025** : 0.4926 (raw) / 0.4948 (calibré Platt)
+
+| Module | Fichier | Statut |
+|--------|---------|--------|
+| Elo ratings | `src/model/elo.py` | ✅ actif |
+| Régression Poisson | `src/model/poisson.py` | ✅ actif |
+| Platt scaling | `src/model/calibration.py` | ✅ actif — entraîné 2018-2022 |
+| Conf. adjustment | `src/model/confederation_adjustment.py` | ✅ actif — WC fixtures uniquement |
+| Market Value (α) | `src/model/elo_mv_adjustment.py` | ✗ rollback — alpha_optimal=0 |
+| Dixon-Coles (ρ) | `src/model/dixon_coles.py` | ✗ rollback — rho=-0.019, Δbrier=+0.0002 |
+
+**Règle** : ne jamais modifier predict.py pour activer DC ou MV sans Δbrier confirmé ≥ 0.005.
 
 ## Ajustement confédération (Phase 1)
 
