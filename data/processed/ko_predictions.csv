@@ -1,33 +1,33 @@
 match_id,stage,home_slot,away_slot,home_team_1,home_team_1_prob,home_team_2,home_team_2_prob,home_team_3,home_team_3_prob,away_team_1,away_team_1_prob,away_team_2,away_team_2_prob,away_team_3,away_team_3_prob,pred_score_home,pred_score_away,p_home_win,p_draw,p_away_win
-73,r32,Runner-up Group A,Runner-up Group B,South Korea,0.3798,Czech Republic,0.3005,Mexico,0.2038,Canada,0.3881,Switzerland,0.3496,Bosnia and Herzegovina,0.179,1,1,0.4118,0.2777,0.3104
-74,r32,Winner Group E,3rd Group A/B/C/D/F,Ecuador,0.5866,Germany,0.3346,Ivory Coast,0.0673,Czech Republic,0.1786,South Korea,0.1504,Bosnia and Herzegovina,0.1119,2,0,0.7066,0.1884,0.1051
-75,r32,Winner Group F,Runner-up Group C,Netherlands,0.5153,Japan,0.3141,Sweden,0.1182,Morocco,0.3501,Brazil,0.3191,Scotland,0.258,1,1,0.2993,0.2758,0.4248
-76,r32,Winner Group C,Runner-up Group F,Brazil,0.4626,Morocco,0.3641,Scotland,0.1513,Japan,0.3564,Netherlands,0.2907,Sweden,0.2224,1,1,0.3705,0.28,0.3495
-77,r32,Winner Group I,3rd Group C/D/F/G/H,France,0.5491,Norway,0.2683,Senegal,0.1477,United States,0.1256,Australia,0.1245,Paraguay,0.115,1,0,0.6286,0.2227,0.1487
-78,r32,Runner-up Group E,Runner-up Group I,Germany,0.4451,Ecuador,0.3036,Ivory Coast,0.1989,Norway,0.3437,France,0.2819,Senegal,0.2795,1,1,0.3711,0.28,0.349
-79,r32,Winner Group A,3rd Group C/E/F/H/I,Mexico,0.7058,South Korea,0.1559,Czech Republic,0.1137,Scotland,0.1456,Ivory Coast,0.1435,Morocco,0.0913,1,0,0.6018,0.2329,0.1654
-80,r32,Winner Group L,3rd Group E/H/I/J/K,England,0.5943,Croatia,0.2785,Panama,0.12,Uzbekistan,0.2185,DR Congo,0.2068,Portugal,0.1364,1,0,0.5329,0.255,0.2121
-81,r32,Winner Group D,3rd Group B/E/F/I/J,Turkey,0.4336,Paraguay,0.2754,United States,0.1736,Bosnia and Herzegovina,0.1672,Sweden,0.0881,Qatar,0.0866,2,0,0.752,0.1652,0.0828
-82,r32,Winner Group G,3rd Group A/E/H/I/J,Belgium,0.3554,Egypt,0.2774,Iran,0.2594,Senegal,0.0919,Saudi Arabia,0.0914,Algeria,0.0901,0,1,0.2398,0.2629,0.4973
-83,r32,Runner-up Group K,Runner-up Group L,Colombia,0.3324,Portugal,0.3308,Uzbekistan,0.1823,Croatia,0.4059,England,0.2775,Panama,0.2715,1,1,0.4532,0.2725,0.2743
-84,r32,Winner Group H,Runner-up Group J,Spain,0.8075,Uruguay,0.1783,Saudi Arabia,0.0078,Algeria,0.3312,Austria,0.3135,Jordan,0.1969,2,0,0.6949,0.1939,0.1111
-85,r32,Winner Group B,3rd Group E/F/G/I/J,Switzerland,0.4826,Canada,0.4324,Bosnia and Herzegovina,0.0607,Iran,0.1912,Egypt,0.184,New Zealand,0.1771,1,1,0.3889,0.2794,0.3317
-86,r32,Winner Group J,Runner-up Group H,Argentina,0.7764,Algeria,0.0965,Austria,0.0817,Uruguay,0.6389,Spain,0.1774,Saudi Arabia,0.0925,1,0,0.601,0.2332,0.1659
-87,r32,Winner Group K,3rd Group D/E/I/J/L,Portugal,0.4266,Colombia,0.4193,Uzbekistan,0.0906,Panama,0.3082,Croatia,0.2039,England,0.0984,1,0,0.4976,0.2639,0.2385
-88,r32,Runner-up Group D,Runner-up Group G,Paraguay,0.2809,Turkey,0.2702,United States,0.2491,Belgium,0.2828,Iran,0.2811,Egypt,0.2703,1,0,0.521,0.2582,0.2208
-89,r16,Winner Match 74,Winner Match 77,Ecuador,0.4363,Germany,0.2239,South Korea,0.0564,France,0.3953,Norway,0.1633,Senegal,0.0892,1,1,0.3432,0.2797,0.3772
-90,r16,Winner Match 73,Winner Match 75,South Korea,0.2404,Canada,0.1938,Switzerland,0.1794,Netherlands,0.2838,Morocco,0.2023,Japan,0.1947,1,1,0.3475,0.2798,0.3726
-91,r16,Winner Match 76,Winner Match 78,Brazil,0.2916,Morocco,0.2526,Japan,0.1731,Germany,0.2181,France,0.1762,Ecuador,0.1758,1,1,0.443,0.274,0.2829
-92,r16,Winner Match 79,Winner Match 80,Mexico,0.4873,South Korea,0.0906,Morocco,0.0538,England,0.4037,Croatia,0.1576,Uzbekistan,0.0825,1,1,0.3701,0.28,0.3499
-93,r16,Winner Match 83,Winner Match 84,Portugal,0.2043,Colombia,0.1977,Croatia,0.1704,Spain,0.6608,Uruguay,0.1042,Algeria,0.0773,0,1,0.2065,0.2511,0.5424
-94,r16,Winner Match 81,Winner Match 82,Turkey,0.3067,Paraguay,0.1764,United States,0.1008,Belgium,0.1722,Egypt,0.1613,Iran,0.1526,1,0,0.5745,0.2423,0.1831
-95,r16,Winner Match 86,Winner Match 88,Argentina,0.5646,Uruguay,0.202,Spain,0.106,Turkey,0.1859,Paraguay,0.1782,United States,0.1341,1,0,0.5413,0.2526,0.2061
-96,r16,Winner Match 85,Winner Match 87,Switzerland,0.2904,Canada,0.2561,Iran,0.0974,Portugal,0.276,Colombia,0.264,Panama,0.1183,1,1,0.3025,0.2763,0.4213
-97,qf,Winner Match 89,Winner Match 90,Ecuador,0.2455,France,0.2409,Germany,0.1082,Netherlands,0.1581,Morocco,0.1313,Japan,0.1189,1,0,0.474,0.2688,0.2572
-98,qf,Winner Match 93,Winner Match 94,Spain,0.4773,Portugal,0.0819,Colombia,0.0792,Turkey,0.199,Paraguay,0.103,Iran,0.0678,1,0,0.6146,0.2281,0.1573
-99,qf,Winner Match 91,Winner Match 92,Brazil,0.1571,Morocco,0.1548,France,0.1035,Mexico,0.2894,England,0.226,Croatia,0.0701,1,1,0.3647,0.2801,0.3552
-100,qf,Winner Match 95,Winner Match 96,Argentina,0.4332,Uruguay,0.1119,Spain,0.088,Portugal,0.1608,Colombia,0.1498,Switzerland,0.1398,1,0,0.5387,0.2534,0.208
-101,sf,Winner Match 97,Winner Match 98,France,0.1662,Ecuador,0.1492,Morocco,0.0851,Spain,0.3856,Turkey,0.0753,Colombia,0.0499,1,1,0.279,0.2725,0.4485
-102,sf,Winner Match 99,Winner Match 100,Mexico,0.1416,England,0.1192,Morocco,0.1142,Argentina,0.3292,Spain,0.0687,Portugal,0.0683,1,1,0.2801,0.2727,0.4472
-103,3rd,Loser Match 101,Loser Match 102,Spain,0.1187,France,0.0815,Ecuador,0.0771,Argentina,0.1268,Mexico,0.0647,England,0.0621,1,0,0.4666,0.2702,0.2632
-104,final,Winner Match 101,Winner Match 102,Spain,0.267,France,0.0969,Ecuador,0.075,Argentina,0.2025,Mexico,0.0769,England,0.074,1,0,0.4666,0.2702,0.2632
+73,r32,Runner-up Group A,Runner-up Group B,South Korea,0.3927,Czech Republic,0.3072,Mexico,0.1967,Canada,0.3873,Switzerland,0.3499,Bosnia and Herzegovina,0.1828,1,1,0.4119,0.2777,0.3104
+74,r32,Winner Group E,3rd Group A/B/C/D/F,Ecuador,0.5794,Germany,0.3318,Ivory Coast,0.0762,Czech Republic,0.1895,South Korea,0.1518,Bosnia and Herzegovina,0.1122,2,0,0.7065,0.1884,0.1051
+75,r32,Winner Group F,Runner-up Group C,Netherlands,0.5155,Japan,0.3194,Sweden,0.1141,Morocco,0.3415,Brazil,0.3214,Scotland,0.2667,1,1,0.2994,0.2759,0.4247
+76,r32,Winner Group C,Runner-up Group F,Brazil,0.4587,Morocco,0.3706,Scotland,0.1485,Japan,0.3487,Netherlands,0.2912,Sweden,0.2297,1,1,0.3706,0.28,0.3494
+77,r32,Winner Group I,3rd Group C/D/F/G/H,France,0.5459,Norway,0.2752,Senegal,0.1477,United States,0.1338,Australia,0.1208,Paraguay,0.1164,1,0,0.6286,0.2227,0.1487
+78,r32,Runner-up Group E,Runner-up Group I,Germany,0.4469,Ecuador,0.3055,Ivory Coast,0.1947,Norway,0.346,France,0.285,Senegal,0.2709,1,1,0.3711,0.28,0.3489
+79,r32,Winner Group A,3rd Group C/E/F/H/I,Mexico,0.7215,South Korea,0.1532,Czech Republic,0.1062,Scotland,0.1395,Ivory Coast,0.1374,Morocco,0.094,1,0,0.6159,0.2276,0.1564
+80,r32,Winner Group L,3rd Group E/H/I/J/K,England,0.5928,Croatia,0.2798,Panama,0.1176,Uzbekistan,0.2197,DR Congo,0.2006,Colombia,0.1364,1,0,0.533,0.255,0.2121
+81,r32,Winner Group D,3rd Group B/E/F/I/J,Turkey,0.4366,Paraguay,0.2696,United States,0.1705,Bosnia and Herzegovina,0.1673,Sweden,0.0922,Qatar,0.0862,2,0,0.7519,0.1653,0.0828
+82,r32,Winner Group G,3rd Group A/E/H/I/J,Belgium,0.3591,Egypt,0.2724,Iran,0.2597,Senegal,0.0982,Austria,0.0898,Cape Verde,0.0888,0,1,0.2399,0.263,0.4971
+83,r32,Runner-up Group K,Runner-up Group L,Portugal,0.335,Colombia,0.3235,Uzbekistan,0.1878,Croatia,0.4062,England,0.2757,Panama,0.2753,1,0,0.4616,0.2711,0.2673
+84,r32,Winner Group H,Runner-up Group J,Spain,0.8087,Uruguay,0.1794,Cape Verde,0.0067,Algeria,0.3385,Austria,0.3082,Jordan,0.1978,2,0,0.6949,0.194,0.1112
+85,r32,Winner Group B,3rd Group E/F/G/I/J,Switzerland,0.485,Canada,0.4321,Bosnia and Herzegovina,0.0584,Iran,0.1987,Egypt,0.1826,New Zealand,0.181,1,1,0.389,0.2794,0.3316
+86,r32,Winner Group J,Runner-up Group H,Argentina,0.7786,Algeria,0.0934,Austria,0.0831,Uruguay,0.6404,Spain,0.1765,Saudi Arabia,0.0924,1,0,0.6009,0.2332,0.1659
+87,r32,Winner Group K,3rd Group D/E/I/J/L,Portugal,0.4232,Colombia,0.421,Uzbekistan,0.0924,Panama,0.3106,Croatia,0.2062,England,0.1036,1,0,0.4976,0.2639,0.2385
+88,r32,Runner-up Group D,Runner-up Group G,Paraguay,0.2926,Turkey,0.2723,United States,0.2406,Belgium,0.2798,Egypt,0.2728,Iran,0.2721,1,0,0.5211,0.2582,0.2208
+89,r16,Winner Match 74,Winner Match 77,Ecuador,0.4373,Germany,0.2192,South Korea,0.058,France,0.3913,Norway,0.1662,Senegal,0.0905,1,1,0.3432,0.2797,0.3771
+90,r16,Winner Match 73,Winner Match 75,South Korea,0.237,Canada,0.1966,Switzerland,0.1777,Netherlands,0.2831,Morocco,0.1973,Japan,0.1956,1,1,0.3476,0.2799,0.3725
+91,r16,Winner Match 76,Winner Match 78,Brazil,0.2904,Morocco,0.2575,Japan,0.1724,Germany,0.2079,Ecuador,0.1804,France,0.1804,1,1,0.4431,0.2741,0.2829
+92,r16,Winner Match 79,Winner Match 80,Mexico,0.507,South Korea,0.0888,Morocco,0.0516,England,0.4106,Croatia,0.159,Uzbekistan,0.0799,1,1,0.3839,0.2796,0.3365
+93,r16,Winner Match 83,Winner Match 84,Portugal,0.1983,Colombia,0.1891,Croatia,0.1807,Spain,0.6664,Uruguay,0.106,Algeria,0.0769,0,1,0.2067,0.2511,0.5422
+94,r16,Winner Match 81,Winner Match 82,Turkey,0.308,Paraguay,0.1808,United States,0.0996,Belgium,0.1753,Iran,0.1548,Egypt,0.1534,1,0,0.5745,0.2424,0.1831
+95,r16,Winner Match 86,Winner Match 88,Argentina,0.5682,Uruguay,0.2017,Spain,0.1049,Turkey,0.1893,Paraguay,0.1777,United States,0.1338,1,0,0.5413,0.2526,0.206
+96,r16,Winner Match 85,Winner Match 87,Switzerland,0.2947,Canada,0.2545,Iran,0.0952,Portugal,0.27,Colombia,0.2684,Panama,0.1177,1,1,0.3026,0.2763,0.4211
+97,qf,Winner Match 89,Winner Match 90,Ecuador,0.252,France,0.2358,Germany,0.1032,Netherlands,0.1558,Morocco,0.1292,Japan,0.1216,1,0,0.474,0.2688,0.2571
+98,qf,Winner Match 93,Winner Match 94,Spain,0.4863,Portugal,0.0805,Colombia,0.0736,Turkey,0.2076,Paraguay,0.1111,Iran,0.064,1,0,0.6146,0.2281,0.1573
+99,qf,Winner Match 91,Winner Match 92,Morocco,0.1599,Brazil,0.1579,France,0.1041,Mexico,0.3058,England,0.2186,Croatia,0.0661,1,1,0.4191,0.277,0.3038
+100,qf,Winner Match 95,Winner Match 96,Argentina,0.4358,Uruguay,0.1175,Spain,0.0895,Portugal,0.1583,Colombia,0.1563,Switzerland,0.1404,1,0,0.5387,0.2534,0.208
+101,sf,Winner Match 97,Winner Match 98,France,0.1624,Ecuador,0.1597,Morocco,0.0823,Spain,0.3929,Turkey,0.0772,Portugal,0.0487,1,1,0.2791,0.2725,0.4484
+102,sf,Winner Match 99,Winner Match 100,Mexico,0.1561,Morocco,0.1172,England,0.1131,Argentina,0.3365,Spain,0.0729,Portugal,0.0661,1,1,0.2925,0.2748,0.4326
+103,3rd,Loser Match 101,Loser Match 102,Spain,0.1207,Ecuador,0.0821,France,0.0785,Argentina,0.1339,Mexico,0.0697,England,0.0599,1,0,0.4666,0.2702,0.2632
+104,final,Winner Match 101,Winner Match 102,Spain,0.2722,France,0.0985,Ecuador,0.0809,Argentina,0.2028,Mexico,0.0864,England,0.0702,1,0,0.4666,0.2702,0.2632
