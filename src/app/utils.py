@@ -5,6 +5,7 @@ import pandas as pd
 import streamlit as st
 
 PROCESSED = Path(__file__).parents[2] / "data" / "processed"
+RAW       = Path(__file__).parents[2] / "data" / "raw"
 
 STAGE_LABELS = {
     "group": "Groupes",
@@ -198,3 +199,24 @@ def model_update_time() -> str:
 @st.cache_data(ttl=3600)
 def load_mv_baseline() -> pd.DataFrame:
     return pd.read_csv(PROCESSED / "team_mv_baseline.csv")
+
+
+@st.cache_data(ttl=300)
+def load_results() -> pd.DataFrame:
+    """
+    Charge data/raw/wc2026_results.csv (scores réels saisis manuellement).
+    Retourne un DataFrame vide si le fichier n'existe pas ou est vide.
+    """
+    path = RAW / "wc2026_results.csv"
+    if not path.exists():
+        return pd.DataFrame(columns=["match_id", "home_score", "away_score"])
+    try:
+        df = pd.read_csv(path)
+        if df.empty or "match_id" not in df.columns:
+            return pd.DataFrame(columns=["match_id", "home_score", "away_score"])
+        df["match_id"]   = df["match_id"].astype(int)
+        df["home_score"] = pd.to_numeric(df["home_score"], errors="coerce")
+        df["away_score"] = pd.to_numeric(df["away_score"], errors="coerce")
+        return df[df["home_score"].notna() & df["away_score"].notna()].copy()
+    except Exception:
+        return pd.DataFrame(columns=["match_id", "home_score", "away_score"])

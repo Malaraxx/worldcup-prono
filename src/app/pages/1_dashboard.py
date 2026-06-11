@@ -11,7 +11,7 @@ import streamlit as st
 from src.app.utils import (
     load_fixtures, load_picks, load_tournament_probabilities, load_teams,
     STAGE_LABELS, flag, format_pct, model_update_time,
-    load_mv_baseline,
+    load_mv_baseline, load_results,
 )
 
 st.markdown("""
@@ -28,22 +28,57 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Données ───────────────────────────────────────────────────────────────────
-fix   = load_fixtures()
-picks = load_picks()
-tp    = load_tournament_probabilities()
-teams = load_teams()
-mv    = load_mv_baseline()
+fix     = load_fixtures()
+picks   = load_picks()
+tp      = load_tournament_probabilities()
+teams   = load_teams()
+mv      = load_mv_baseline()
+results = load_results()
 
-now_utc = datetime.now(tz=timezone.utc)
+now_utc        = datetime.now(tz=timezone.utc)
 total_matches  = len(fix)
-played_matches = int((fix["kickoff_dt"] < now_utc).sum())
+played_matches = len(results)   # basé sur les résultats saisis, pas sur l'heure
 n_picks        = len(picks)
 
+# ── Picks performance ─────────────────────────────────────────────────────────
+n_correct     = 0
+n_played_with_picks = 0
+pts_gagnes    = 0.0
+
+if not results.empty and not picks.empty:
+    played_picks = picks.merge(
+        results[["match_id", "home_score", "away_score"]],
+        on="match_id", how="inner",
+    )
+    for _, r in played_picks.iterrows():
+        mode = r.get("mode_recommended")
+        if pd.isna(mode):
+            continue
+        n_played_with_picks += 1
+        real_score = f"{int(r['home_score'])}-{int(r['away_score'])}"
+        if mode == "safe":
+            pick, ev, wr = r["safe_score"],    r["safe_ev"],    r["safe_wr"]
+        elif mode == "value":
+            pick, ev, wr = r["value_score"],   r["value_ev"],   r["value_wr"]
+        else:
+            pick, ev, wr = r["lottery_score"], r["lottery_ev"], r["lottery_wr"]
+        if str(pick) == real_score and float(wr) > 0:
+            n_correct += 1
+            pts_gagnes += float(ev) / float(wr)
+
 # ── Métriques ─────────────────────────────────────────────────────────────────
-c1, c2, c3 = st.columns(3)
+c1, c2, c3, c4 = st.columns(4)
 c1.metric("Matchs total", total_matches)
-c2.metric("Matchs joués", played_matches)
+c2.metric("Matchs joués", played_matches, help="Basé sur les résultats saisis dans wc2026_results.csv")
 c3.metric("Pronos disponibles", n_picks, help="Matchs de poule avec cotes MPP")
+if n_played_with_picks > 0:
+    c4.metric(
+        "Picks corrects",
+        f"{n_correct}/{n_played_with_picks}",
+        help=f"Scores exacts · Points MPP gagnés : {pts_gagnes:.0f} pts",
+    )
+else:
+    c4.metric("Picks corrects", "—", help="En attente des premiers résultats")
 
 st.divider()
 

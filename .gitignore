@@ -1,7 +1,8 @@
 venv/
 __pycache__/
 .pytest_cache/
-data/raw/
+data/raw/*
+!data/raw/wc2026_results.csv
 data/cache/
 .env
 *.pyc

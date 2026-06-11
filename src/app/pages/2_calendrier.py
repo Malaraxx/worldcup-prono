@@ -10,6 +10,7 @@ import streamlit as st
 from src.app.utils import (
     load_fixtures, load_predictions, load_picks, load_teams,
     STAGE_LABELS, STAGE_ORDER, flag, format_pct, format_ev, mpp_implied,
+    load_results,
 )
 
 _STAGE_ORDER = {s: i for i, s in enumerate(STAGE_ORDER)}
@@ -36,10 +37,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Données ───────────────────────────────────────────────────────────────────
-fix   = load_fixtures()
-pred  = load_predictions()
-picks = load_picks()
-teams = load_teams()
+fix     = load_fixtures()
+pred    = load_predictions()
+picks   = load_picks()
+teams   = load_teams()
+results = load_results()
 
 # Fusion principale (left join → 80 matchs KO auront NaN sur cols picks)
 base = fix.merge(
@@ -52,6 +54,9 @@ base = fix.merge(
            "value_score", "value_ev", "value_wr",
            "lottery_score", "lottery_ev", "lottery_wr",
            "mode_recommended", "edge_value_vs_safe_pct"]],
+    on="match_id", how="left",
+).merge(
+    results[["match_id", "home_score", "away_score"]],
     on="match_id", how="left",
 ).sort_values("kickoff_dt")
 
@@ -179,6 +184,43 @@ for _, r in filtered.iterrows():
     else:
         wr_float = np.nan
 
+    # ── Score réel + indicateur pick ─────────────────────────────────────────
+    real_hs = r.get("home_score")
+    real_as = r.get("away_score")
+    result_str = "—"
+
+    if pd.notna(real_hs) and pd.notna(real_as):
+        rhs = int(real_hs)
+        ras = int(real_as)
+        real_score = f"{rhs}-{ras}"
+        real_dir   = "H" if rhs > ras else ("D" if rhs == ras else "A")
+
+        if pd.notna(mode):
+            if mode == "safe":
+                pick_score = str(r.get("safe_score", ""))
+            elif mode == "value":
+                pick_score = str(r.get("value_score", ""))
+            else:
+                pick_score = str(r.get("lottery_score", ""))
+
+            if pick_score and pick_score != "nan":
+                try:
+                    ph, pa   = map(int, pick_score.split("-"))
+                    pick_dir = "H" if ph > pa else ("D" if ph == pa else "A")
+                except ValueError:
+                    pick_dir = None
+
+                if pick_score == real_score:
+                    result_str = f"✅ {real_score}"
+                elif pick_dir == real_dir:
+                    result_str = f"🟡 {real_score}"
+                else:
+                    result_str = f"❌ {real_score}"
+            else:
+                result_str = real_score   # match joué sans pick
+        else:
+            result_str = real_score       # match KO joué
+
     rows.append({
         "ID":             int(r["match_id"]),
         "Date":           dt_str,
@@ -194,6 +236,7 @@ for _, r in filtered.iterrows():
         "Mode":           mode_str,
         "WR":             wr_float,
         "EV":             ev_float,
+        "Résultat":       result_str,
     })
 
 if rows:
@@ -217,10 +260,21 @@ if rows:
             return "background-color:#EDE7F6;color:#6A1B9A;font-weight:700"
         return ""
 
+    def _result_bg(val):
+        s = str(val)
+        if s.startswith("✅"):
+            return "background-color:#C8E6C9;color:#1B5E20;font-weight:700"
+        if s.startswith("🟡"):
+            return "background-color:#FFF9C4;color:#E65100"
+        if s.startswith("❌"):
+            return "background-color:#FFCDD2;color:#B71C1C"
+        return ""
+
     styled = (
         df_table.style
-        .map(_ev_bg, subset=["EV"])
-        .map(_mode_bg, subset=["Mode"])
+        .map(_ev_bg,     subset=["EV"])
+        .map(_mode_bg,   subset=["Mode"])
+        .map(_result_bg, subset=["Résultat"])
         .format({
             "EV": lambda x: f"{x:.1f}" if pd.notna(x) else "—",
             "WR": lambda x: f"{x:.0%}" if pd.notna(x) else "—",
