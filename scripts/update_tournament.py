@@ -14,6 +14,12 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Force UTF-8 sur stdout/stderr (Windows cp1252 ne supporte pas les emojis)
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
+
 import pandas as pd
 
 ROOT      = Path(__file__).parents[1]
