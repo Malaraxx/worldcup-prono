@@ -6,30 +6,31 @@ Morocco,1960.2
 England,1957.7
 Ecuador,1951.9
 Mexico,1948.5
+Australia,1942.6
 Japan,1930.7
 Brazil,1919.9
 Portugal,1918.7
-Turkey,1916.4
 Colombia,1911.4
 Senegal,1910.9
 Nigeria,1894.7
 Norway,1887.0
 Netherlands,1881.9
-Australia,1875.6
 South Korea,1873.1
 Germany,1866.2
 Uruguay,1864.8
 Croatia,1859.4
 United States,1857.4
+Turkey,1849.4
 Algeria,1843.2
 Iran,1837.6
 Uzbekistan,1837.1
-Switzerland,1833.0
 Panama,1828.4
 Egypt,1821.3
 Paraguay,1807.7
 Italy,1804.8
+Scotland,1801.4
 Denmark,1799.6
+Switzerland,1798.9
 Canada,1782.7
 DR Congo,1781.1
 Ivory Coast,1773.3
@@ -38,7 +39,6 @@ Jordan,1772.5
 Russia,1762.6
 Belgium,1760.0
 Kosovo,1756.6
-Scotland,1755.9
 Austria,1747.1
 Venezuela,1746.8
 Cameroon,1732.2
@@ -57,7 +57,6 @@ New Zealand,1677.7
 Saudi Arabia,1672.8
 Poland,1672.7
 Slovenia,1671.1
-Haiti,1670.3
 Isle of Man,1668.9
 Guatemala,1664.0
 Ynys Môn,1663.2
@@ -70,6 +69,7 @@ Peru,1650.8
 Mali,1648.1
 Cape Verde,1647.9
 Burkina Faso,1644.9
+Qatar,1642.8
 Czech Republic,1642.4
 Northern Cyprus,1641.5
 Syria,1638.1
@@ -77,13 +77,13 @@ Bosnia and Herzegovina,1636.1
 Guernsey,1635.2
 Isle of Wight,1629.1
 Basque Country,1626.7
+Haiti,1624.8
 Slovakia,1621.1
 Albania,1618.5
 Palestine,1610.7
 Abkhazia,1610.0
 Curaçao,1610.0
 South Africa,1609.9
-Qatar,1608.7
 Padania,1608.0
 Iraqi Kurdistan,1604.7
 Kárpátalja,1600.5
