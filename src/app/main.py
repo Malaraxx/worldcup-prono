@@ -73,6 +73,7 @@ st.markdown(_CSS, unsafe_allow_html=True)
 
 pages = st.navigation([
     st.Page("pages/1_dashboard.py",    title="Dashboard",          icon="🏠"),
+    st.Page("pages/0_tournoi.py",      title="Tournoi",            icon="🌍"),
     st.Page("pages/2_calendrier.py",   title="Calendrier & Pronos", icon="📅"),
     st.Page("pages/3_detail_match.py", title="Détail Match",       icon="🔍"),
     st.Page("pages/4_bracket.py",      title="Bracket",            icon="🏆"),
