@@ -38,9 +38,40 @@ FLAG: dict[str, str] = {
     "Croatia": "🇭🇷", "Panama": "🇵🇦", "Ghana": "🇬🇭",
 }
 
+# Codes ISO 3166-1 alpha-2 (ou subdivision) pour flagcdn.com
+FLAG_CODE: dict[str, str] = {
+    "Mexico": "mx", "South Korea": "kr", "South Africa": "za",
+    "Czech Republic": "cz", "Canada": "ca", "Switzerland": "ch",
+    "Qatar": "qa", "Bosnia and Herzegovina": "ba", "Brazil": "br",
+    "Morocco": "ma", "Haiti": "ht", "Scotland": "gb-sct",
+    "United States": "us", "Paraguay": "py", "Australia": "au",
+    "Turkey": "tr", "Germany": "de", "Ecuador": "ec",
+    "Ivory Coast": "ci", "Curaçao": "cw", "Netherlands": "nl",
+    "Japan": "jp", "Sweden": "se", "Tunisia": "tn",
+    "Belgium": "be", "Egypt": "eg", "Iran": "ir",
+    "New Zealand": "nz", "Spain": "es", "Uruguay": "uy",
+    "Saudi Arabia": "sa", "Cape Verde": "cv", "France": "fr",
+    "Senegal": "sn", "Iraq": "iq", "Norway": "no",
+    "Argentina": "ar", "Austria": "at", "Algeria": "dz",
+    "Jordan": "jo", "Portugal": "pt", "Colombia": "co",
+    "Uzbekistan": "uz", "DR Congo": "cd", "England": "gb-eng",
+    "Croatia": "hr", "Panama": "pa", "Ghana": "gh",
+}
+
 
 def flag(team: str) -> str:
     return FLAG.get(team, "🏳️")
+
+
+def flag_html(team: str, size: int = 20) -> str:
+    """Retourne un <img> flagcdn.com — fonctionne sur tous les OS/navigateurs."""
+    code = FLAG_CODE.get(team)
+    if not code:
+        return "🏳️"
+    return (
+        f'<img src="https://flagcdn.com/w{size}/{code}.png" '
+        f'style="vertical-align:middle;height:{size * 2 // 3}px" alt="{team}">'
+    )
 
 
 def format_pct(x: float) -> str:
@@ -162,8 +193,8 @@ def get_match(match_id: int) -> dict | None:
         "match_id":   match_id,
         "home":       home,
         "away":       away,
-        "home_flag":  flag(home),
-        "away_flag":  flag(away),
+        "home_flag":  flag_html(home, size=28),
+        "away_flag":  flag_html(away, size=28),
         "home_conf":  home_conf,
         "away_conf":  away_conf,
         "home_pot":   home_pot,

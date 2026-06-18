@@ -6,7 +6,7 @@ sys.path.insert(0, str(Path(__file__).parents[3]))
 import pandas as pd
 import streamlit as st
 
-from src.app.utils import load_fixtures, load_results, flag
+from src.app.utils import load_fixtures, load_results, flag_html as flag
 
 # ── CSS global ────────────────────────────────────────────────────────────────
 st.markdown("""

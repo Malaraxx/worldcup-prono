@@ -9,7 +9,7 @@ import streamlit as st
 
 from src.app.utils import (
     load_ko_predictions, load_tournament_probabilities, load_teams,
-    load_group_simulations, STAGE_LABELS, flag, format_pct,
+    load_group_simulations, STAGE_LABELS, flag, flag_html, format_pct,
 )
 
 st.markdown("""
@@ -124,7 +124,7 @@ for stage_key in STAGE_SEQ:
 
             def fmt_team(name: str, prob: float) -> str:
                 tag = ("strong", "strong") if prob >= 0.50 else ("span", "span")
-                return f"<{tag[0]}>{flag(name)} {name}</{tag[1]}> ({prob:.0%})"
+                return f"<{tag[0]}>{flag_html(name)} {name}</{tag[1]}> ({prob:.0%})"
 
             home_lines = "\n".join(f"  {fmt_team(n, p)}" for n, p in h_teams if n)
             away_lines = "\n".join(f"  {fmt_team(n, p)}" for n, p in a_teams if n)
