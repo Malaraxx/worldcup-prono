@@ -2,15 +2,15 @@ team,elo_rating
 Argentina,2072.9
 Spain,2055.8
 France,2043.7
+England,2001.1
 Morocco,1960.2
-England,1957.7
+Colombia,1958.8
 Mexico,1948.5
 Australia,1942.6
 Norway,1928.0
 Japan,1922.3
 Brazil,1919.9
-Portugal,1918.7
-Colombia,1911.4
+Portugal,1896.1
 Nigeria,1894.7
 Netherlands,1890.3
 Germany,1888.6
@@ -18,29 +18,29 @@ South Korea,1873.1
 Senegal,1865.7
 Ecuador,1863.6
 Ivory Coast,1861.7
-Croatia,1859.4
 United States,1857.4
 Turkey,1849.4
-Uzbekistan,1837.1
 Uruguay,1834.6
-Panama,1828.4
+Croatia,1815.9
 Algeria,1814.5
 Iran,1811.8
 Austria,1811.5
 Egypt,1810.8
 Paraguay,1807.7
 Italy,1804.8
+DR Congo,1803.7
 Scotland,1801.4
 Denmark,1799.6
 Switzerland,1798.9
+Uzbekistan,1789.7
 Canada,1782.7
-DR Congo,1781.1
 Belgium,1770.5
 Russia,1762.6
 Kosovo,1756.6
 Sweden,1755.5
 Venezuela,1746.8
 Cameroon,1732.2
+Panama,1732.0
 Iraq,1732.0
 Jersey,1731.6
 Greece,1717.0
@@ -55,6 +55,7 @@ Ukraine,1702.2
 Cape Verde,1699.9
 Honduras,1694.3
 Republic of Ireland,1681.5
+Ghana,1680.5
 Poland,1672.7
 Slovenia,1671.1
 Isle of Man,1668.9
@@ -92,7 +93,6 @@ County of Nice,1596.5
 Tamil Eelam,1596.2
 Suriname,1596.1
 Curaçao,1587.6
-Ghana,1584.2
 Kurdistan,1579.3
 Benin,1570.9
 Romania,1569.5
