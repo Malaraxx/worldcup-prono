@@ -1,66 +1,66 @@
 team,elo_rating
-Argentina,2072.9
-Spain,2055.8
-France,2043.7
+Argentina,2094.7
+Spain,2069.7
+France,2060.8
 England,2001.1
 Morocco,1994.6
 Mexico,1986.2
+Norway,1977.3
 Colombia,1958.8
+Germany,1944.0
+Japan,1940.4
 Brazil,1938.5
-Norway,1928.0
-Japan,1922.3
+Netherlands,1928.1
 United States,1921.8
 Portugal,1896.1
 Nigeria,1894.7
-Netherlands,1890.3
-Germany,1888.6
 Australia,1878.3
 Paraguay,1874.8
-Senegal,1865.7
-Ecuador,1863.6
-Ivory Coast,1861.7
+Algeria,1856.7
+Egypt,1852.9
 South Korea,1835.4
-Uruguay,1834.6
 Switzerland,1832.7
+Ecuador,1823.9
+Senegal,1816.3
 Croatia,1815.9
-Algeria,1814.5
-Iran,1811.8
+Uruguay,1812.4
 Canada,1811.6
-Austria,1811.5
-Egypt,1810.8
+Ivory Coast,1806.3
 Italy,1804.8
+Iran,1804.7
 DR Congo,1803.7
 Denmark,1799.6
 Uzbekistan,1789.7
+Austria,1789.7
 Turkey,1782.2
-Belgium,1770.5
+Belgium,1777.6
 Scotland,1767.1
 Russia,1762.6
 Kosovo,1756.6
-Sweden,1755.5
 Venezuela,1746.8
 Cameroon,1732.2
 Panama,1732.0
-Iraq,1732.0
 Jersey,1731.6
+Cape Verde,1722.1
+Sweden,1717.6
 Greece,1717.0
+Iraq,1714.9
 Costa Rica,1713.5
 Serbia,1713.4
-Jordan,1708.1
 Chile,1708.0
 Bolivia,1705.9
-New Zealand,1703.5
-Saudi Arabia,1702.9
 Ukraine,1702.2
-Cape Verde,1699.9
 Honduras,1694.3
+Saudi Arabia,1689.0
 Republic of Ireland,1681.5
 Ghana,1680.5
 Poland,1672.7
 Slovenia,1671.1
 Isle of Man,1668.9
+Jordan,1666.0
 Guatemala,1664.0
 Ynys Môn,1663.2
+New Zealand,1661.5
 United Arab Emirates,1659.6
 Hungary,1654.9
 Occitania,1653.6
@@ -74,8 +74,8 @@ Syria,1638.1
 Czech Republic,1636.8
 Guernsey,1635.2
 Isle of Wight,1629.1
+Curaçao,1627.3
 Basque Country,1626.7
-Tunisia,1622.5
 Slovakia,1621.1
 Albania,1618.5
 South Africa,1615.5
@@ -85,6 +85,7 @@ Abkhazia,1610.0
 Padania,1608.0
 Haiti,1606.2
 Iraqi Kurdistan,1604.7
+Tunisia,1604.3
 Bosnia and Herzegovina,1602.4
 Kárpátalja,1600.5
 Israel,1599.4
@@ -92,7 +93,6 @@ Oman,1597.5
 County of Nice,1596.5
 Tamil Eelam,1596.2
 Suriname,1596.1
-Curaçao,1587.6
 Kurdistan,1579.3
 Benin,1570.9
 Romania,1569.5
