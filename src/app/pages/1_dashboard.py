@@ -10,7 +10,7 @@ import streamlit as st
 
 from src.app.utils import (
     load_fixtures, load_picks, load_tournament_probabilities, load_teams,
-    STAGE_LABELS, flag, format_pct, model_update_time,
+    STAGE_LABELS, flag, flag_html, format_pct, model_update_time,
     load_mv_baseline, load_results,
 )
 
@@ -101,85 +101,104 @@ else:
         ["_has_pick", "kickoff_dt"], ascending=[False, True]
     )
 
-    def _build_rows(df):
-        rows = []
-        for _, r in df.iterrows():
-            home = r["home_slot"]
-            away = r["away_slot"]
-            dt_str = r["date_local"].strftime("%d/%m %H:%M") if pd.notna(r["date_local"]) else "—"
-            mode = r.get("mode_recommended")
+    _BADGE = {
+        "safe":    ("#2E7D32", "#E8F5E9", "SAFE"),
+        "value":   ("#E65100", "#FFF3E0", "VALUE"),
+        "lottery": ("#6A1B9A", "#F3E5F5", "LOTTERY"),
+    }
 
-            if pd.notna(mode) and mode == "value":
-                pick_score = str(r["value_score"]) if pd.notna(r.get("value_score")) else "—"
-                pick_ev    = float(r["value_ev"])   if pd.notna(r.get("value_ev"))    else np.nan
-                pick_wr    = float(r["value_wr"])   if pd.notna(r.get("value_wr"))    else np.nan
-            elif pd.notna(mode) and mode == "lottery":
-                pick_score = str(r["lottery_score"]) if pd.notna(r.get("lottery_score")) else "—"
-                pick_ev    = float(r["lottery_ev"])   if pd.notna(r.get("lottery_ev"))    else np.nan
-                pick_wr    = float(r["lottery_wr"])   if pd.notna(r.get("lottery_wr"))    else np.nan
-            elif pd.notna(mode) and mode == "safe":
-                pick_score = str(r["safe_score"]) if pd.notna(r.get("safe_score")) else "—"
-                pick_ev    = float(r["safe_ev"])   if pd.notna(r.get("safe_ev"))    else np.nan
-                pick_wr    = float(r["safe_wr"])   if pd.notna(r.get("safe_wr"))    else np.nan
-            else:
-                pick_score, pick_ev, pick_wr = "—", np.nan, np.nan
+    def _pick_card(r) -> str:
+        home = r["home_slot"]
+        away = r["away_slot"]
+        dl = r.get("date_local")
+        dt_str = dl.strftime("%d/%m %H:%M") if pd.notna(dl) else "—"
+        mode = str(r.get("mode_recommended", "")).lower()
+        grp = r.get("group", "")
+        stg = STAGE_LABELS.get(r.get("stage", ""), r.get("stage", ""))
+        bcolor, bbg, blabel = _BADGE.get(mode, ("#607D8B", "#ECEFF1", mode.upper()))
+        ctx = f"Gr. {grp}" if stg == "Groupes" else stg
 
-            ch = r.get("cote_home")
-            cd = r.get("cote_draw")
-            ca = r.get("cote_away")
-            cotes_str = f"{int(ch)}/{int(cd)}/{int(ca)}" if pd.notna(ch) else "—"
-            mode_str  = str(mode).upper() if pd.notna(mode) else "—"
+        if mode == "safe":
+            score_pick = r.get("safe_score", "—")
+            wr, ev = r.get("safe_wr"), r.get("safe_ev")
+        elif mode == "value":
+            score_pick = r.get("value_score", "—")
+            wr, ev = r.get("value_wr"), r.get("value_ev")
+        else:
+            score_pick = r.get("lottery_score", "—")
+            wr, ev = r.get("lottery_wr"), r.get("lottery_ev")
 
-            rows.append({
-                "ID":    int(r["match_id"]),
-                "Date":  dt_str,
-                "Match": f"{flag(home)} {home}  vs  {flag(away)} {away}",
-                "Phase": STAGE_LABELS.get(r["stage"], r["stage"]),
-                "Cotes (1/N/2)": cotes_str,
-                "Pick":  pick_score,
-                "Mode":  mode_str,
-                "WR":    pick_wr,
-                "EV":    pick_ev,
-            })
-        return rows
+        wr_pct = f"{float(wr):.0%}" if pd.notna(wr) else "—"
+        ev_str = f"{float(ev):.1f}" if pd.notna(ev) else "—"
+        ch, cd, ca = r.get("cote_home"), r.get("cote_draw"), r.get("cote_away")
+        cotes = f"{int(ch)} · {int(cd)} · {int(ca)}" if pd.notna(ch) else "—"
+        hfl = flag_html(home, size=28)
+        afl = flag_html(away, size=28)
 
-    def _ev_bg(val):
-        if pd.isna(val):
-            return ""
-        if val >= 15:
-            return "background-color: #C8E6C9; color: #1B5E20"
-        if val >= 8:
-            return "background-color: #FFF9C4; color: #F57F17"
-        return "background-color: #F5F5F5; color: #757575"
+        return f"""
+<div style="background:#fff;border:1px solid #DDE3F0;border-radius:14px;
+            box-shadow:0 2px 10px rgba(21,101,192,0.07);overflow:hidden;height:100%">
+  <div style="background:{bbg};padding:10px 16px 9px;border-bottom:1px solid #F0F2F7;
+              display:flex;align-items:center;justify-content:space-between">
+    <span style="background:{bcolor};color:#fff;font-size:0.63rem;font-weight:800;
+                 letter-spacing:1.5px;padding:3px 10px;border-radius:20px">{blabel}</span>
+    <span style="font-size:0.68rem;color:#9AA5B8;font-weight:500">{ctx} · {dt_str}</span>
+  </div>
+  <div style="padding:16px 14px 10px">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px">
+      <div style="flex:1;text-align:center">
+        <div style="font-size:1.5rem;margin-bottom:5px">{hfl}</div>
+        <div style="font-size:0.78rem;font-weight:700;color:#1A1A2E;
+                    white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{home}</div>
+      </div>
+      <div style="text-align:center;min-width:52px">
+        <div style="background:#0A2342;color:#fff;font-size:0.9rem;font-weight:800;
+                    padding:6px 10px;border-radius:8px;letter-spacing:1px">{score_pick}</div>
+        <div style="font-size:0.58rem;color:#B0BAC8;margin-top:3px;font-weight:700;letter-spacing:0.8px">PICK</div>
+      </div>
+      <div style="flex:1;text-align:center">
+        <div style="font-size:1.5rem;margin-bottom:5px">{afl}</div>
+        <div style="font-size:0.78rem;font-weight:700;color:#1A1A2E;
+                    white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{away}</div>
+      </div>
+    </div>
+  </div>
+  <div style="padding:8px 16px 12px;border-top:1px solid #F5F7FA;
+              display:flex;justify-content:space-between;font-size:0.71rem;color:#9AA5B8">
+    <span>WR <strong style="color:#1A1A2E">{wr_pct}</strong></span>
+    <span>EV <strong style="color:#1565C0">{ev_str}</strong></span>
+    <span>Cotes <span style="color:#666">{cotes}</span></span>
+  </div>
+</div>"""
 
     # Section picks
     with_picks = upcoming_with_picks[upcoming_with_picks["_has_pick"]]
     without_picks = upcoming_with_picks[~upcoming_with_picks["_has_pick"]]
 
     if not with_picks.empty:
-        rows_picks = _build_rows(with_picks)
-        df_picks = pd.DataFrame(rows_picks).set_index("ID")
-        styled_picks = (
-            df_picks.style
-            .map(_ev_bg, subset=["EV"])
-            .format({
-                "EV": lambda x: f"{x:.1f}" if pd.notna(x) else "—",
-                "WR": lambda x: f"{x:.0%}" if pd.notna(x) else "—",
-            })
-        )
         st.markdown("**📊 Matchs avec picks recommandés**")
-        h = min(36 + len(rows_picks) * 35, 520)
-        st.dataframe(styled_picks, use_container_width=True, height=h)
+        cards = [_pick_card(r) for _, r in with_picks.iterrows()]
+        # Grille responsive : 3 cards par ligne max
+        grid = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;margin-bottom:8px">'
+        grid += "".join(cards)
+        grid += "</div>"
+        st.markdown(grid, unsafe_allow_html=True)
 
     # Section KO sans picks
     if not without_picks.empty:
         st.markdown(f"**🏆 Matchs KO à venir** *(équipes non encore qualifiées — {len(without_picks)} matchs)*")
-        rows_ko = _build_rows(without_picks.head(16))
-        df_ko = pd.DataFrame(rows_ko).set_index("ID")
-        st.dataframe(df_ko.style.format({
-            "EV": lambda x: "—",
-            "WR": lambda x: "—",
-        }), use_container_width=True, height=min(36 + len(rows_ko) * 35, 380))
+        ko_rows = []
+        for _, r in without_picks.head(16).iterrows():
+            home, away = r["home_slot"], r["away_slot"]
+            dl = r.get("date_local")
+            ko_rows.append({
+                "ID":    int(r["match_id"]),
+                "Date":  dl.strftime("%d/%m %H:%M") if pd.notna(dl) else "—",
+                "Match": f"{flag(home)} {home}  vs  {flag(away)} {away}",
+                "Phase": STAGE_LABELS.get(r["stage"], r["stage"]),
+            })
+        st.dataframe(pd.DataFrame(ko_rows).set_index("ID"), use_container_width=True,
+                     height=min(36 + len(ko_rows) * 35, 380))
 
     st.caption("💡 **Calendrier & Pronos** pour filtrer par groupe/stage · **Détail Match** pour la heatmap score-par-score")
 
@@ -195,24 +214,47 @@ tp_teams = (
 )
 top10 = tp_teams.sort_values("proba_winner", ascending=False).head(10).copy()
 
-rows_tp = []
-for _, r in top10.iterrows():
-    mv_eur = r.get("mv_current_eur")
-    mv_str = f"{mv_eur/1e6:.0f} M€" if pd.notna(mv_eur) and mv_eur > 0 else "—"
-    rows_tp.append({
-        "Équipe":       f"{flag(r['team'])} {r['team']}",
-        "Pot":          int(r["pot"]) if pd.notna(r.get("pot")) else "—",
-        "Groupe":       r.get("group", "—"),
-        "Conf.":        r.get("confederation", "—"),
-        "Elo":          f"{r['elo_rating']:.0f}",
-        "Squad MV":     mv_str,
-        "P(Vainqueur)": format_pct(r["proba_winner"]),
-        "P(Finale)":    format_pct(r["proba_final"]),
-        "P(Demi)":      format_pct(r["proba_sf"]),
-        "P(R32)":       format_pct(r["proba_r32"]),
-    })
+max_pw = top10["proba_winner"].max() or 1.0
 
-st.dataframe(pd.DataFrame(rows_tp), use_container_width=True, hide_index=True)
+winner_html = '<div style="display:flex;flex-direction:column;gap:8px;margin-bottom:8px">'
+for rank, (_, r) in enumerate(top10.iterrows(), 1):
+    team = r["team"]
+    pw   = float(r["proba_winner"])
+    pf   = float(r["proba_final"])
+    psf  = float(r["proba_sf"])
+    elo  = f"{r['elo_rating']:.0f}"
+    mv_eur = r.get("mv_current_eur")
+    mv_str = f"{mv_eur/1e6:.0f}M€" if pd.notna(mv_eur) and mv_eur > 0 else "—"
+    bar_w = pw / max_pw * 100
+
+    medal = {1: "🥇", 2: "🥈", 3: "🥉"}.get(rank, f"{rank}.")
+    hfl = flag_html(team, size=22)
+
+    winner_html += f"""
+<div style="background:#fff;border:1px solid #E8ECF4;border-radius:10px;padding:10px 14px;
+            display:flex;align-items:center;gap:14px;box-shadow:0 1px 4px rgba(21,101,192,0.05)">
+  <div style="font-size:1.1rem;min-width:28px;text-align:center">{medal}</div>
+  <div style="font-size:1.2rem">{hfl}</div>
+  <div style="flex:2;min-width:0">
+    <div style="font-size:0.82rem;font-weight:700;color:#1A1A2E;
+                white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{team}</div>
+    <div style="margin-top:5px;background:#EEF4FF;border-radius:4px;height:6px;overflow:hidden">
+      <div style="background:linear-gradient(90deg,#1565C0,#42A5F5);height:100%;
+                  width:{bar_w:.1f}%;border-radius:4px"></div>
+    </div>
+  </div>
+  <div style="text-align:right;white-space:nowrap;flex-shrink:0">
+    <div style="font-size:1rem;font-weight:800;color:#1565C0">{pw:.1%}</div>
+    <div style="font-size:0.65rem;color:#9AA5B8;margin-top:1px">Finale {pf:.0%} · Demi {psf:.0%}</div>
+  </div>
+  <div style="text-align:right;white-space:nowrap;flex-shrink:0;min-width:58px">
+    <div style="font-size:0.72rem;color:#555;font-weight:600">Elo {elo}</div>
+    <div style="font-size:0.65rem;color:#9AA5B8">{mv_str}</div>
+  </div>
+</div>"""
+
+winner_html += "</div>"
+st.markdown(winner_html, unsafe_allow_html=True)
 
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.divider()

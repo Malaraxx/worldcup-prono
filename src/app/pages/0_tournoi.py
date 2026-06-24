@@ -40,34 +40,49 @@ st.markdown("""
     width: 100%;
     border-collapse: collapse;
     font-size: 0.78rem;
+    table-layout: fixed;
 }
 .standings-table thead tr {
     background: #F5F7FA;
     border-bottom: 2px solid #E8ECF4;
 }
 .standings-table thead th {
-    padding: 6px 8px;
+    padding: 6px 4px;
     color: #7A8BA6;
     font-weight: 700;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    font-size: 0.68rem;
+    font-size: 0.65rem;
+    overflow: hidden;
 }
-.standings-table thead th:first-child { padding-left: 14px; }
+.standings-table thead th:first-child { padding-left: 10px; }
+.standings-table thead th.col-team { width: auto; text-align: left; }
+.standings-table thead th.col-j    { width: 24px; text-align: center; }
+.standings-table thead th.col-buts { width: 38px; text-align: center; }
+.standings-table thead th.col-diff { width: 30px; text-align: center; }
+.standings-table thead th.col-pts  { width: 30px; text-align: center; }
+.standings-table thead th.col-pos  { width: 28px; }
 .standings-table tbody tr {
     border-bottom: 1px solid #F0F2F7;
     transition: background 0.1s;
 }
-.standings-table tbody td { padding: 7px 8px; }
-.standings-table tbody td:first-child { padding-left: 14px; }
+.standings-table tbody td { padding: 6px 4px; overflow: hidden; }
+.standings-table tbody td:first-child { padding-left: 10px; }
 .pos-badge {
     display: inline-flex; align-items: center; justify-content: center;
     width: 20px; height: 20px; border-radius: 6px;
     font-weight: 800; font-size: 0.72rem; color: #fff;
 }
-.team-name { font-weight: 600; font-size: 0.8rem; color: #1A1A2E; white-space: nowrap; }
+.team-cell { display: flex; align-items: center; gap: 5px; min-width: 0; }
+.team-name {
+    font-weight: 600; font-size: 0.78rem; color: #1A1A2E;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
 .stat-cell { text-align: center; color: #555; }
-.pts-cell  { text-align: center; font-weight: 800; font-size: 0.88rem; color: #1565C0; }
+.pts-cell  {
+    text-align: center; font-weight: 800; font-size: 0.92rem; color: #fff;
+    background: #1565C0; border-radius: 6px; padding: 2px 0 !important;
+}
 .diff-pos  { color: #2E7D32; font-weight: 700; }
 .diff-neg  { color: #C62828; font-weight: 700; }
 .diff-zero { color: #888; font-weight: 600; }
@@ -243,25 +258,34 @@ def render_group(grp: str) -> None:
 
         rows_html += f"""
 <tr style="background:{bg}">
-  <td>{pos_badge(pos, max_played)}</td>
-  <td><span class="team-name">{f} {t}</span></td>
-  <td class="stat-cell">{int(row['J'])}</td>
-  <td class="stat-cell">{int(row['G'])}</td>
-  <td class="stat-cell">{int(row['N'])}</td>
-  <td class="stat-cell">{int(row['P'])}</td>
-  <td class="stat-cell">{int(row['bp'])}:{int(row['bc'])}</td>
-  <td class="stat-cell">{diff_html}</td>
-  <td class="pts-cell">{int(row['Pts'])}</td>
+  <td class="col-pos">{pos_badge(pos, max_played)}</td>
+  <td class="col-team" style="min-width:0">
+    <div class="team-cell">{f}<span class="team-name">{t}</span></div>
+  </td>
+  <td class="stat-cell col-j">{int(row['J'])}</td>
+  <td class="stat-cell col-buts">{int(row['bp'])}:{int(row['bc'])}</td>
+  <td class="stat-cell col-diff">{diff_html}</td>
+  <td class="pts-cell col-pts">{int(row['Pts'])}</td>
 </tr>"""
 
     html += f"""
 <table class="standings-table">
+  <colgroup>
+    <col class="col-pos">
+    <col class="col-team">
+    <col class="col-j">
+    <col class="col-buts">
+    <col class="col-diff">
+    <col class="col-pts">
+  </colgroup>
   <thead>
     <tr>
-      <th style="width:28px"></th>
-      <th style="text-align:left">Équipe</th>
-      <th>J</th><th>G</th><th>N</th><th>P</th>
-      <th>Buts</th><th>Diff</th><th>Pts</th>
+      <th class="col-pos"></th>
+      <th class="col-team">Équipe</th>
+      <th class="col-j">J</th>
+      <th class="col-buts">Buts</th>
+      <th class="col-diff">Diff</th>
+      <th class="col-pts">Pts</th>
     </tr>
   </thead>
   <tbody>{rows_html}</tbody>
